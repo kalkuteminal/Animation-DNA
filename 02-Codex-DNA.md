@@ -147,7 +147,7 @@ After finishing compositing stage shots are passes rendering 2D process and deli
 
 ### Management with FTrack
 #### Management with FTrack general notes
-FTrack is primary studio information database. Every action in production starts and recorded in FTrack. Through FTrack all studio departments communicate one to each other by reading and writing particular data.  
+FTrack is primary studio information database. Every action in production starts and recorded in FTrack. Through FTrack all studio departments and employee communicate one to each other by reading and writing particular data (either manually or automatically when using [Animation DNA tools](03-tools)).  
 
 At the base level of project organization we have to deal with two substances: 
 * **ASSETS**
