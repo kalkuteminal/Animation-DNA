@@ -9,6 +9,9 @@ B. [Glossary of codes](#codes)
 
 **Look development** – this is a separate technological process of creating material objects, carried out under the visualization step.
 
+### shot
+shot — is a part of a film between two cuts.
+
 ## Codes
 **`<codePart>`** — name of film overall division (REEL_01, TEASER etc)  
 **`<codeSequence>`** — 3 digits number of episode in film (010)  
