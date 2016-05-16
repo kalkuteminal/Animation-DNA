@@ -13,7 +13,12 @@ To run code you can:
 - drag your code with MMB to a shelf and press the button that will appear
 
 #### Running code from a file
-If you need to run python code from a file, not from shelf or script editor
+If you need to run python code from a file: 
+- save your code as **`*.py`** file in certain place
+- let Maya know this place by running:
+```python
+import os
+os.environ['PYTHONPATH'] = <pathToFile>```
 
 
 ```python
