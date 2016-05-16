@@ -6,13 +6,14 @@ This document will guide you through the base steps of animation feature film pr
 We will create an example shot from the beginning (storyboard) till the end (edited movie ready for grading). To learn more about any pipeline details read [Codex DNA](https://github.com/kiryha/AnimationDNA/wiki/02-Codex-DNA)
 
 A) [Preproduction](#preproduction)  
-B [Production](#production)
+B) [Production:](#production)
 - [Asset creation](#asset-creation)
 - [Look development](#look-development)
 - [Animation](#animation)
 - [Rendering](#rendering)
-- [Compositing](#compositing)  
-C [Advanced techniques](#advanced-techniques)
+- [Compositing](#compositing) 
+
+C) [Advanced techniques](#advanced-techniques)
 
 ## Preproduction. 
 Lets [setup FTrack database](02-codex-dna#management-with-ftrack)
