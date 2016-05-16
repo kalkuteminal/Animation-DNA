@@ -46,4 +46,6 @@ If you need to run python code from a file:
 The best option to setup path for your scripts and run them in Maya is using [wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers). In this tutorials we will run code from Script Editor only. 
 
 #### Coding with google
-Probably, all basic task you need to solve somebody already did. Now days you can start to write your code
+Probably, all basic task you need to solve somebody already did. Now days you can start to write your code by asking google proper questions. Sure, you have be familiar with python syntax and basic Maya commands and writing first block of working code may take days but the more you will practice the faster you will code.
+
+Lets try to double intensity of all lights in the scene.
