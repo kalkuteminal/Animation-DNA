@@ -19,7 +19,7 @@ To run code you can:
 
 #### Running code from a file
 If you need to run python code from a file: 
-- save your code as **`*.py`** file in certain place
+- save your code as **`*.py`** file in certain place (C:/hello.py)
 - let Maya know this place by running:
 ```python
 import os
