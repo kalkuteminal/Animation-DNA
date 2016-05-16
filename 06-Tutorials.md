@@ -9,7 +9,7 @@ For example, double the intensity of all selected lights.
 - execute number of the same actions with a different objects.  
 For example, export/import character animation for each shot.
 
-Programs allow to automate a lot of process and shift human work to computer shoulders.
+Programs allow to automate a lot of process and shift human work to computer shoulders. Also, computer does nod make a mistakes, so result of execution of correct code will be stable and predictable.
 
 #### Step one
 All you need to write first block of code is open Python tab of Maya Script Editor and enter:  
