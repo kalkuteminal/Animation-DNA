@@ -6,6 +6,7 @@
 #### Step one
 All you need to write first block of code is open Python tab of Maya Script Editor and enter:  
 `import pymel.core as pm`
+### Running code from file
 
 ```python
 a = pm.listConnections('METALSG')
