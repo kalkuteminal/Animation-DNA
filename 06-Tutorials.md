@@ -23,7 +23,7 @@ If you need to run python code from a file:
 - let Maya know this place by running:
 ```python
 import os
-os.environ['PYTHONPATH'] = <pathToFile>
+os.environ['PYTHONPATH'] = 'C:/'
 ```
 - import code
 ```python
