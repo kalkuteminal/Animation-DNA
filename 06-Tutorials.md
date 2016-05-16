@@ -33,7 +33,6 @@ Lists and loops are bases of coding. Loops allow us to do something (command) wi
 
 Loop allow to apply **procedure** to a **list**:
 ```python
-import pymel.core as pm
 for object in listOfObjects:
     run command
 ```
