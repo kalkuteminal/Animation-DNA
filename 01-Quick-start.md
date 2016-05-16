@@ -24,7 +24,7 @@ At the base level of project organization we have to deal with two substances: *
 This core division permeates through a project workflow and reflected in database and folder structure.
 First we need to create necessary assets and shots in database, link assets to shots, setup shots length, then we can start production.
 
-According to [asset classification system](02-Codex-DNA#asset-creation) we need to create such assets with a proper [type](02-Codex-DNA#asset-types-in-FTrack):
+According to [asset classification system](02-Codex-DNA#asset-creation) we need to create such assets with a proper [type](02-codex-dna#asset-types-in-ftrack):
 * character asset — Bender 
 * dynamic prop asset — apple 
 * environment asset — New-York city street 
