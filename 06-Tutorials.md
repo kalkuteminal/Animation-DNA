@@ -33,7 +33,7 @@ Lists and loops are bases of coding. Loops allow us to do something (command) wi
 
 Loop allow to apply **procedure** to a **list**:
 ```python
-for object in listOfObjects:
+for eachObject in listOfObjects:
     run command
 ```
 
