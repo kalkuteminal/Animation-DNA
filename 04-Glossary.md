@@ -11,8 +11,7 @@ B. [Glossary of codes](#codes)
 
 **shot** — is a part of a film between two cuts.
 
-#### story reel ####
-story reel — is a rough movie version in form of storyboard pictures with sound. 
+**story reel** — is a rough movie version in form of storyboard pictures with sound. 
 
 ## Codes
 **`<codePart>`** — name of film overall division (REEL_01, TEASER etc)  
