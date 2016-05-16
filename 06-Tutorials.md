@@ -30,6 +30,14 @@ Lists and loops are bases of coding. Loops allow us to do something (command) wi
 - creating and editing lists
 - writing procedures (set of commands)  
 
+
+Loop allow to apply **procedure** to a **list**:
+```python
+import pymel.core as pm
+for object in listOfObjects:
+    run command
+```
+
 #### Running code from a file
 If you need to run python code from a file: 
 - save your code as **`*.py`** file in a desired place (C:/hello.py)
