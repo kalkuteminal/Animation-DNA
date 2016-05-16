@@ -7,7 +7,9 @@ From the beginner point of view programming in Maya allow us to:
 - execute particular actions with many object at once.  
 For example, double the intensity of all selected lights.
 - execute number of the same actions with a different objects.  
-For example, export character animation for each shot.
+For example, export/import character animation for each shot.
+
+Programs allow to automate a lot of process and shift human work to computer shoulders.
 
 #### Step one
 All you need to write first block of code is open Python tab of Maya Script Editor and enter:  
