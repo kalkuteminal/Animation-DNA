@@ -23,4 +23,4 @@ If you need to run python code from a file:
 - let Maya know this place by running in script editor: `sys.path.append('C:/')`
 - import code `import hello`
 
-The best option to setup path for your scripts and run them in Maya is using [wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers)
+The best option to setup path for your scripts and run them in Maya is using [wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers). In this tutorials we will run code from Script Editor only. 
