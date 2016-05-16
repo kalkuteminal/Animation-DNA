@@ -5,14 +5,14 @@
 This document will guide you through the base steps of animation feature film production using **Animation DNA** system.
 We will create an example shot from the beginning (storyboard) till the end (edited movie ready for grading). To learn more about any pipeline details read [Codex DNA](https://github.com/kiryha/AnimationDNA/wiki/02-Codex-DNA)
 
-01. [Preproduction](#preproduction)
-02. [Production](#production)
+A [Preproduction](#preproduction)
+B [Production](#production)
 * [Asset creation](#asset-creation)
 - [Look development](#look-development)
 05. [Animation](#animation)
 06. [Rendering](#rendering)
 07. [Compositing](#compositing)
-08. [Advanced techniques](#advanced-techniques)
+C [Advanced techniques](#advanced-techniques)
 
 ## Preproduction. 
 Lets [setup FTrack database](02-codex-dna#management-with-ftrack)
