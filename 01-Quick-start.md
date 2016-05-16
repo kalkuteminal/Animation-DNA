@@ -13,7 +13,7 @@ B) [Production:](#production)
 - [Rendering](#rendering)
 - [Compositing](#compositing) 
 
-C) [Advanced techniques](#advanced-techniques)
+**C)** [Advanced techniques](#advanced-techniques)
 
 ## Preproduction. 
 Lets [setup FTrack database](02-codex-dna#management-with-ftrack)
