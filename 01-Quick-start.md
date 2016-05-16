@@ -53,7 +53,7 @@ Now link BENDER, fooApple and NYC assets to a shot.
 If DNA project already exists in FTrack, just learn how it was build.  
 ![](https://lh3.googleusercontent.com/-cI5QOWjY1H0/VyHxKJ3bB4I/AAAAAAAAFek/YrUVtebFJ9o084FPLGA5FG6JeDUM_SQ_gCCo/s1440/gettingStarted_FTR_04.gif)
 
-For JSON version use template in **rootProject/PREP/PIPELINE/DNA/DIC**  
+For JSON version use template in **`<rootProject>/PREP/PIPELINE/DNA/DIC`**  
 Edit file in [online JSON editor](http://www.jsoneditoronline.org) to setup database as it was described for Ftrack above. 
 ![](https://lh3.googleusercontent.com/-I_Id6RqtBdM/VyHxNL5rYAI/AAAAAAAAFeo/ZXFQiNB69AcU4sipVbScrUDj05gjeDL8ACCo/s1440/gettingStarted_JSN_03.gif)
 
