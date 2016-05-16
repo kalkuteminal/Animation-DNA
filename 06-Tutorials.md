@@ -25,8 +25,10 @@ To run code you can:
 - press **ExecuteAll** button of script editor
 - drag your code with MMB to a shelf and press the button that will appear
 
-#### Step two: loops.
-Loops allow us to do something with number of objects.
+#### Step two: lists and loops.
+Lists and loops are bases of coding. Loops allow us to do something (command) with a set of objects (list). So we have two major tasks in developing:
+- creating and editing lists
+- writing procedures (set of commands)  
 
 #### Running code from a file
 If you need to run python code from a file: 
