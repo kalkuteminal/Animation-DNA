@@ -8,7 +8,7 @@ We will create an example shot from the beginning (storyboard) till the end (edi
 **A)** [Preproduction](#preproduction)  
 **B)** [Production:](#production)
 - [Asset creation](#asset-creation)
-  - [Look development](#look-development)
+- [Look development](#look-development)
 - [Animation](#animation)
 - [Rendering](#rendering)
 - [Compositing](#compositing) 
