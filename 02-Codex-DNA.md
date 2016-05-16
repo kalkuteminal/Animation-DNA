@@ -99,6 +99,8 @@ Animation DNA documentation located online:
 - [Tools description](03-tools)
 - [Glossary](#04-glossary)
 
+Download DNA.rar
+
 ### Running Maya and Nuke with wrappers
 Go to **`<rootProject>/PREP/PIPELINE/`** and run:
 * **runMaya.bat** to load Maya, 
