@@ -167,7 +167,15 @@ This peace of folder structure exists in FTrack database and repeated many times
 
 **ASSETS**. All assets divided into 2 main parts: what is animated, and what is not. Animated assets its characters, dynamic props and EDA, not animated assets is static props end environments. Read [asset classification](#asset-creation) for more details.
 
-Respectively you need to create such asset types (FTrack system settings > schemas > Asset build > Types  ): eda, props, environment, static, characters. Exactly as written, because this types are used by python tools so no mistakes allowed. Case sensitive also.
+#### Asset types in FTrack
+Respectively you need to create such **asset types** (FTrack system settings > schemas > Asset build > Types  ):
+- eda
+- props
+- environment
+- static
+- characters
+
+Exactly as written, because this types are used by python tools so no mistakes allowed. Case sensitive also.
 
 Representation of asset classification on HDD and in FTrack:
 **ASSETS**:
