@@ -19,13 +19,3 @@ If you need to run python code from a file:
 ```python
 import os
 os.environ['PYTHONPATH'] = <pathToFile>```
-
-
-```python
-a = pm.listConnections('METALSG')
-listTrs = []
-for i in a:
-    if pm.nodeType(i) == 'transform':
-        listTrs.append(i)
-print listTrs
-```
