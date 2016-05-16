@@ -6,6 +6,7 @@
 All you need to write first block of code is open Python tab of Maya Script Editor and enter:  
 `import pymel.core as pm`
 
-```for i in a:
-    if pm.nodeType(i) == 'transform':
-        listTrs.append(i)```
+```python
+s = "Python syntax highlighting"
+print s
+```
