@@ -9,7 +9,7 @@ For example, double the intensity of all selected lights.
 - execute number of the same actions with a different objects.  
 For example, export/import character animation for each shot.
 
-Programs allow to automate a lot of process and shift human work to computer shoulders. Also, computer does nod make a mistakes, so result of execution of correct code will be stable and predictable.
+Programs allow to automate a lot of process and shift human work to computer shoulders. Also, computer does nod make a mistakes, so result of execution of correct code will be stable and predictable. Every action that you can express as a chunk of code should be scripted. 
 
 #### Step one
 All you need to write first block of code is open Python tab of Maya Script Editor and enter:  
@@ -25,6 +25,9 @@ To run code you can:
 - press **ExecuteAll** button of script editor
 - drag your code with MMB to a shelf and press the button that will appear
 
+#### Step two: loops.
+Loops allow us to do something with number of objects.
+
 #### Running code from a file
 If you need to run python code from a file: 
 - save your code as **`*.py`** file in a desired place (C:/hello.py)
@@ -32,3 +35,6 @@ If you need to run python code from a file:
 - import code `import hello`
 
 The best option to setup path for your scripts and run them in Maya is using [wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers). In this tutorials we will run code from Script Editor only. 
+
+#### Coding with google
+Probably, all basic task you need to solve somebody already did. Now days you can start to write your code
