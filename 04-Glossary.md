@@ -12,7 +12,7 @@ B. [Glossary of codes](#codes)
 
 **story reel** — is a rough movie version in form of storyboard pictures with sound. 
 
-**structuring** — deviding big amount of data into smaller pieces according to a particular algorithm.
+**structuring** — dividing big amount of data into smaller pieces according to a particular model.
 
 ## Codes
 **`<codePart>`** — name of film overall division (REEL_01, TEASER etc)  
