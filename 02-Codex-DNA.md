@@ -120,7 +120,7 @@ If Maya or Nuke does not run — check paths to Maya and Nuke installation folde
 
 ### Pipeline brief
 The final output of VFX department is set of shots for editing and grading.  
-In a very general overview, VFX department pass from **story reel** through **asset creation** to **shot production**.  
+In a very general overview, VFX department pass from [**story reel**](04-glossary#story-reel) through **asset creation** to **shot production**.  
 **Asset creation** stage consists from: modeling, texturing, sculpting, look development and rigging.  
 **Shot production** stages: animation, lighting- rendering setup, renders 3D process; compose and render 2D process (final VFX images).
 
