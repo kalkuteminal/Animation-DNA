@@ -20,3 +20,4 @@ If you need to run python code from a file:
 import os
 os.environ['PYTHONPATH'] = <pathToFile>
 ```
+- import code
