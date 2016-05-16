@@ -5,9 +5,9 @@ To optimize and speed up shots production process, proper system should be devel
 **Codex DNA** is set of instructions for computer graphic which establish workflow for creation an animation movie.
 
 1. [General notes](#general-notes):  
-<< [Structuring](#structuring) | [Naming](#naming) | [Quality control](#quality-control) >>  
+| [Structuring](#structuring) | [Naming](#naming) | [Quality control](#quality-control) |  
 2. [Pipeline overview](#pipeline-overview):  
-<< [DNA.rar](#dna-archive) | [Wrapper](#running-maya-and-nuke-with-wrappers) | [Pipeline brief](#pipeline-brief) | [FTrack](#management-with-ftrack) | [outsource](#workflow-with-outsource-studios) | [shot creation](#shot-creation-workflow)  >>  
+<< [DNA.rar](#dna-archive) | [Wrapper](#running-maya-and-nuke-with-wrappers) | [Pipeline brief](#pipeline-brief) | [FTrack](#management-with-ftrack) | [Outsource](#workflow-with-outsource-studios) | [Shot creation](#shot-creation-workflow)  >>  
 3. [3D branch](#3d-branch):  
 << [3D overview](#3d-branch-general-notes) | [Pipeline](#pipeline-development-and-data-transfer) | [Asset creation](#asset-creation) | [Layout and animation](#layout-and-animation) | [Lookdev](#look-development-and-rendering) | [FX](#fx)  >>  
 4. [2D branch](#2d-branch):  
