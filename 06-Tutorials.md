@@ -7,6 +7,10 @@ All you need to write first block of code is open Python tab of Maya Script Edit
 `import pymel.core as pm`
 
 ```python
-s = "Python syntax highlighting"
-print s
+a = pm.listConnections('METALSG')
+listTrs = []
+for i in a:
+    if pm.nodeType(i) == 'transform':
+        listTrs.append(i)
+print listTrs
 ```
