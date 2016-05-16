@@ -12,6 +12,7 @@ We will create an example shot from the beginning (storyboard) till the end (edi
 - [Animation](#animation)
 - [Rendering](#rendering)
 - [Compositing](#compositing) 
+
 **C)** [Advanced techniques](#advanced-techniques)
 
 ## Preproduction. 
