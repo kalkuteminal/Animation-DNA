@@ -4,10 +4,10 @@ If you think that you have artistic brain and developing is beyond your possibil
 
 You dont need any extra knowledge, like math or physics. You just need willingness to code and necessity of practical application of developing(and you defiantly have it if you work in Maya).
 
-Coding could be hard only at the beginning, but the more you will practice the easy it will be for you. And finilyy you will realize that coding is also an art
+Coding could be hard only at the beginning, but the more you will practice the easy it will be for you. And finally you will realize that coding is also an art
 
 A) [Theory](#programming-theory)  
-  [Intro](#introduction-to-artistic-developing )  |  [PyMel basics](#developing-foundation)  |  [Developing example](#step-by-step-example)  
+  [Intro](#introduction-to-artistic-developing )  |  [PyMel basics](#developing-foundation)  |  [Developing example](#step-by-step-example)  |  [Art of good code](#art-of-good-code)  
 B) [Practice](#programming-practice)  
   [Attributes](#attributes)  |  [Objects](#objects)  |  [Materials](#materials)  |  [Interfaces](#interfaces)
 
@@ -178,7 +178,10 @@ Running a function:
 ```python
 litDouble(value):
 ```
-If your will be able to build [interface](#interfaces) for this function you can consider you know PyMel. 
+If your will be able to build [interface](#interfaces) for this function you can consider you are PyMel developer. 
+
+### Art of good code
+When you will pass first painful steps and get blocks of working code you will need to move forward in developing. 
 
 ## Programming practice
 Here you will find procedures for most common tasks in Maya
