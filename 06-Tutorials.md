@@ -243,6 +243,13 @@ def boundingBox():
 ### String formatting
 
 ### Materials
+##### Asign material for selected objects
+```python
+def matAsign(material):
+    sel = pm.ls(sl=1)
+    for i in sel:
+        pm.sets(material, forceElement = i)
+```
 
 ### Interfaces
 ##### Window with text field and button.
