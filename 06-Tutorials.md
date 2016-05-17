@@ -245,8 +245,7 @@ def boundingBox():
 ```python
 pm.sceneName() # Get name of current scene
 pm.importFile(fullPath) # import file
-
-pm.createReference(fullPath, sharedNodes =('shadingNetworks', 'displayLayers', 'renderLayersByName') , ns = nameSpace )
+pm.createReference(fullPath, sharedNodes =('shadingNetworks', 'displayLayers', 'renderLayersByName') , ns = nameSpace ) # reference file
 ```
 
 ### String formatting
