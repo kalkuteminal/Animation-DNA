@@ -7,7 +7,7 @@ You dont need any extra knowledge, like math or physics. You just need willingne
 Coding could be hard only at the beginning, but the more you will practice the easy it will be for you. And finilyy you will realize that coding is also an art
 
 A) [Theory](#programming-theory)  
-- [Intro](#introduction-to-artistic-developing )  |  [example](#step-by-step-example)
+  [Intro](#introduction-to-artistic-developing )  |  [basics](#developing-foundation)  |  [example](#step-by-step-example)
 B) [Examples](#programming-practice)
 
 ## Programming theory
@@ -41,7 +41,7 @@ If you need to run python code from a file:
 
 The best option to setup path for your scripts and run them in Maya is using [wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers). In this tutorials we will run code from Script Editor only. 
 
-#### Developing foundation
+### Developing foundation
 ##### Lists and loops
 Lists and loops are bases of coding. Loops allow us to do something (command) with a set of objects (list). So we have two major tasks in developing:
 - creating and editing lists
