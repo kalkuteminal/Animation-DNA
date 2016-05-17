@@ -1,5 +1,5 @@
 ![](https://lh3.googleusercontent.com/-90kNXCym1kQ/VznLmU-hxOI/AAAAAAAAFno/0pT_n7X5Q90a7Fv0BCA-ky-NfB67H20jQCCo/s700/bannerDNA_tut_01.jpg)
-# Tutorials
+# Programming with PyMel for artists
 If you think that you have artistic brain and developing is beyond your possibilities, believe me, your just lazy. 
 
 You dont need any extra knowledge, like math or physics. You just need willingness to code and necessity of practical application of developing(and you defiantly have it if you work in Maya).
@@ -9,7 +9,7 @@ Coding could be hard only at the beginning, but the more you will practice the e
 A) [theory](#programming-with-PyMel-for-artists)  
 B) [examples](#pymel-procedures)
 
-## Programming with PyMel for artists
+## Programming theory
 ### Introduction to developing 
 From the beginner point of view programming in Maya allow us to execute particular action with many objects at once.
   
@@ -103,6 +103,6 @@ You have several syntax options to set attributes in PyMel. We can "translate" M
 listOfLights = pm.ls(lights=True)
 ```
 
-## PyMel procedures
+## Programming practice
 ### Objects
 ### Materials
