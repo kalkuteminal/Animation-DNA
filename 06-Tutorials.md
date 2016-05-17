@@ -278,10 +278,13 @@ def matAsign(material):
     for i in sel:
         pm.sets(material, forceElement = i)
 ```
-##### Get shading group, material and image files of object
+##### Get shading group and material of object
 ```python
 shadingGroup = pm.listConnections(object, type='shadingEngine')
 shader = pm.ls(mc.listConnections(shadingGroup), materials = 1)
+```
+##### Get image files of material
+```python
 imageFiles = pm.listHistory(shadingGroup, type='file')
 ```
 ### Interfaces
