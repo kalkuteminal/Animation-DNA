@@ -61,12 +61,16 @@ Performing majority of projects goes from rough form in the beginning to refined
 - you find a way to obey command to work with input list of necessary objects in all possible cases   
 
 ##### Developing with google
-Probably, all basic task you need to solve somebody already did. Now days you can start to write your code just by asking google a proper questions. Sure, you have be familiar with python syntax and basic Maya commands and writing first block of working code may take days but the more you will practice the faster you will code.
+Probably, all basic task you need to solve somebody already solved. Now days you can start to write your code just by asking google a proper questions. Proper question is a grate part of answer and this mean you have to find correct question to get necessary answer but google is smart and will help you even with that. 
+
+Sure, you have be familiar with python syntax and basic Maya commands and writing first block of working code may take days but the more you will practice the faster you will code.
 
 ##### Sample developing
 When you need to apply some action to an object or list, this basically mean that you need to find a proper **command** that will execute necessary action.
 
 Maya has awesome feature which allow to start writing code without any preliminary preparation. Anything your do in interface is written as Maya Embed Language (MEL) code in Script Editor. The name of MEL command usually the same as name of PyMel command, so often finding a command is an easy task.
+
+Inspecting MEL messages is also a way to find an **attribute** to deal with. 
 
 ##### Vocabulary of artistic developer
 **OBJECT** — anything you need to deal with in your code (Maya scene, light, shape attribute etc).  
@@ -75,23 +79,24 @@ Maya has awesome feature which allow to start writing code without any prelimina
 **PROCEDURE** — is a set of commands.  
 **VARIABLE** — container for data.
 
+**Artistic way of writing code** is [finding MEL commands and object attributes](#sample-developing) in Script Editor in conjunction with [asking google](#developing-with-google) how to do something in PyMel. 
+
 #### First example
 Lets try to double intensity of all lights in the scene.  
 [Search for](#developing-with-google): select all lights pymel. Go to the first link, at the bottom of the page in example section you will find a command which contain "light": **pm.ls( geometry=True, lights=True, cameras=True )**   
 
-**`pm.ls`** is a command which allow to create [lists](#developing-foundation). This is **command #1** your will deal with.  
+**`pm.ls`** is a command which allow to create [lists](#developing-foundation). This is **command #1** your will deal with. Best friend for creating lists! 
 
 To store list of lights in a variable:  
 ```python
 listOfLights = pm.ls(lights=True)
 ```
 
-Now we just need to find a way to double light intensity with PyMel using [coding algorithm](#coding-algorithm). 
+Now we just need to [find a way](#sample-developing) to double light intensity with PyMel using [coding algorithm](#coding-algorithm). 
 
-Select any light in scene, change intensity value and look into history window of script editor where you should find result of you action in MEL language:  
-**`setAttr "spotLightShape1.intensity" 2;`**  It tells you: i set intensity attribute of spotLight to 2.
-
-Inspecting MEL messages in Script Editor standing behind your actions in Maya is a grate way to find [command](#developing-foundation) or attribute to deal with. Its one more fancy option for beginner developers to write code in conjunction with asking google. 
+Select any light in scene, change intensity value and look into history window of Script Editor where you should find result of you action in MEL language:  
+**`setAttr "spotLightShape1.intensity" 2;`**  
+It tells you: i set intensity attribute of spotLight to 2.
 
 You have several syntax options to set attributes in PyMel. We can "translate" MEL above into python:  
 ```python
