@@ -26,6 +26,7 @@ To run code you can:
 - drag your code with MMB to a shelf and press the button that will appear
 
 #### Developing foundation
+##### Lists and loops
 Lists and loops are bases of coding. Loops allow us to do something (command) with a set of objects (list). So we have two major tasks in developing:
 - creating and editing lists
 - writing procedures (set of commands)  
@@ -43,6 +44,8 @@ When you create a list, you need to keep this list somewhere to use it later. Yo
 **PROCEDURE** — is a set of commands.  
 **VARIABLE** — container for data.
 
+From
+
 #### Running code from a file
 If you need to run python code from a file: 
 - save your code as **`*.py`** file in a desired place (C:/hello.py)
@@ -52,7 +55,7 @@ If you need to run python code from a file:
 The best option to setup path for your scripts and run them in Maya is using [wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers). In this tutorials we will run code from Script Editor only. 
 
 #### Coding with google
-Probably, all basic task you need to solve somebody already did. Now days you can start to write your code by asking google proper questions. Sure, you have be familiar with python syntax and basic Maya commands and writing first block of working code may take days but the more you will practice the faster you will code.
+Probably, all basic task you need to solve somebody already did. Now days you can start to write your code just by asking google a proper questions. Sure, you have be familiar with python syntax and basic Maya commands and writing first block of working code may take days but the more you will practice the faster you will code.
 
 Lets try to double intensity of all lights in the scene.  
 Search for: select all lights pymel. At the bottom of first page in example section you will find a command which contain "light": **pm.ls( geometry=True, lights=True, cameras=True )**   
@@ -68,3 +71,5 @@ Now we just need to find a way to double light intensity with PyMel. Select any 
 **`setAttr "spotLightShape1.intensity" 2;`**  It tells you: i set intensity attribute of spotLight to 2.
 
 Inspecting MEL messages in Script Editor standing behind your actions in Maya is a grate way to find [command](#developing-foundation) or attribute to deal with. Its one more fancy option for beginner developers to write code in conjunction with asking google. 
+
+You have several syntax options to set attributes in PyMel. We can "translate" MEL above into python:
