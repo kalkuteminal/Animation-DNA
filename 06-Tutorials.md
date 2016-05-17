@@ -186,9 +186,10 @@ Here you will find procedures for most common tasks in Maya
 
 ### Attributes
 ### Objects
+#####
 ### Materials
 ### Interfaces
-##### Window with text field and button.
+###### Window with text field and button.
 Pressing a button prints value of text field.
 ```python
 def printValue(input):
