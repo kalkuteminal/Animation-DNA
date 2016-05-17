@@ -82,7 +82,8 @@ Inspecting MEL messages is also a way to find an **attribute** to deal with.
 **PROCEDURE** — is a set of commands.  
 **VARIABLE** — container for data.
 
-**Artistic way of writing code** is [finding MEL commands and object attributes](#sample-developing) in Script Editor in conjunction with [asking google](#developing-with-google) how to do something in PyMel. 
+##### Artistic way of writing code
+Artistic way of writing code is [finding MEL commands and object attributes](#sample-developing) in Script Editor in conjunction with [asking google](#developing-with-google) how to do something in PyMel. 
 
 ### Step by step example
 Lets try to double intensity of all lights in the scene.  
