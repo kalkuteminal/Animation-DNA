@@ -11,7 +11,7 @@ For example, export/import character animation for each shot.
 
 Programs allow to automate a lot of process and shift human work to computer shoulders. Also, computer does nod make a mistakes, so result of execution of correct code will be stable and predictable. Every action that you can express as a chunk of code should be scripted. 
 
-#### Step one
+#### Starting point for all code
 All you need to write first block of code is open Python tab of Maya Script Editor and enter:  
 `import pymel.core as pm`  
 This is what all your code will always start from. After that line you will place procedures which will to solve particular tasks. 
@@ -25,17 +25,19 @@ To run code you can:
 - press **ExecuteAll** button of script editor
 - drag your code with MMB to a shelf and press the button that will appear
 
-#### Step two: lists and loops.
+#### Developing foundation: objects, lists and loops.
 Lists and loops are bases of coding. Loops allow us to do something (command) with a set of objects (list). So we have two major tasks in developing:
 - creating and editing lists
 - writing procedures (set of commands)  
-
 
 Loop allow to apply **procedure** to a **list**:
 ```python
 for eachObject in listOfObjects:
     run command
 ```
+**OBJECT** — anything you need to deal with in your code. It could be Maya scene, light, attribute or anything else.
+**LIST** — set of objects
+**COMMAND** — action that you need to apply to object
 
 #### Running code from a file
 If you need to run python code from a file: 
@@ -49,4 +51,4 @@ The best option to setup path for your scripts and run them in Maya is using [wr
 Probably, all basic task you need to solve somebody already did. Now days you can start to write your code by asking google proper questions. Sure, you have be familiar with python syntax and basic Maya commands and writing first block of working code may take days but the more you will practice the faster you will code.
 
 Lets try to double intensity of all lights in the scene. Search for: select all lights pymel. At the bottom of first page in example section you will find a command which contain "light":  
-**`pm.ls( geometry=True, lights=True, cameras=True )`**
+**`pm.ls( geometry=True, lights=True, cameras=True )`**  **ls** is a command which allow to create [lists](#developing-foundation:-objects,-lists-and-loops)
