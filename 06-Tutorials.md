@@ -7,8 +7,9 @@ You dont need any extra knowledge, like math or physics. You just need willingne
 Coding could be hard only at the beginning, but the more you will practice the easy it will be for you. And finilyy you will realize that coding is also an art
 
 A) [Theory](#programming-theory)  
-  [Intro](#introduction-to-artistic-developing )  |  [basics](#developing-foundation)  |  [example](#step-by-step-example)
-B) [Examples](#programming-practice)
+  [Intro](#introduction-to-artistic-developing )  |  [PyMel basics](#developing-foundation)  |  [Developing example](#step-by-step-example)  
+B) [Practice](#programming-practice)  
+  [Interfaces](#interfaces)  |  [Attributes](#attributes)
 
 ## Programming theory
 ### Introduction to artistic developing 
@@ -177,6 +178,7 @@ Running a function:
 litDouble():
 ```
 ## Programming practice
+### Interfaces
 ### Attributes
 ### Objects
 ### Materials
