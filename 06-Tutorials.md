@@ -9,7 +9,7 @@ Coding could be hard only at the beginning, but the more you will practice the e
 A) [Theory](#programming-theory)  
   [Intro](#introduction-to-artistic-developing )  |  [PyMel basics](#developing-foundation)  |  [Developing example](#step-by-step-example)  |  [Art of good code](#art-of-good-code)  
 B) [Practice](#programming-practice)  
-  [Attributes](#attributes)  |  [Objects](#objects)  |  [Rendering](#rendering)  |  [Interfaces](#interfaces)
+  [Attributes](#attributes)  |  [Objects](#objects)  |  [Strings](#string-formatting)  |  [Rendering](#rendering)  |  [Interfaces](#interfaces)
 
 ## Programming theory
 ### Introduction to artistic developing 
