@@ -33,14 +33,14 @@ Lists and loops are bases of coding. Loops allow us to do something (command) wi
 Loop allow to apply **procedure** to a **list**:
 ```python
 for eachObject in listOfObjects:
-    run command
+    command
 ```
-When you create a list, you need to keep this list somewhere to use it later. Your store objects or data in **variables**.  
-In this code **list** is a variable: **`list = [object_A, object_B, object_C]`** which contain set of 3 objrcts.
+When you create a list, you need to keep this list somewhere to use it later. Your store objects or data in **variables**. In this code **list** is a variable: **`list = [object_A, object_B, object_C]`** which contain set of 3 objects.
 
 **OBJECT** — anything you need to deal with in your code (Maya scene, light, shape attribute etc).  
 **LIST** — set of objects.  
 **COMMAND** — action that you need to apply to object.  
+**PROCEDURE** — is a set of commands.  
 **VARIABLE** — container for data.
 
 #### Running code from a file
