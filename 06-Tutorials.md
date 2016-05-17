@@ -57,6 +57,7 @@ When you create a list, you need to keep this list somewhere to use it later. Yo
 
 ##### Coding algorithm.
 Performing majority of projects goes from rough form in the beginning to refined result at the end. From general to specific. Writing code usually will flow vice versa: 
+- you find a command that will do your action
 - you find a way to perform a particular command to a concrete object 
 - you find a way to obey command to work with input list of necessary objects in all possible cases   
 
@@ -64,7 +65,9 @@ Performing majority of projects goes from rough form in the beginning to refined
 Probably, all basic task you need to solve somebody already did. Now days you can start to write your code just by asking google a proper questions. Sure, you have be familiar with python syntax and basic Maya commands and writing first block of working code may take days but the more you will practice the faster you will code.
 
 ##### Sample developing
-Maya has awesome feature which allow to start writing code without any preliminary preparation. Anything your do in interface is written as MEL code in Script Editor.
+When you need to apply some action to an object or list, this basically mean that you need to find a proper **command** that will execute necessary action.
+
+Maya has awesome feature which allow to start writing code without any preliminary preparation. Anything your do in interface is written as Maya Embed Language (MEL) code in Script Editor. The name of MEL command usually the same as name of PyMel command, so often finding a command is an easy task.
 
 ##### Vocabulary of artistic developer
 **OBJECT** — anything you need to deal with in your code (Maya scene, light, shape attribute etc).  
