@@ -63,6 +63,9 @@ Performing majority of projects goes from rough form in the beginning to refined
 ##### Developing with google
 Probably, all basic task you need to solve somebody already did. Now days you can start to write your code just by asking google a proper questions. Sure, you have be familiar with python syntax and basic Maya commands and writing first block of working code may take days but the more you will practice the faster you will code.
 
+##### Sample developing
+ 
+
 ##### Vocabulary of artistic developer
 **OBJECT** — anything you need to deal with in your code (Maya scene, light, shape attribute etc).  
 **LIST** — set of objects.  
@@ -72,9 +75,9 @@ Probably, all basic task you need to solve somebody already did. Now days you ca
 
 #### First example
 Lets try to double intensity of all lights in the scene.  
-[Search for](#developing-with-google): select all lights pymel. At the bottom of first page in example section you will find a command which contain "light": **pm.ls( geometry=True, lights=True, cameras=True )**   
+[Search for](#developing-with-google): select all lights pymel. Go to the first link, at the bottom of the page in example section you will find a command which contain "light": **pm.ls( geometry=True, lights=True, cameras=True )**   
 
-**`pm.ls`** is a command which allow to create [lists](#developing-foundation). This is command #1 your will deal with.  
+**`pm.ls`** is a command which allow to create [lists](#developing-foundation). This is **command #1** your will deal with.  
 
 To store list of lights in a variable:  
 ```python
