@@ -10,7 +10,7 @@ A) [Theory](#programming-theory)
 B) [Examples](#programming-practice)
 
 ## Programming theory
-### Introduction to developing 
+### Introduction to artistic developing 
 From the beginner point of view programming in Maya allow us to execute particular action with many objects at once.
   
 For example, double the intensity of all lights in scene.
@@ -81,7 +81,7 @@ Inspecting MEL messages is also a way to find an **attribute** to deal with.
 
 **Artistic way of writing code** is [finding MEL commands and object attributes](#sample-developing) in Script Editor in conjunction with [asking google](#developing-with-google) how to do something in PyMel. 
 
-#### First example
+### Step by step example
 Lets try to double intensity of all lights in the scene.  
 [Search for](#developing-with-google): select all lights pymel. Go to the first link, at the bottom of the page in example section you will find a command which contain "light": **pm.ls( geometry=True, lights=True, cameras=True )**   
 
@@ -100,8 +100,11 @@ It tells you: i set intensity attribute of spotLight to 2.
 
 You have several syntax options to set attributes in PyMel. We can "translate" MEL above into python:  
 ```python
-listOfLights = pm.ls(lights=True)
+pm.setAttr('spotLightShape1', 2)
 ```
+So you have list of objects, you know attribute to work with, you know the command. Now you need to formulate a task (double the intensity) as a PyMel procedure.
+
+
 
 ## Programming practice
 ### Objects
