@@ -247,6 +247,14 @@ pm.sceneName() # Get name of current scene
 pm.importFile(fullPath) # import file
 pm.createReference(fullPath, sharedNodes =('shadingNetworks', 'displayLayers', 'renderLayersByName') , ns = nameSpace ) # reference file
 ```
+##### Get full path of reference by namespace
+```python
+fullPathRef = pm.FileReference(namespace = 'nameSpace')
+```
+##### Replace reference
+```python
+fullPathRef.replaceWith(fullPathRefNew)
+```
 
 ### String formatting
 ##### Replace string with variables
@@ -287,6 +295,21 @@ shader = pm.ls(mc.listConnections(shadingGroup), materials = 1)
 ```python
 imageFiles = pm.listHistory(shadingGroup, type='file')
 ```
+##### Create shader, image file and shading group. Connect file to shader, shader to shading group 
+```python
+shader = pm.shadingNode ('lambert', asShader = True, name = 'MATERIAL') 
+imageFile = pm.shadingNode ('file', asTexture = True, n = 'TEXTURE' )
+SG = pm.sets (renderable = True, noSurfaceShader = True, empty = True, name = shader  + 'SG')
+imageFile.outColor >> shader.color
+shader.outColor >> SG.surfaceShader
+```
+
+
+##### Render settings
+```python
+XXX
+```
+
 ### Interfaces
 ##### Window with text field and button.
 Pressing a button prints value of text field.
