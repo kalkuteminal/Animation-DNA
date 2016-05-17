@@ -11,11 +11,9 @@ B) [examples](#pymel-procedures)
 
 ## Programming with PyMel for artists
 ### Introduction to developing 
-From the beginner point of view programming in Maya allow us to:
-- execute particular actions with many object at once.  
-For example, double the intensity of all selected lights.
-- execute number of the same actions with a different objects.  
-For example, export/import character animation for each shot.
+From the beginner point of view programming in Maya allow us to execute particular actions with many objects at once.
+  
+For example, double the intensity of all lights in scene.
 
 Programs allow to automate a lot of process and shift human work to computer shoulders. Also, computer does nod make a mistakes, so result of execution of correct code will be stable and predictable. Every action that you can express as a chunk of code should be scripted. 
 
