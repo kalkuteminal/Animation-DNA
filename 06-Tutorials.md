@@ -196,6 +196,13 @@ def addString(attrName):
         if not pm.attributeQuery( attrName, node = i, exists = True ):
             pm.addAttr(i, ln = attrName, nn = attrName, dt = 'string')
 ```
+##### Set string attribute for selected objects
+```python
+def setString(attribute, value):
+    sel = pm.ls(sl=1)
+    for i in sel:
+        i.attr(attribute).set(value)
+```
 
 ### Objects
 ##### Unlock and delete selected nodes
