@@ -162,7 +162,7 @@ for i in listOfLights:
     i.intensity.set(i.intensity.get()*2)
 ```
 
-Creating a PyMel procedure from block of code
+Creating a PyMel **function** from block of code
 
 ```python
 def litDouble():
@@ -171,7 +171,7 @@ def litDouble():
         i.intensity.set(i.intensity.get()*2)
 ```
 
-Running a procedure:
+Running a function:
 ```python
 litDouble():
 ```
