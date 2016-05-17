@@ -256,9 +256,9 @@ fullPathRef = pm.FileReference(namespace = 'nameSpace')
 fullPathRef.replaceWith(fullPathRefNew)
 ```
 
-##### Export all to alembic (use `s = True` for selected)
+##### Export alembic
 ```python
-pm.arnoldExportAss( f = "D:/projects/DNA/3D/cache/fileName.ass",  startFrame = 0, endFrame = 1 )
+eval('AbcExport -j " -framerange {2} {3} -uvWrite -root {0} -file {1}"'.format(group, nameABC, frameStart, frameEnd))
 ```
 
 ### String formatting
@@ -309,6 +309,11 @@ imageFile.outColor >> shader.color
 shader.outColor >> SG.surfaceShader
 ```
 
+##### Arnold export ass 
+```python
+# use `s = True` for selected
+pm.arnoldExportAss( f = "D:/projects/DNA/3D/cache/fileName.ass",  startFrame = 0, endFrame = 1 )
+```
 
 ##### Render settings
 ```python
