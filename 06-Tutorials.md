@@ -27,6 +27,14 @@ To run code you can:
 - press **ExecuteAll** button of script editor
 - drag your code with MMB to a shelf and press the button that will appear
 
+#### Running code from a file
+If you need to run python code from a file: 
+- save your code as **`*.py`** file in a desired place (C:/hello.py)
+- let Maya know this place by running in script editor: `sys.path.append('C:/')`
+- import code `import hello`
+
+The best option to setup path for your scripts and run them in Maya is using [wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers). In this tutorials we will run code from Script Editor only. 
+
 #### Developing foundation
 ##### Lists and loops
 Lists and loops are bases of coding. Loops allow us to do something (command) with a set of objects (list). So we have two major tasks in developing:
@@ -46,6 +54,9 @@ Performing majority of projects goes from rough form in the beginning to refined
 - you find a way to perform a particular command to a concrete object 
 - you find a way to obey command to work with input list of necessary objects in all possible cases   
 
+#### Developing with google
+Probably, all basic task you need to solve somebody already did. Now days you can start to write your code just by asking google a proper questions. Sure, you have be familiar with python syntax and basic Maya commands and writing first block of working code may take days but the more you will practice the faster you will code.
+
 ##### Vocabulary of artistic developer
 **OBJECT** — anything you need to deal with in your code (Maya scene, light, shape attribute etc).  
 **LIST** — set of objects.  
@@ -53,19 +64,9 @@ Performing majority of projects goes from rough form in the beginning to refined
 **PROCEDURE** — is a set of commands.  
 **VARIABLE** — container for data.
 
-#### Running code from a file
-If you need to run python code from a file: 
-- save your code as **`*.py`** file in a desired place (C:/hello.py)
-- let Maya know this place by running in script editor: `sys.path.append('C:/')`
-- import code `import hello`
-
-The best option to setup path for your scripts and run them in Maya is using [wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers). In this tutorials we will run code from Script Editor only. 
-
-#### Coding with google
-Probably, all basic task you need to solve somebody already did. Now days you can start to write your code just by asking google a proper questions. Sure, you have be familiar with python syntax and basic Maya commands and writing first block of working code may take days but the more you will practice the faster you will code.
-
+#### First example
 Lets try to double intensity of all lights in the scene.  
-Search for: select all lights pymel. At the bottom of first page in example section you will find a command which contain "light": **pm.ls( geometry=True, lights=True, cameras=True )**   
+[Search for](#developing-with-google): select all lights pymel. At the bottom of first page in example section you will find a command which contain "light": **pm.ls( geometry=True, lights=True, cameras=True )**   
 
 **`pm.ls`** is a command which allow to create [lists](#developing-foundation). This is command #1 your will deal with.  
 
