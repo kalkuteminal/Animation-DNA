@@ -180,7 +180,31 @@ litDouble():
 ## Programming practice
 Here you will find procedures for most common tasks in Maya
 
-### Interfaces
+
 ### Attributes
 ### Objects
 ### Materials
+### Interfaces
+#### Window with text field and button.
+Pressing a button prints value of text field.
+
+```python
+def printValue(input):
+    print 'Value in text field: {0}'.format(input.getText())
+    
+def baseUI(): 
+    if pm.window('BASE', exists = 1):
+        pm.deleteUI('BASE')
+    baseWin = pm.window('BASE', t = 'Base Window', w = 280, h = 100)
+    with baseWin:
+        
+        mainLayout = pm.columnLayout()
+                    
+        aLayout = pm.rowColumnLayout(nc = 2, parent = mainLayout)   
+        stringField = pm.textField(tx = 'TEXT', w= 90, h = 40) 
+        buttonPrint = pm.button(l = 'PRINT FIELD VALUE', w = 190)
+        buttonPrint.setCommand(pm.Callback (printValue, stringField))
+       
+    baseWin.show()  
+baseUI()
+```
