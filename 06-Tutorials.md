@@ -9,7 +9,7 @@ Coding could be hard only at the beginning, but the more you will practice the e
 A) [Theory](#programming-theory)  
   [Intro](#introduction-to-artistic-developing )  |  [PyMel basics](#developing-foundation)  |  [Developing example](#step-by-step-example)  |  [Art of good code](#art-of-good-code)  
 B) [Practice](#programming-practice)  
-  [Attributes](#attributes)  |  [Objects](#objects)  |  [Files](#files)  |  [Strings](#string-formatting)  |  [Rendering](#rendering)  |  [Interfaces](#interfaces)
+  [Attributes](#attributes)  |  [Objects](#objects)  |  [Files](#files)  |  [Lists](#lists)  |  [Strings](#string-formatting)  |  [Rendering](#rendering)  |  [Interfaces](#interfaces)
 
 ## Programming theory
 ### Introduction to artistic developing 
@@ -266,6 +266,8 @@ eval('AbcExport -j " -framerange {2} {3} -uvWrite -root {0} -file {1}"'.format(g
 from maya.mel import eval
 eval(' AbcImport -ct  "{0}" "{1}" '.format(groupName, pathABC))
 ```
+
+### Lists
 
 ### String formatting
 ##### Replace string with variables
