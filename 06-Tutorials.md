@@ -1,6 +1,6 @@
 ![](https://lh3.googleusercontent.com/-90kNXCym1kQ/VznLmU-hxOI/AAAAAAAAFno/0pT_n7X5Q90a7Fv0BCA-ky-NfB67H20jQCCo/s700/bannerDNA_tut_01.jpg)
 # Tutorials
-A) [theory](#programming-with-PyMel-for-artists)
+A) [theory](#programming-with-PyMel-for-artists)  
 B) [examples](#pymel-procedures)
 
 ## Programming with PyMel for artists
