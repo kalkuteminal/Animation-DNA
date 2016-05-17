@@ -258,10 +258,12 @@ fullPathRef.replaceWith(fullPathRefNew)
 
 ##### Export alembic
 ```python
+from maya.mel import eval
 eval('AbcExport -j " -framerange {2} {3} -uvWrite -root {0} -file {1}"'.format(groupName, pathABC, frameStart, frameEnd))
 ```
 ##### Import alembic
 ```python
+from maya.mel import eval
 eval(' AbcImport -ct  "{0}" "{1}" '.format(groupName, pathABC))
 ```
 
