@@ -178,6 +178,8 @@ Running a function:
 litDouble():
 ```
 ## Programming practice
+Here you will find procedures for most common tasks in Maya
+
 ### Interfaces
 ### Attributes
 ### Objects
