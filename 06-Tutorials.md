@@ -100,12 +100,15 @@ It tells you: i set intensity attribute of spotLight to 2.
 
 You have several syntax options to set attributes in PyMel. We can "translate" MEL above into python:  
 ```python
-pm.setAttr('spotLightShape1', 2)
+pm.setAttr('spotLightShape1.intensity', 2)
 ```
 So you have list of objects, you know attribute to work with, you know the command. Now you need to formulate a task (double the intensity) as a PyMel procedure.
 
+Double mean multiply by 2. E.g. you need to get intensity value of each light, multiply by 2 and finally set intensity value with a result of multiplication.
 
-
+```python
+pm.getAttr('spotLightShape1.intensity')
+```
 ## Programming practice
 ### Objects
 ### Materials
