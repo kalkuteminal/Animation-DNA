@@ -121,15 +121,32 @@ All this chunk of codes works separately with a particular object spotLightShape
 object.attribute.get()
 object.attribute.set(value)
 ```
-To formulate procedure we will use [variable](#variables) named "valueCurrent" for data exchange — store source intensity value for multiplication operation. Result of multiplication will store in variable "valueResult". You can give any name to variables but better use [nice and descriptive names](02-codex-dna#naming).
+To formulate procedure we will use [variable](#variables) named **"valueCurrent"** for data exchange — store source intensity value for multiplication operation. Result of multiplication will store in variable **"valueResult"**. You can give any name to variables but better use [nice and descriptive names](02-codex-dna#naming). The attribute we will operate is **"intensity"**.
 
 ```python
-valueCurrent = object.attribute.get()
+valueCurrent = object.intensity.get()
 valueResult = valueCurrent*2
-object.attribute.set(valueResult)
+object.intensity.set(valueResult)
 ```
 
 We need to use loop to apply procedure of multiplication of intencity to each element of list (list contain set of all lights in your scene)
+
+```python
+import pymel.core as pm
+listOfLights = pm.ls(lights=True)
+
+for object in listOfLights:
+    valueCurrent = object.intensity.get()
+    valueResult = valueCurrent*2
+    object.intensity.set(valueResult)
+```
+When you code become more complex you will find useful creating "reports" of code execution. It could be done with **`print 'any data you need to see '`** command which write in scrip editor any data you need. Here we print massage inside quotes `print 'message'` and replace `{number}` with variable values in brackets `.format(value)`:
+
+```python
+print 'object: {0} value old: {1} value new: {2}'.format(object, valueCurrent, valueResult)
+```
+
+
 
 ## Programming practice
 ### Attributes
