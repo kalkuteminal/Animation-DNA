@@ -256,6 +256,11 @@ fullPathRef = pm.FileReference(namespace = 'nameSpace')
 fullPathRef.replaceWith(fullPathRefNew)
 ```
 
+##### Export all to alembic (use `s = True` for selected)
+```python
+pm.arnoldExportAss( f = "D:/projects/DNA/3D/cache/fileName.ass",  startFrame = 0, endFrame = 1 )
+```
+
 ### String formatting
 ##### Replace string with variables
 ```python
@@ -295,11 +300,11 @@ shader = pm.ls(mc.listConnections(shadingGroup), materials = 1)
 ```python
 imageFiles = pm.listHistory(shadingGroup, type='file')
 ```
-##### Create shader, image file and shading group. Connect file to shader, shader to shading group 
+##### Create shader, image file and shading group. Make shader connections. 
 ```python
 shader = pm.shadingNode ('lambert', asShader = True, name = 'MATERIAL') 
 imageFile = pm.shadingNode ('file', asTexture = True, n = 'TEXTURE' )
-SG = pm.sets (renderable = True, noSurfaceShader = True, empty = True, name = shader  + 'SG')
+SG = pm.sets (renderable = True, noSurfaceShader = True, empty = True, name = shader + 'SG')
 imageFile.outColor >> shader.color
 shader.outColor >> SG.surfaceShader
 ```
