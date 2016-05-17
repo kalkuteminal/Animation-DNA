@@ -41,14 +41,14 @@ for eachObject in listOfObjects:
 ##### Variables
 When you create a list, you need to keep this list somewhere to use it later. Your store objects or data in **variables**. In this code **list** is a variable: **`list = [object_A, object_B, object_C]`** which contain set of 3 objects.
 
+##### From specific to general.
+
+##### Vocabulary of artistic developer
 **OBJECT** — anything you need to deal with in your code (Maya scene, light, shape attribute etc).  
 **LIST** — set of objects.  
 **COMMAND** — action that you need to apply to object.  
 **PROCEDURE** — is a set of commands.  
 **VARIABLE** — container for data.
-
-##### From specific to general.
-
 
 #### Running code from a file
 If you need to run python code from a file: 
@@ -76,8 +76,10 @@ Now we just need to find a way to double light intensity with PyMel. Select any 
 
 Inspecting MEL messages in Script Editor standing behind your actions in Maya is a grate way to find [command](#developing-foundation) or attribute to deal with. Its one more fancy option for beginner developers to write code in conjunction with asking google. 
 
-You have several syntax options to set attributes in PyMel. We can "translate" MEL above into python:
-
+You have several syntax options to set attributes in PyMel. We can "translate" MEL above into python:  
+```python
+listOfLights = pm.ls(lights=True)
+```
 
 ## PyMel procedures
 ### Objects
