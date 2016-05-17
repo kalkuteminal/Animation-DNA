@@ -188,6 +188,14 @@ Here you will find procedures for most common tasks in Maya
 
 
 ### Attributes
+##### Add string attribute to selected objects
+```python
+def addString(attrName):
+    sel = pm.ls( sl=1 )
+    for i in sel:
+        if not pm.attributeQuery( attrName, node = i, exists = True ):
+            pm.addAttr(i, ln = attrName, nn = attrName, dt = 'string')
+```
 
 ### Objects
 ##### Select instances of selected objects
