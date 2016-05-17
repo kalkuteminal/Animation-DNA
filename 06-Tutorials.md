@@ -271,8 +271,10 @@ def matAsign(material):
     for i in sel:
         pm.sets(material, forceElement = i)
 ```
-
-
+##### Get shading group of object
+```python
+shadingGroup = pm.listConnections(object, type='shadingEngine')
+```
 ### Interfaces
 ##### Window with text field and button.
 Pressing a button prints value of text field.
