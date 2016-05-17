@@ -41,7 +41,10 @@ for eachObject in listOfObjects:
 ##### Variables
 When you create a list, you need to keep this list somewhere to use it later. Your store objects or data in **variables**. In this code **list** is a variable: **`list = [object_A, object_B, object_C]`** which contain set of 3 objects.
 
-##### From specific to general.
+##### Coding algorithm.
+Performing majority of projects goes from rough form in the beginning to refined result at the end. From general to specific. Writing code usually will flow vice versa: 
+- you find a way to perform a particular command to a concrete object 
+- you find a way to obey command to work with input list of necessary objects in all possible cases   
 
 ##### Vocabulary of artistic developer
 **OBJECT** — anything you need to deal with in your code (Maya scene, light, shape attribute etc).  
@@ -71,7 +74,9 @@ To store list of lights in a variable:
 listOfLights = pm.ls(lights=True)
 ```
 
-Now we just need to find a way to double light intensity with PyMel. Select any light in scene, change intensity value and look into history window of script editor where you should find result of you action in MEL language:  
+Now we just need to find a way to double light intensity with PyMel using [coding algorithm](#coding-algorithm). 
+
+Select any light in scene, change intensity value and look into history window of script editor where you should find result of you action in MEL language:  
 **`setAttr "spotLightShape1.intensity" 2;`**  It tells you: i set intensity attribute of spotLight to 2.
 
 Inspecting MEL messages in Script Editor standing behind your actions in Maya is a grate way to find [command](#developing-foundation) or attribute to deal with. Its one more fancy option for beginner developers to write code in conjunction with asking google. 
