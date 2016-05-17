@@ -257,6 +257,13 @@ pm.createReference(fullPath, sharedNodes =('shadingNetworks', 'displayLayers', '
 ```python
 '{0:3d}'.format(1) # result: 001
 ```
+
+##### Divide string 
+```python
+string = 'D:/projects/DNA/3D/scenes'
+split = string.split('/')
+# Result: ['D:', 'projects', 'DNA', '3D', 'scenes']
+```
 ### Rendering
 ##### Set current render to Arnold 
 ```python
