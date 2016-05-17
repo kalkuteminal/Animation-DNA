@@ -249,7 +249,14 @@ pm.createReference(fullPath, sharedNodes =('shadingNetworks', 'displayLayers', '
 ```
 
 ### String formatting
-
+##### Replace string with variables
+```python
+'variable A = {0}, variable B = {1}'.format(variable_A, variable_B) 
+```
+##### Replace number with padding
+```python
+'{0:3d}'.format(1) # result: 001
+```
 ### Rendering
 ##### Set current render to Arnold 
 ```python
