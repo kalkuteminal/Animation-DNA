@@ -240,9 +240,24 @@ def boundingBox():
             i.overrideEnabled.set(0) 
             i.overrideLevelOfDetail.set(0)
 ```
+### Files
+##### Basic file manipulations
+```python
+pm.sceneName() # Get name of current scene
+pm.importFile(fullPath) # import file
+
+pm.createReference(fullPath, sharedNodes =('shadingNetworks', 'displayLayers', 'renderLayersByName') , ns = nameSpace )
+```
+
 ### String formatting
 
-### Materials
+### Rendering
+##### Set current render to Arnold 
+```python
+def setArnold(*args):
+    if( pm.getAttr( 'defaultRenderGlobals.currentRenderer' ) != 'arnold' ):
+        pm.setAttr('defaultRenderGlobals.currentRenderer', 'arnold')
+```
 ##### Asign material for selected objects
 ```python
 def matAsign(material):
@@ -250,6 +265,7 @@ def matAsign(material):
     for i in sel:
         pm.sets(material, forceElement = i)
 ```
+
 
 ### Interfaces
 ##### Window with text field and button.
