@@ -139,13 +139,28 @@ for object in listOfLights:
     valueCurrent = object.intensity.get()
     valueResult = valueCurrent*2
     object.intensity.set(valueResult)
+
 ```
 When you code become more complex you will find useful creating "reports" of code execution. It could be done with **`print 'any data you need to see '`** command which write in scrip editor any data you need. Here we print massage inside quotes `print 'message'` and replace `{number}` with variable values in brackets `.format(value)`:
 
 ```python
-print 'object: {0} intensity: {1} >> {2}'.format(object, valueCurrent, valueResult)
-```
+import pymel.core as pm
+listOfLights = pm.ls(lights=True)
 
+for object in listOfLights:
+    valueCurrent = object.intensity.get()
+    valueResult = valueCurrent*2
+    object.intensity.set(valueResult)
+    print 'object: {0} intensity: {1} >> {2}'.format(object, valueCurrent, valueResult)
+```
+Reducing code
+
+```python
+import pymel.core as pm
+listOfLights = pm.ls(lights=True)
+for i in listOfLights:
+    i.intensity.set(object.intensity.get()*2)
+```
 
 
 ## Programming practice
