@@ -189,7 +189,22 @@ Here you will find procedures for most common tasks in Maya
 ### Objects
 ##### Select instances of selected objects
 ```python
-pm.select(pm.ls(ap = 1, dag = 1, sl = 1 ))
+def selectInstances():
+    pm.select(pm.ls(ap = 1, dag = 1, sl = 1 ))
+```
+##### Triger bounding box display of selected objects
+```python
+def boundingBox():
+    pm.pickWalk(d ='down')
+    sel = pm.ls(sl = 1, shapes = 1, selection = 1)
+    if (sel[0].overrideEnabled.get() == 0):
+        for i in sel:
+            i.overrideEnabled.set(1) 
+            i.overrideLevelOfDetail.set(1)
+    else:
+        for i in sel:
+            i.overrideEnabled.set(0) 
+            i.overrideLevelOfDetail.set(0)
 ```
 
 ### Materials
