@@ -6,8 +6,8 @@ You dont need any extra knowledge, like math or physics. You just need willingne
 
 Coding could be hard only at the beginning, but the more you will practice the easy it will be for you. And finilyy you will realize that coding is also an art
 
-A) [theory](#programming-theory)  
-B) [examples](#programming-practice)
+A) [Theory](#programming-theory)  
+B) [Examples](#programming-practice)
 
 ## Programming theory
 ### Introduction to developing 
