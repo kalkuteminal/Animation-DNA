@@ -58,7 +58,7 @@ When you create a list, you need to keep this list somewhere to use it later. Yo
 Performing majority of projects goes from rough form in the beginning to refined result at the end. From general to specific. Writing code usually will flow vice versa: 
 - you find a command that will do your action
 - you find a way to perform a particular command to a concrete object 
-- you find a way to obey command to work with input list of necessary objects in all possible cases   
+- you find a way to generalize code: obey command to work with input list of necessary objects in all possible cases   
 
 ##### Developing with google
 Probably, all basic task you need to solve somebody already solved. Now days you can start to write your code just by asking google a proper questions. Proper question is a grate part of answer and this mean you have to find correct question to get necessary answer but google is smart and auto complete will help you even with that. 
@@ -106,9 +106,13 @@ So you have list of objects, you know attribute to work with, you know the comma
 
 Double mean multiply by 2. E.g. you need to get intensity value of each light, multiply by 2 and finally set intensity value with a result of multiplication.
 
+Find intensity value possible with **`getAttr`** command:
 ```python
 pm.getAttr('spotLightShape1.intensity')
 ```
+
+All this chunk of codes works separately with particular object spotLightShape1. We need to join them and [generalize](#coding-algorithm) to get working program.
+
 ## Programming practice
 ### Objects
 ### Materials
