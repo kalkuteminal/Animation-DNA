@@ -36,6 +36,7 @@ Loop allow to apply **procedure** to a **list**:
 for eachObject in listOfObjects:
     command
 ```
+##### Variables
 When you create a list, you need to keep this list somewhere to use it later. Your store objects or data in **variables**. In this code **list** is a variable: **`list = [object_A, object_B, object_C]`** which contain set of 3 objects.
 
 **OBJECT** — anything you need to deal with in your code (Maya scene, light, shape attribute etc).  
@@ -44,7 +45,8 @@ When you create a list, you need to keep this list somewhere to use it later. Yo
 **PROCEDURE** — is a set of commands.  
 **VARIABLE** — container for data.
 
-From
+##### From specific to general.
+
 
 #### Running code from a file
 If you need to run python code from a file: 
