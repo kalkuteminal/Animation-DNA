@@ -162,7 +162,19 @@ for i in listOfLights:
     i.intensity.set(i.intensity.get()*2)
 ```
 
+Creating a PyMel procedure from block of code
 
+```python
+def litDouble():
+    listOfLights = pm.ls(lights=True)
+    for i in listOfLights:
+        i.intensity.set(i.intensity.get()*2)
+```
+
+Running a procedure:
+```python
+litDouble():
+```
 ## Programming practice
 ### Attributes
 ### Objects
