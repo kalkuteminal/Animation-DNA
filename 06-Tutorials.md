@@ -258,7 +258,7 @@ fullPathRef.replaceWith(fullPathRefNew)
 
 ##### Export alembic
 ```python
-eval('AbcExport -j " -framerange {2} {3} -uvWrite -root {0} -file {1}"'.format(group, nameABC, frameStart, frameEnd))
+eval('AbcExport -j " -framerange {2} {3} -uvWrite -root {0} -file {1}"'.format(groupName, alembicName, frameStart, frameEnd))
 ```
 
 ### String formatting
