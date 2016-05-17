@@ -121,11 +121,12 @@ All this chunk of codes works separately with a particular object spotLightShape
 object.attribute.get()
 object.attribute.set(value)
 ```
-To formulate procedure we will use [variable](#variables) named "valueInt" for data exchange — store intensity value for multiplication operation. You can give any name to variables but better use [nice and descriptive names](02-codex-dna#naming).
+To formulate procedure we will use [variable](#variables) named "valueCurrent" for data exchange — store source intensity value for multiplication operation. Result of multiplication will store in variable "valueResult". You can give any name to variables but better use [nice and descriptive names](02-codex-dna#naming).
 
 ```python
-valueInt = object.attribute.get()
-object.attribute.set(valueInt*2)
+valueCurrent = object.attribute.get()
+valueResult = valueCurrent*2
+object.attribute.set(valueResult)
 ```
 
 We need to use loop to apply procedure of multiplication of intencity to each element of list (list contain set of all lights in your scene)
