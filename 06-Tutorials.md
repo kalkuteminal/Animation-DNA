@@ -56,6 +56,7 @@ Probably, all basic task you need to solve somebody already did. Now days you ca
 
 Lets try to double intensity of all lights in the scene.  
 Search for: select all lights pymel. At the bottom of first page in example section you will find a command which contain "light": **pm.ls( geometry=True, lights=True, cameras=True )**   
+
 **`pm.ls`** is a command which allow to create [lists](#developing-foundation). This is command #1 your will deal with.  
 
 To store list of lights in a variable:  
