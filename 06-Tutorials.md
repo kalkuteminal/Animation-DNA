@@ -159,7 +159,7 @@ Reducing code
 import pymel.core as pm
 listOfLights = pm.ls(lights=True)
 for i in listOfLights:
-    i.intensity.set(object.intensity.get()*2)
+    i.intensity.set(i.intensity.get()*2)
 ```
 
 
