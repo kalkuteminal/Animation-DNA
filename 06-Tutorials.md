@@ -320,7 +320,7 @@ shader.outColor >> SG.surfaceShader
 ##### Arnold export ass 
 ```python
 # use `s = True` for selected
-pm.arnoldExportAss( f = "D:/projects/DNA/3D/cache/fileName.ass",  startFrame = 0, endFrame = 1 )
+pm.arnoldExportAss( f = "D:/fileName.ass",  startFrame = 0, endFrame = 1 )
 ```
 
 ##### Render settings
