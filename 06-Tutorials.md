@@ -25,7 +25,7 @@ To run code you can:
 - press **ExecuteAll** button of script editor
 - drag your code with MMB to a shelf and press the button that will appear
 
-#### Developing foundation: objects, lists and loops.
+#### Developing foundation
 Lists and loops are bases of coding. Loops allow us to do something (command) with a set of objects (list). So we have two major tasks in developing:
 - creating and editing lists
 - writing procedures (set of commands)  
@@ -35,9 +35,13 @@ Loop allow to apply **procedure** to a **list**:
 for eachObject in listOfObjects:
     run command
 ```
-**OBJECT** — anything you need to deal with in your code. It could be Maya scene, light, attribute or anything else.
+When you create a list, you need to keep this list somewhere to use it later. Your store objects or data in **variables**.  
+Here **`list = [object_A, object_B, object_C]`** list is a variable.
+
+**OBJECT** — anything you need to deal with in your code. It could be Maya scene, light, shape attribute or anything else.
 **LIST** — set of objects
-**COMMAND** — action that you need to apply to object
+**COMMAND** — action that you need to apply to object  
+**VARIABLE** — container for data
 
 #### Running code from a file
 If you need to run python code from a file: 
