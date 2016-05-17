@@ -48,6 +48,7 @@ Lists and loops are bases of coding. Loops allow us to do something (command) wi
 
 Loop allow to apply **procedure** to a **list**:
 ```python
+import pymel.core as pm
 for eachObject in listOfObjects:
     command
 ```
@@ -89,6 +90,7 @@ Lets try to double intensity of all lights in the scene.
 
 To store list of lights in a variable:  
 ```python
+import pymel.core as pm
 listOfLights = pm.ls(lights=True)
 ```
 
@@ -100,6 +102,7 @@ It tells you: i set intensity attribute of spotLight to 2.
 
 You have several syntax options to set attributes in PyMel. We can "translate" MEL above into python:  
 ```python
+import pymel.core as pm
 pm.setAttr('spotLightShape1.intensity', 2)
 ```
 So you have list of objects, you know attribute to work with, you know the command. Now you need to formulate a task (double the intensity) as a PyMel procedure.
@@ -108,11 +111,20 @@ Double mean multiply by 2. E.g. you need to get intensity value of each light, m
 
 Find intensity value possible with **`getAttr`** command:
 ```python
+import pymel.core as pm
 pm.getAttr('spotLightShape1.intensity')
 ```
 
 All this chunk of codes works separately with particular object spotLightShape1. We need to join them and [generalize](#coding-algorithm) to get working program.
 
+Another way to get or set attributes is:
+
+```python
+object.attribute.get()
+object.attribute.set(value)
+```
+
 ## Programming practice
+### Attributes
 ### Objects
 ### Materials
