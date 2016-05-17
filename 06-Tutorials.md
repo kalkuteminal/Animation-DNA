@@ -198,6 +198,15 @@ def addString(attrName):
 ```
 
 ### Objects
+##### Unlock and delete selected nodes
+```python
+def unlockAndDelete():
+    sel = pm.ls( sl = True )
+    for i in sel:
+        i.unlock()
+        pm.delete(i)
+```
+
 ##### Select instances of selected objects
 ```python
 def selectInstances():
