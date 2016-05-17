@@ -58,4 +58,7 @@ Lets try to double intensity of all lights in the scene. Search for: select all 
 **`pm.ls( geometry=True, lights=True, cameras=True )`**   
 **`pm.ls`** is a command which allow to create [lists](#developing-foundation). This is command #1 your will deal with.  
 
-To store list in a variable:
+To store list of lights in a variable:  
+```python
+listOfLights = pm.ls(lights=True)
+```
