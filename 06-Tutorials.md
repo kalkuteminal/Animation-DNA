@@ -54,7 +54,8 @@ The best option to setup path for your scripts and run them in Maya is using [wr
 #### Coding with google
 Probably, all basic task you need to solve somebody already did. Now days you can start to write your code by asking google proper questions. Sure, you have be familiar with python syntax and basic Maya commands and writing first block of working code may take days but the more you will practice the faster you will code.
 
-Lets try to double intensity of all lights in the scene. Search for: select all lights pymel. At the bottom of first page in example section you will find a command which contain "light":  
+Lets try to double intensity of all lights in the scene.  
+Search for: select all lights pymel. At the bottom of first page in example section you will find a command which contain "light":  
 **`pm.ls( geometry=True, lights=True, cameras=True )`**   
 **`pm.ls`** is a command which allow to create [lists](#developing-foundation). This is command #1 your will deal with.  
 
@@ -62,3 +63,6 @@ To store list of lights in a variable:
 ```python
 listOfLights = pm.ls(lights=True)
 ```
+
+Now we just need to find a way to double light intensity with PyMel. Select any light in scene, change intensity value and look into history window of script editor where you should find result of you action in MEL language:  
+**`setAttr "spotLightShape1.intensity" 2;`**  It tell you: i set intencity attribute of spotLight to 2.
