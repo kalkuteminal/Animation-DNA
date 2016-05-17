@@ -164,19 +164,21 @@ for i in listOfLights:
     i.intensity.set(i.intensity.get()*2)
 ```
 
-Creating a PyMel **function** from block of code
+Creating a PyMel **function** from block of code with ability to change multiplication value:
 
 ```python
-def litDouble():
+def litDouble(value):
     listOfLights = pm.ls(lights=True)
     for i in listOfLights:
-        i.intensity.set(i.intensity.get()*2)
+        i.intensity.set(i.intensity.get()*value)
 ```
 
 Running a function:
 ```python
-litDouble():
+litDouble(value):
 ```
+If your will be able to build [interfaces](#interfaces) for this function you can consider you can use PyMel. 
+
 ## Programming practice
 Here you will find procedures for most common tasks in Maya
 
