@@ -203,6 +203,13 @@ def setString(attribute, value):
     for i in sel:
         i.attr(attribute).set(value)
 ```
+##### Lock attribute of selected objects
+```python
+def attrLock(attribute):
+    sel = pm.ls(sl=1)
+    for i in sel:
+        i.attr(attribute).lock()
+```
 
 ### Objects
 ##### Unlock and delete selected nodes
