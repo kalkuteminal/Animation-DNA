@@ -177,7 +177,7 @@ Running a function:
 ```python
 litDouble(value):
 ```
-If your will be able to build [interfaces](#interfaces) for this function you can consider you can use PyMel. 
+If your will be able to build [interface](#interfaces) for this function you can consider you know PyMel. 
 
 ## Programming practice
 Here you will find procedures for most common tasks in Maya
