@@ -67,4 +67,4 @@ listOfLights = pm.ls(lights=True)
 Now we just need to find a way to double light intensity with PyMel. Select any light in scene, change intensity value and look into history window of script editor where you should find result of you action in MEL language:  
 **`setAttr "spotLightShape1.intensity" 2;`**  It tells you: i set intensity attribute of spotLight to 2.
 
-Inspecting MEL commands standing behind your actions in Maya is a way to find [command](#developing-foundation) or attribute to deal with. Its one more fancy option for beginner developer to work in conjunction  asking google. 
+Inspecting MEL messages in Script Editor standing behind your actions in Maya is a grate way to find [command](#developing-foundation) or attribute to deal with. Its one more fancy option for beginner developers to write code in conjunction with asking google. 
