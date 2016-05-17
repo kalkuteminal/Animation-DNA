@@ -38,7 +38,7 @@ for eachObject in listOfObjects:
 When you create a list, you need to keep this list somewhere to use it later. Your store objects or data in **variables**.  
 In this code **list** is a variable: **`list = [object_A, object_B, object_C]`** which contain set of 3 objrcts.
 
-**OBJECT** — anything you need to deal with in your code. It could be Maya scene, light, shape attribute or anything else.  
+**OBJECT** — anything you need to deal with in your code (Maya scene, light, shape attribute etc).  
 **LIST** — set of objects.  
 **COMMAND** — action that you need to apply to object.  
 **VARIABLE** — container for data.
