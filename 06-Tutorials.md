@@ -75,3 +75,8 @@ Now we just need to find a way to double light intensity with PyMel. Select any 
 Inspecting MEL messages in Script Editor standing behind your actions in Maya is a grate way to find [command](#developing-foundation) or attribute to deal with. Its one more fancy option for beginner developers to write code in conjunction with asking google. 
 
 You have several syntax options to set attributes in PyMel. We can "translate" MEL above into python:
+
+
+# PyMel procedures
+## Objects
+## Materials
