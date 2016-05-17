@@ -6,8 +6,8 @@ You dont need any extra knowledge, like math or physics. You just need willingne
 
 Coding could be hard only at the beginning, but the more you will practice the easy it will be for you. And finilyy you will realize that coding is also an art
 
-A) [theory](#programming-with-PyMel-for-artists)  
-B) [examples](#pymel-procedures)
+A) [theory](#programming-theory)  
+B) [examples](#programming-practice)
 
 ## Programming theory
 ### Introduction to developing 
