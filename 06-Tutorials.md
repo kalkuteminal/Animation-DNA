@@ -143,7 +143,7 @@ for object in listOfLights:
 When you code become more complex you will find useful creating "reports" of code execution. It could be done with **`print 'any data you need to see '`** command which write in scrip editor any data you need. Here we print massage inside quotes `print 'message'` and replace `{number}` with variable values in brackets `.format(value)`:
 
 ```python
-print 'object: {0} value old: {1} value new: {2}'.format(object, valueCurrent, valueResult)
+print 'object: {0} change intensity: {1} >> {2}'.format(object, valueCurrent, valueResult)
 ```
 
 
