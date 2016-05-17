@@ -115,14 +115,20 @@ import pymel.core as pm
 pm.getAttr('spotLightShape1.intensity')
 ```
 
-All this chunk of codes works separately with particular object spotLightShape1. We need to join them and [generalize](#coding-algorithm) to get working program.
-
-Another way to get or set attributes is:
+All this chunk of codes works separately with a particular object spotLightShape1. We need to join them and [generalize](#coding-algorithm) to get working program for any scene. Another way to get or set attributes is:
 
 ```python
 object.attribute.get()
 object.attribute.set(value)
 ```
+To formulate procedure we will use [variable](#variables) named "valueInt" for data exchange — store intensity value for multiplication operation. You can give any name to variables but better use [nice and descriptive names](02-codex-dna#naming).
+
+```python
+valueInt = object.attribute.get()
+object.attribute.set(valueInt*2)
+```
+
+We need to use loop to apply procedure of multiplication of intencity to each element of list (list contain set of all lights in your scene)
 
 ## Programming practice
 ### Attributes
