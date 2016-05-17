@@ -64,7 +64,7 @@ Performing majority of projects goes from rough form in the beginning to refined
 Probably, all basic task you need to solve somebody already did. Now days you can start to write your code just by asking google a proper questions. Sure, you have be familiar with python syntax and basic Maya commands and writing first block of working code may take days but the more you will practice the faster you will code.
 
 ##### Sample developing
- 
+Maya has awesome feature which allow to start writing code without any preliminary preparation. Anything your do in interface is written as MEL code in Script Editor.
 
 ##### Vocabulary of artistic developer
 **OBJECT** — anything you need to deal with in your code (Maya scene, light, shape attribute etc).  
