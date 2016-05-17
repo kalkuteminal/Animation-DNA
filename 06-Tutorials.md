@@ -11,7 +11,7 @@ B) [examples](#pymel-procedures)
 
 ## Programming with PyMel for artists
 ### Introduction to developing 
-From the beginner point of view programming in Maya allow us to execute particular actions with many objects at once.
+From the beginner point of view programming in Maya allow us to execute particular action with many objects at once.
   
 For example, double the intensity of all lights in scene.
 
