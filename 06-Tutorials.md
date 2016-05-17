@@ -36,12 +36,12 @@ for eachObject in listOfObjects:
     run command
 ```
 When you create a list, you need to keep this list somewhere to use it later. Your store objects or data in **variables**.  
-Here **`list = [object_A, object_B, object_C]`** list is a variable.
+In this code **list** is a variable: **`list = [object_A, object_B, object_C]`** which contain set of 3 objrcts.
 
-**OBJECT** — anything you need to deal with in your code. It could be Maya scene, light, shape attribute or anything else.
-**LIST** — set of objects
-**COMMAND** — action that you need to apply to object  
-**VARIABLE** — container for data
+**OBJECT** — anything you need to deal with in your code. It could be Maya scene, light, shape attribute or anything else.  
+**LIST** — set of objects.  
+**COMMAND** — action that you need to apply to object.  
+**VARIABLE** — container for data.
 
 #### Running code from a file
 If you need to run python code from a file: 
