@@ -226,6 +226,15 @@ def unlockAndDelete():
 def selectInstances():
     pm.select(pm.ls(ap = 1, dag = 1, sl = 1 ))
 ```
+
+##### Create animated Arnold standin and set path
+```python
+standin = pm.createNode('aiStandIn', name = 'STANDIN')
+standin.dso.set('D:/DNA/PROD/3D/cache/standin.####.ass')
+standin.useFrameExtension.set(1)
+pm.expression(ae = True, s = '{0}.frameNumber = frame'.format(str(standin)) )
+```
+
 ##### Triger bounding box display of selected objects
 ```python
 def boundingBox():
@@ -323,9 +332,23 @@ shader.outColor >> SG.surfaceShader
 pm.arnoldExportAss( f = "D:/fileName.ass",  startFrame = 0, endFrame = 1 )
 ```
 
-##### Render settings
+##### Render settings for Arnold
 ```python
-XXX
+# create an objects from render settings nodes
+rgArnold = pm.PyNode('defaultArnoldDriver')
+rgArnoldRO =  pm.PyNode('defaultArnoldRenderOptions')
+rgCommon = pm.PyNode('defaultRenderGlobals')
+rgRes = pm.PyNode('defaultResolution')
+
+rgCommon.imageFilePrefix.set('D:/fileName') # Set image file path and name
+
+rgArnold.aiTranslator.set('exr') # Set image format to EXR
+
+rgArnoldRO.AASamples.set(12) # Set antialiasing samples
+
+# Set resolution
+rgRes.width.set(1998)
+rgRes.height.set(1080)
 ```
 
 ### Interfaces
