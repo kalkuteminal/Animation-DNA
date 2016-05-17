@@ -4,6 +4,12 @@ A) [theory](#programming-with-PyMel-for-artists)
 B) [examples](#pymel-procedures)
 
 ## Programming with PyMel for artists
+If you think that you have artistic brain and developing is beyond your possibilities, believe me, your just lazy. 
+
+You dont need any extra knowledge, like math or physics. You just need willingness to code and necessity of practical application of developing(you definatley have it if you work in Maya)
+
+Coding could be hard only at the beginning, but the more you will practice the easy it will be for you. And finilyy you will realise
+
 ### Getting started  
 From the beginner point of view programming in Maya allow us to:
 - execute particular actions with many object at once.  
@@ -54,7 +60,7 @@ Performing majority of projects goes from rough form in the beginning to refined
 - you find a way to perform a particular command to a concrete object 
 - you find a way to obey command to work with input list of necessary objects in all possible cases   
 
-#### Developing with google
+##### Developing with google
 Probably, all basic task you need to solve somebody already did. Now days you can start to write your code just by asking google a proper questions. Sure, you have be familiar with python syntax and basic Maya commands and writing first block of working code may take days but the more you will practice the faster you will code.
 
 ##### Vocabulary of artistic developer
