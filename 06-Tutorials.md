@@ -61,7 +61,7 @@ Performing majority of projects goes from rough form in the beginning to refined
 - you find a way to obey command to work with input list of necessary objects in all possible cases   
 
 ##### Developing with google
-Probably, all basic task you need to solve somebody already solved. Now days you can start to write your code just by asking google a proper questions. Proper question is a grate part of answer and this mean you have to find correct question to get necessary answer but google is smart and will help you even with that. 
+Probably, all basic task you need to solve somebody already solved. Now days you can start to write your code just by asking google a proper questions. Proper question is a grate part of answer and this mean you have to find correct question to get necessary answer but google is smart and auto complete will help you even with that. 
 
 Sure, you have be familiar with python syntax and basic Maya commands and writing first block of working code may take days but the more you will practice the faster you will code.
 
