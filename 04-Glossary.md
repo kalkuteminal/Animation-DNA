@@ -17,8 +17,8 @@ B. [Glossary of codes](#codes)
 ## Codes
 **`<codePart>`** — name of film overall division (REEL_01, TEASER etc)  
 **`<codeSequence>`** — 3 digits number of episode in film (010)  
-**`<codeShot>`** — number of shot in each sequence (SHOT_010)  
-**`<codeRSS>`** — sub path `/<codePart>/<codeSequence>/<codeShot>/`   
+**`<codeShot>`** — number of shot in each sequence (010). Used with `SHOT_` or `S` prefixes  (SHOT_010)
+**`<codeRSS>`** — sub path `/<codePart>/<codeSequence>/SHOT_<codeShot>/`   
 **`<codeFX>`** — 3 capital letters code of FX (dragon fire - DRF)  
 **`<assetName>`** — name of asset  
 **`<assetCode>`** — short name of asset.  
