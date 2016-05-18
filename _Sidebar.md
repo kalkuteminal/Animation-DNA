@@ -1,6 +1,6 @@
 ### Table of content
 
-* [Intro]()
+* [Intro](https://github.com/kiryha/AnimationDNA/wiki)
 * Tutorials
   - [Quick Start]()
   - [PyMel]()
