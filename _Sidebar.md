@@ -1,4 +1,4 @@
-### Content
+### Table of content
 
 * [Intro to DNA](https://github.com/kiryha/AnimationDNA/wiki)
 * [Pipeline docs](02-Codex-DNA)
