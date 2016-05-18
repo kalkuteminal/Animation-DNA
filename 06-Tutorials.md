@@ -319,7 +319,7 @@ def setArnold(*args):
         pm.setAttr('defaultRenderGlobals.currentRenderer', 'arnold')
 ```
 
-##### # Create Arnold AOV
+##### Create Arnold AOV
 ```
 import mtoa.aovs as aovs
 def addAOV(aovName):
