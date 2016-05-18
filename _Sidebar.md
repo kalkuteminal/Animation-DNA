@@ -7,7 +7,7 @@
   - [3D branch](02-Codex-DNA#3d-branch)
     * [3D overview](02-Codex-DNA#3d-branch-general-notes)
     * [3D pipeline](02-Codex-DNA#pipeline-development-and-data-transfer)
-    * [Assets creation]02-Codex-DNA#asset-creation)
+    * [Assets](02-Codex-DNA#asset-creation)
     * [Layout and animation](02-Codex-DNA#layout-and-animation)
     * [Look development](02-Codex-DNA#layout-and-animation)
     * [FX](02-Codex-DNA#layout-and-animation)
