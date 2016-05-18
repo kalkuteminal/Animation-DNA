@@ -26,7 +26,7 @@ B. [Glossary of codes](#codes)
 **`<letterNumber>`** — number of object in letter format (A, B, C etc)  
 **`<assetCategory>`** — FLORA, UTENSILS  
 **`<assetNestedCategorys>`** — structure of folders according to static assets structuring scheme  
-**`<assetType>`** — GEO or RIG  
-**`<property>`** — CLR, DSP  
+**`<assetForm>`** — GEO or RIG for animated assets, GEOMETRY or STANDIN for static 
+**`<property>`** — object characteristic: color (CLR), displacement (DSP) etc  
 **`<rootProject>`**— project root folder  
 **`<rootScenes>`** — root folder for Maya scenes in Maya project.  
