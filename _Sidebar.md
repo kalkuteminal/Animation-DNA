@@ -25,6 +25,7 @@
   - [Edit and Grading](02-Codex-DNA#edit-and-grading)
   - [Tools](03-Tools)
   - [Troubleshooting](05-Troubleshooting)
+
 * [Tutorials](06-Tutorials)
   - [Quick Start](01-Quick-start)
     * [Preproduction](01-Quick-start#preproduction)
@@ -33,8 +34,11 @@
   - [PyMel](06-Tutorials)
     * [Theory](06-Tutorials#programming-theory)
     * [Examples](06-Tutorials#programming-practice)
+
 * [Glossary](04-Glossary)
   - [Terms](04-Glossary#terms)
   - [Codes](04-Glossary#codes)
+
 * [Download](https://github.com/kiryha/AnimationDNA)
+
 * [Blog](http://kiryha.blogspot.com/search/label/3D)
