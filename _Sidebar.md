@@ -2,7 +2,7 @@
 
 * [Intro to Animation DNA](https://github.com/kiryha/AnimationDNA/wiki)
 * [Documentation](02-Codex-DNA)
-  - [Overview](02-Codex-DNA#general-notes)
+  - [Intro to pipeline](02-Codex-DNA#general-notes)
   - [Pipeline overview](02-Codex-DNA#pipeline-overview)
   - [3D](02-Codex-DNA#3d-branch)
     * [3D overview](02-Codex-DNA#3d-branch-general-notes)
