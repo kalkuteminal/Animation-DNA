@@ -3,4 +3,7 @@
 * Intro
 * Tutorials
 * Documentation
+  - 2D
+  - 3D
+  - Art
 * Appendix
