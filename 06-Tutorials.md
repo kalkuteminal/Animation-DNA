@@ -281,11 +281,21 @@ def boundingBox():
             i.overrideLevelOfDetail.set(0)
 ```
 ### Files
-##### Basic file manipulations
+##### Basic Maya scene file manipulations 
 ```python
 pm.sceneName() # Get name of current scene
-pm.importFile(fullPath) # import file
-pm.createReference(fullPath, sharedNodes =('shadingNetworks', 'displayLayers', 'renderLayersByName') , ns = nameSpace ) # reference file
+pm.importFile(fullPath) # Import file
+pm.exportSelected(fullPath) # Export selected to a file
+```
+# list files in directory
+```python
+import glob
+listExisted = glob.glob('D:/DNA/images/*.jpg')
+```
+
+##### Create reference
+```python
+pm.createReference(fullPath, sharedNodes =('shadingNetworks', 'displayLayers', 'renderLayersByName') , ns = nameSpace )
 ```
 ##### Get full path of reference by namespace
 ```python
