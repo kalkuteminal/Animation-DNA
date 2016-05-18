@@ -350,7 +350,7 @@ shader = pm.ls(mc.listConnections(shadingGroup), materials = 1)
 imageFiles = pm.listHistory(shadingGroup, type='file')
 ```
 ##### Select shading groups of selected objects
-```
+```python
 def selSG():
     list =  pm.ls(dag=1,o=1,s=1,sl=1) 
     shadingGrps = pm.listConnections(list,type='shadingEngine')
