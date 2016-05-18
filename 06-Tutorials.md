@@ -258,10 +258,12 @@ def selectInstances():
 
 ##### Create animated Arnold standin and set path
 ```python
-standin = pm.createNode('aiStandIn', name = 'STANDIN')
-standin.dso.set('D:/DNA/PROD/3D/cache/standin.####.ass')
-standin.useFrameExtension.set(1)
-pm.expression(ae = True, s = '{0}.frameNumber = frame'.format(str(standin)) )
+def addStandin():
+    standin = pm.createNode('aiStandIn', name = 'STANDIN')
+    standin.dso.set('D:/DNA/PROD/3D/cache/standin.####.ass')
+    standin.useFrameExtension.set(1)
+    pm.expression(ae = True, s = '{0}.frameNumber = frame'.format(str(standin)) )
+
 ```
 
 ##### Triger bounding box display of selected objects
