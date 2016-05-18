@@ -287,7 +287,7 @@ pm.sceneName() # Get name of current scene
 pm.importFile(fullPath) # Import file
 pm.exportSelected(fullPath) # Export selected to a file
 ```
-# list files in directory
+##### list files in directory
 ```python
 import glob
 listExisted = glob.glob('D:/DNA/images/*.jpg')
