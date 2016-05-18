@@ -219,6 +219,11 @@ def attrLock(attribute):
 ```
 
 ### Objects
+##### Get shapes of selected objects
+```python
+listShapes =  pm.ls(dag=1,o=1,s=1,sl=1)
+```
+ 
 ##### Create PyMel object by name
 ```python
 object = pm.PyNode('nameOfNode')
@@ -344,6 +349,15 @@ shader = pm.ls(mc.listConnections(shadingGroup), materials = 1)
 ```python
 imageFiles = pm.listHistory(shadingGroup, type='file')
 ```
+##### Select shading groups of selected objects
+```
+def selSG():
+    list =  pm.ls(dag=1,o=1,s=1,sl=1) 
+    shadingGrps = pm.listConnections(list,type='shadingEngine')
+    pm.select(clear = True)
+    SGS = pm.select(shadingGrps, ne = 1)
+```
+
 ##### Create shader, image file and shading group. Make shader connections. 
 ```python
 shader = pm.shadingNode ('lambert', asShader = True, name = 'MATERIAL') 
@@ -402,5 +416,5 @@ confirm = pm.confirmDialog ( title = 'Title', message = 'Message', button=['OK',
 if confirm == 'OK':
     print 'Pressed OK'    
 else:
-    sys.exit('CANCELED!')
+    sys.exit('Canceled!')
 ```
