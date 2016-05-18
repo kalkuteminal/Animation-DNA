@@ -306,6 +306,12 @@ eval(' AbcImport -ct  "{0}" "{1}" '.format(groupName, pathABC))
 ```
 
 ### Lists
+##### Create list by object name 
+```python
+list = pm.ls('nodeName') # With exact name
+list = pm.ls('prefix_*') # With exact part
+list = pm.ls('*:nodeName') # With namespaces
+```
 
 ### String formatting
 ##### Replace string with variables
