@@ -161,7 +161,7 @@ This core division permeates through a project workflow and reflected in FTrack 
 Reels and sequences are numbered sequentially, e.g. there is no reels or episodes in the film with the same number. In each sequence shot number starts from the beginning. 
 
 Representation of film structure on HDD and in FTrack:  
-**`<codePart>/<codeSequence>/<codeShot>`** ( REEL_01/010/SHOT_010 )  
+**`<codePart>/<codeSequence>/SHOT_<codeShot>`** ( REEL_01/010/SHOT_010 )  
 This peace of folder structure exists in FTrack database and repeated many times in different project folders, which deals with **SHOTS**, for example in **`scenes/ANIMATION/`**, **`PREP/ART/SHOTS/`** etc.
 
 **ASSETS**. All assets divided into 2 main parts: what is animated, and what is not. Animated assets its characters, dynamic props and EDA, not animated assets is static props end environments. Read [asset classification](#asset-creation) for more details.
