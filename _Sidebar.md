@@ -14,9 +14,11 @@
   - [2D branch](02-Codex-DNA#2d-branch)
   - [Art](02-Codex-DNA#art)
   - [Edit and Grading](02-Codex-DNA#edit-and-grading)
+* [Glossary]()
 * Tutorials
   - [Quick Start](01-Quick-start)
   - [PyMel](06-Tutorials)
     * [Theory](06-Tutorials#programming-theory)
     * [Examples](06-Tutorials#programming-practice)
+  - [Troubleshooting](05-Troubleshooting)
 * [Download](https://github.com/kiryha/AnimationDNA)
