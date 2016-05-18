@@ -24,7 +24,7 @@ B. [Glossary of codes](#codes)
 **`<assetCode>`** — short name of asset.  
 **`<partName>`** — name of asset part (trunk, leaves etc)  
 **`<letterNumber>`** — number of object in letter format (A, B, C etc)  
-**`<assetCategory>`** — class of object according to classification system (FLORA, UTENSILS, TOOLS etc)  
+**`<assetCategory>`** — class of object according to classification system (FLORA, UTENSILS etc)  
 **`<assetNestedCategorys>`** — structure of folders according to static assets structuring scheme  
 **`<assetForm>`** — GEO or RIG for animated assets, GEOMETRY or STANDIN for static  
 **`<property>`** — object characteristic: color (CLR), displacement (DSP) etc  
