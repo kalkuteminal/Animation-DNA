@@ -188,6 +188,13 @@ Here you will find procedures for most common tasks in Maya
 
 
 ### Attributes
+##### Get objects by attribute
+```python
+listAttr = pm.ls('*.nameOfAttribute')
+for i in listAtr: 
+    object = pm.PyNode(i.split('.')[0])
+```
+
 ##### Add string attribute to selected objects
 ```python
 def addString(attrName):
@@ -212,6 +219,11 @@ def attrLock(attribute):
 ```
 
 ### Objects
+##### Create PyMel object by name
+```python
+object = pm.PyNode('nameOfNode')
+```
+
 ##### Unlock and delete selected nodes
 ```python
 def unlockAndDelete():
