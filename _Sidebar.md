@@ -13,7 +13,8 @@
   - [2D](02-Codex-DNA#2d-branch)
   - [Art](02-Codex-DNA#art)
   - [Edit and Grading](02-Codex-DNA#edit-and-grading)
-* Tutorials
+  - [Troubleshooting](05-Troubleshooting)
+* [Tutorials](06-Tutorials)
   - [Quick Start](01-Quick-start)
     * [Preproduction](01-Quick-start#preproduction)
     * [Production](01-Quick-start#preproduction)
@@ -21,7 +22,6 @@
   - [PyMel](06-Tutorials)
     * [Theory](06-Tutorials#programming-theory)
     * [Examples](06-Tutorials#programming-practice)
-  - [Troubleshooting](05-Troubleshooting)
 * [Glossary](04-Glossary)
   - [Terms](04-Glossary#terms)
   - [Codes](04-Glossary#codes)
