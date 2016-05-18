@@ -813,7 +813,7 @@ Compositing — is the combining of visual elements from separate sources into s
 The root folder for compositing branch is: **`<rootProject>/PROD/2D`**
 
 All compositing data (Nuke files and compositing python scripts) exists in this folder. Inside compositing root we have folder COMP — folder with Nuke scripts for whole project, organized according to film structure:  
-**`<PART>/<codeSequence>/SHOT_<codeShot>`**
+**`<codePart>/<codeSequence>/SHOT_<codeShot>`**
 
 For each shot Nuke script file has name: **`E<codeSequence>_S<codeShot>_v###.nk`**
 
