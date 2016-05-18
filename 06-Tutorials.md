@@ -206,15 +206,13 @@ def addString(attrName):
 
 ##### Add color attribute to selected objects
 ```python
-def addColor():
-    colorAttrNameLong = 'nameLong'
-    colorAttrName = 'nameShort'
+def addColor(attrName):
     sel = pm.ls( sl=1 )
     for i in sel:
-        pm.addAttr(i, longName = colorAttrNameLong, niceName = colorAttrName , usedAsColor = True, attributeType = 'float3' )
-        pm.addAttr(i, longName='R' +  str(colorAttrName), attributeType='float', parent=colorAttrNameLong )
-        pm.addAttr(i, longName='G' +  str(colorAttrName), attributeType='float', parent=colorAttrNameLong )
-        pm.addAttr(i, longName='B' +  str(colorAttrName), attributeType='float', parent=colorAttrNameLong )
+        pm.addAttr(i, longName = attrName, niceName = attrName , usedAsColor = True, attributeType = 'float3' )
+        pm.addAttr(i, longName='R' +  str(attrName), attributeType='float', parent=attrName )
+        pm.addAttr(i, longName='G' +  str(attrName), attributeType='float', parent=attrName )
+        pm.addAttr(i, longName='B' +  str(attrName), attributeType='float', parent=attrName )
 ```
 
 ##### Set string attribute for selected objects
