@@ -259,6 +259,8 @@ Compositing department:
 - publish render
 
 ## 3D branch
+3D branch include Maya and other 3D applications.
+
 ### 3D branch general notes
 3D branch phases are: 
 * [pipeline development and data transfer](#pipeline-development-and-data-transfer)
