@@ -22,7 +22,7 @@
     * [Output from 2D](02-Codex-DNA#output-from-2d-branch)
   - [Art](02-Codex-DNA#art)
   - [Edit and Grading](02-Codex-DNA#edit-and-grading)
-  - [Animation DNA tools](03-Tools)
+  - [Tools](03-Tools)
   - [Troubleshooting](05-Troubleshooting)
 * [Tutorials](06-Tutorials)
   - [Quick Start](01-Quick-start)
