@@ -356,7 +356,7 @@ def setArnold(*args):
 ```
 
 ##### Create Arnold AOV
-```
+```python
 import mtoa.aovs as aovs
 def addAOV(aovName):
     aov = aovs.AOVInterface().addAOV(aovName)
