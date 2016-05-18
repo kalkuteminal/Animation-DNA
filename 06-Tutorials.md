@@ -203,6 +203,20 @@ def addString(attrName):
         if not pm.attributeQuery( attrName, node = i, exists = True ):
             pm.addAttr(i, ln = attrName, nn = attrName, dt = 'string')
 ```
+
+##### Add color attribute to selected objects
+```python
+def addColor():
+    colorAttrNameLong = 'nameLong'
+    colorAttrName = 'nameShort'
+    sel = pm.ls( sl=1 )
+    for i in sel:
+        pm.addAttr(i, longName = colorAttrNameLong, niceName = colorAttrName , usedAsColor = True, attributeType = 'float3' )
+        pm.addAttr(i, longName='R' +  str(colorAttrName), attributeType='float', parent=colorAttrNameLong )
+        pm.addAttr(i, longName='G' +  str(colorAttrName), attributeType='float', parent=colorAttrNameLong )
+        pm.addAttr(i, longName='B' +  str(colorAttrName), attributeType='float', parent=colorAttrNameLong )
+```
+
 ##### Set string attribute for selected objects
 ```python
 def setString(attribute, value):
