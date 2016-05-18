@@ -325,6 +325,12 @@ list = pm.ls('prefix_*') # With exact part
 list = pm.ls('*:nodeName') # With namespaces
 ```
 
+##### Cut last element from a list 
+```python
+list = ['A', 'B', 'C','D','E']
+listLast = list.pop(-1)
+```
+
 ### String formatting
 ##### Replace string with variables
 ```python
