@@ -6,7 +6,7 @@
     * [DNA.rar](02-Codex-DNA#dna-archive)
     * [Wrapper](02-Codex-DNA#running-maya-and-nuke-with-wrappers)
     * [Pipepeline brief](02-Codex-DNA#pipeline-brief)
-    * [Management with FTrack](02-Codex-DNA#management-with-ftrack)
+    * [FTrack](02-Codex-DNA#management-with-ftrack)
     * [Outsourcing](02-Codex-DNA#workflow-with-outsource-studios)
     * [Shot creation](02-Codex-DNA#shot-creation-workflow)
   - [3D](02-Codex-DNA#3d-branch)
