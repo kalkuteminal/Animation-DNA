@@ -2,7 +2,7 @@
 # Programming with PyMel for artists
 If you think that you have artistic brain and developing is beyond your possibilities, believe me, your just lazy. 
 
-You dont need any extra knowledge, like math or physics. You just need willingness to code and necessity of practical application of developing(and you defiantly have it if you work in Maya).
+You dont need any unique knowledge or special brain structure. You just need willingness to code and necessity of practical application of developing(and you defiantly have it if you work in Maya).
 
 Coding could be hard only at the beginning, but the more you will practice the easy it will be for you. And finally you will realize that coding is also an art
 
