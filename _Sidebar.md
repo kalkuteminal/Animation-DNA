@@ -19,7 +19,7 @@
   - [Quick Start](01-Quick-start)
     * [Preproduction](01-Quick-start#preproduction)
     * [Production](01-Quick-start#preproduction)
-    * [Advanced techniques](01-Quick-start#preproduction)
+    * [Advanced](01-Quick-start#preproduction)
   - [PyMel](06-Tutorials)
     * [Theory](06-Tutorials#programming-theory)
     * [Examples](06-Tutorials#programming-practice)
