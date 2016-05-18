@@ -2,8 +2,8 @@
 
 * [Intro]()
 * Tutorials
-  -[Quick Start]
-  -[PyMel]
+  - [Quick Start]()
+  - [PyMel]()
 * Documentation
   - 2D
   - 3D
