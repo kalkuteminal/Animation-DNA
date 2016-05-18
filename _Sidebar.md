@@ -1,10 +1,13 @@
-### Table of content
+### Content
 
 * [Intro to DNA](https://github.com/kiryha/AnimationDNA/wiki)
 * [Pipeline docs](02-Codex-DNA)
   - [Intro to pipeline]()
-  - 3D
-  - Art
+  - [Pipeline overview]()
+  - [3D branch]()
+  - [2D branch]()
+  - [Art]()
+  - [Edit and Grading]()
 * Tutorials
   - [Quick Start](01-Quick-start)
   - [PyMel](06-Tutorials)
