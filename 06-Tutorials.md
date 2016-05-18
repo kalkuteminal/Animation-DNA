@@ -313,6 +313,21 @@ def setArnold(*args):
     if( pm.getAttr( 'defaultRenderGlobals.currentRenderer' ) != 'arnold' ):
         pm.setAttr('defaultRenderGlobals.currentRenderer', 'arnold')
 ```
+
+##### # Create Arnold AOV
+```
+import mtoa.aovs as aovs
+def addAOV(aovName):
+    aov = aovs.AOVInterface().addAOV(aovName)
+    return aov
+```
+
+##### Arnold export ass 
+```python
+# use `s = True` for selected
+pm.arnoldExportAss( f = "D:/fileName.ass",  startFrame = 0, endFrame = 1 )
+```
+
 ##### Asign material for selected objects
 ```python
 def matAsign(material):
@@ -336,12 +351,6 @@ imageFile = pm.shadingNode ('file', asTexture = True, n = 'TEXTURE' )
 SG = pm.sets (renderable = True, noSurfaceShader = True, empty = True, name = shader + 'SG')
 imageFile.outColor >> shader.color
 shader.outColor >> SG.surfaceShader
-```
-
-##### Arnold export ass 
-```python
-# use `s = True` for selected
-pm.arnoldExportAss( f = "D:/fileName.ass",  startFrame = 0, endFrame = 1 )
 ```
 
 ##### Render settings for Arnold
