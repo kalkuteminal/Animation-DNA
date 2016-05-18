@@ -395,3 +395,12 @@ def baseUI():
     baseWin.show()  
 baseUI()
 ```
+
+##### Confirm dialog
+```python
+confirm = pm.confirmDialog ( title = 'Title', message = 'Message', button=['OK', 'CANCEL'], cancelButton= 'CANCEL' )
+if confirm == 'OK':
+    print 'Pressed OK'    
+else:
+    sys.exit('CANCELED!')
+```
