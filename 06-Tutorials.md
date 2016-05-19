@@ -460,7 +460,7 @@ else:
 ```
 
 ### FTrack 3.3.1 API
-See [FTrack setup](02-codex-dna#management-with-ftrack) section in documentation.
+See [FTrack setup](02-codex-dna#management-with-ftrack) and [glossary of codes](04-Glossary#codes) sections in documentation.
 
 ##### Setup path to API
 ```python
