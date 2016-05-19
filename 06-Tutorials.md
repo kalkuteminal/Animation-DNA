@@ -459,7 +459,9 @@ else:
     sys.exit('Canceled!')
 ```
 
-### FTrack API ()
+### FTrack 3.3.1 API
+See [FTrack setup](02-codex-dna#management-with-ftrack) section in documentation.
+
 ##### Setup path to API
 ```python
 import os
