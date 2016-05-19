@@ -16,6 +16,7 @@ To optimize and speed up shots production process, proper system should be devel
 6. [Edit and grading](#edit-and-grading)
 
 ## General notes
+[Structuring](#structuring) | [Naming](#naming) | [Quality control](#quality-control)
 ### Structuring
 To solve complex task (or operate with a big amount of data) it must be splited into smaller pieces. This process of dividing big amount of data into smaller parts according to a particular model is called structuring and structuring is a basement of organisation.
 ![](https://lh3.googleusercontent.com/-6bIw2UeK9hk/VyNSHg04YqI/AAAAAAAAFgI/KLYb-OBJkWw2H4bZc7HsDxg13MzwP-ZLACCo/s640/plantsClassification_01.jpg)
@@ -84,6 +85,7 @@ Example asset names: **trsMelony,  trsMelony_D, trsMelony_D_trunk**
 ### Quality control
 At the end of each procedure, phase or branch, before resulting data is transferred to the next procedure, phase or branch, the control stage should go, in which the data is being checked for FLAWS and ERRORS.
 
+## Pipeline overview
 ### DNA archive
 Materially **on HDD Animation DNA** represented as a winrar archive **DNA.rar** which includes:
 - [Maya and Nuke python tools](03-tools)
