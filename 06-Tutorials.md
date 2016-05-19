@@ -181,14 +181,16 @@ litDouble(value):
 If your will be able to build [interface](#interfaces) for this function you can consider you are PyMel developer. 
 
 ### Art of good code
-When you will pass first painful steps and get awkward blocks of more or less working code you will need to move forward in developing. There are some rules which you need to obey to make next step.
+When you will pass first painful steps and get awkward blocks of more or less working code you will need to move forward in developing. There are some rules which you need to obey to make next step:
+* Comment basic actions
+* Give nice and descriptive names
+* Clean up code from unnecessary data
 
 ##### Code characteristics
 `code scope = correctness*3 + design*2 + style`
 
 ## Programming practice
 Here you will find procedures for most common tasks in Maya
-
 
 ### Attributes
 ##### Get objects by attribute
