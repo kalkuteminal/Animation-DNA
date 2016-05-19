@@ -263,6 +263,7 @@ Compositing department:
 
 ## 3D branch
 3D branch include Maya and other 3D applications.
+
 [3D overview](#3d-branch-general-notes)  | [3D pipeline](#pipeline-development-and-data-transfer) | [Asset creation](#asset-creation) | [Layout and animation](#layout-and-animation) | [Lookdev](#look-development-and-rendering) | [FX](#fx)
 
 ### 3D branch general notes
@@ -809,6 +810,7 @@ Importing camera to scene with FX could be done with **IMPORT CAMERA** button of
 
 
 ## 2D branch 
+[2D overview](#2d-branch-general-notes) | [Procedure](#compositing-procedure) | [Output](#output-from-2d-branch)
 ### 2D branch general notes
 2D (compositing) branch is last stage of VFX segment where all shots gets their final look before being graded.
 
