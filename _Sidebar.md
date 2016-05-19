@@ -1,6 +1,6 @@
 * [Introduction](https://github.com/kiryha/AnimationDNA/wiki)
 * [Documentation](02-Codex-DNA)
-  - [Overview](02-Codex-DNA#general-notes)
+  - [Pipeline overview](02-Codex-DNA#general-notes)
     * [DNA.rar](02-Codex-DNA#dna-archive)
     * [Wrapper](02-Codex-DNA#running-maya-and-nuke-with-wrappers)
     * [Pipepeline brief](02-Codex-DNA#pipeline-brief)
