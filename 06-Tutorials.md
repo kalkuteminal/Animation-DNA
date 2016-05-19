@@ -192,6 +192,8 @@ When you will pass first painful steps and get awkward blocks of more or less wo
 ## Programming practice
 Here you will find procedures for most common tasks in Maya
 
+[Attributes](#attributes)  |  [Objects](#objects)  |  [Files](#files)  |  [Lists](#lists)  |  [Strings](#string-formatting)  |  [Rendering](#rendering)  |  [Interfaces](#interfaces)  |  [FTrack](#ftrack-examples)
+
 ### Attributes
 ##### Get objects by attribute
 ```python
