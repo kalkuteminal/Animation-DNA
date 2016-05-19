@@ -497,7 +497,7 @@ frameEnd = dataShot.getFrameEnd() # Get end frame
 shotMetaData = dataShot.getMeta() # Get shot metadata
 ```
 
-##### Get data of linked assets
+##### Get data of assets linked to a shot
 ```python
 for i in listShotLinks :
     assetName = i.getName()
