@@ -192,9 +192,9 @@ Here you will find procedures for most common tasks in Maya
 ### Attributes
 ##### Get objects by attribute
 ```python
-listAttr = pm.ls('*.nameOfAttribute')
+listAtr = pm.ls('*.nameOfAttribute')
 for i in listAtr: 
-    object = pm.PyNode(i.split('.')[0])
+    object = i.node()
 ```
 
 ##### Add string attribute to selected objects
@@ -383,6 +383,7 @@ def matAsign(material):
 shadingGroup = pm.listConnections(object, type='shadingEngine')
 shader = pm.ls(mc.listConnections(shadingGroup), materials = 1)
 ```
+
 ##### Get image files of material
 ```python
 imageFiles = pm.listHistory(shadingGroup, type='file')
