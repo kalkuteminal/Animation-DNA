@@ -458,3 +458,23 @@ if confirm == 'OK':
 else:
     sys.exit('Canceled!')
 ```
+
+### FTrack API ()
+##### Setup path to API
+```python
+import os
+os.environ['PYTHONPATH'] = 'C:/FTrack_API'
+```
+##### Login to FTRack
+```python
+import os
+os.environ['FTRACK_SERVER'] = 'https://<studio>.ftrackapp.com'
+os.environ['FTRACK_APIKEY'] = '<API key>'
+os.environ['LOGNAME'] = '<username>'
+```
+
+##### Get project data
+```python
+import ftrack
+project = ftrack.getProject(codeProject)
+```
