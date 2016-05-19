@@ -320,7 +320,7 @@ from maya.mel import eval
 eval(' AbcImport -ct  "{0}" "{1}" '.format(groupName, pathABC))
 ```
 
-### Lists and dictionary
+### Lists
 ##### Create list by object name 
 ```python
 list = pm.ls('nodeName') # With exact name
@@ -336,6 +336,7 @@ listLast = list.pop(-1)
 ##### Dictionary
 ```python
 dataShotDic = {'characters' : [ ], 'props' : [] , 'environment' : [] , 'EDA' : [] , 'endFrame' : []} 
+dataShotDic['characters'].append( <assetName> )
 ```
 
 ### String formatting
