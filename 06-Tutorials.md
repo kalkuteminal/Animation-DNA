@@ -9,7 +9,7 @@ Coding could be hard only at the beginning, but the more you will practice the e
 A) [Theory](#programming-theory)  
   [Intro](#introduction-to-artistic-developing )  |  [PyMel basics](#developing-foundation)  |  [Developing example](#step-by-step-example)  |  [Art of good code](#art-of-good-code)  
 B) [Practice](#programming-practice)  
-  [Attributes](#attributes)  |  [Objects](#objects)  |  [Files](#files)  |  [Lists](#lists)  |  [Strings](#string-formatting)  |  [Rendering](#rendering)  |  [Interfaces](#interfaces)
+  [Attributes](#attributes)  |  [Objects](#objects)  |  [Files](#files)  |  [Lists](#lists)  |  [Strings](#string-formatting)  |  [Rendering](#rendering)  |  [Interfaces](#interfaces)  |  [FTrack](#ftrack-examples)
 
 ## Programming theory
 ### Introduction to artistic developing 
@@ -466,8 +466,8 @@ else:
     sys.exit('Canceled!')
 ```
 
-### FTrack 3.3.1 API examples
-See [FTrack setup](02-codex-dna#management-with-ftrack) and [glossary of codes](04-Glossary#codes) sections in documentation.
+### FTrack examples
+See [FTrack setup](02-codex-dna#management-with-ftrack) and [glossary of codes](04-Glossary#codes) sections in documentation. Used API is 3.3.1
 
 ##### Setup path to API
 ```python
