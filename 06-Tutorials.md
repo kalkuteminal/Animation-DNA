@@ -468,13 +468,25 @@ os.environ['PYTHONPATH'] = 'C:/FTrack_API'
 ##### Login to FTRack
 ```python
 import os
-os.environ['FTRACK_SERVER'] = 'https://<studio>.ftrackapp.com'
-os.environ['FTRACK_APIKEY'] = '<API key>'
-os.environ['LOGNAME'] = '<username>'
+os.environ['FTRACK_SERVER'] = 'https://<userAdress>.ftrackapp.com'
+os.environ['FTRACK_APIKEY'] = '<API_key>'
+os.environ['LOGNAME'] = '<userName>'
 ```
 
 ##### Get project data
 ```python
 import ftrack
-project = ftrack.getProject(codeProject)
+projectFTrack = ftrack.getProject(<codeProject>)
+```
+
+##### Get asset data
+```python
+import ftrack
+dataAsset = projectFTrack.getAssetBuilds().find('name', <assetName>)
+```
+
+##### Get shot data
+```python
+import ftrack
+dataShot = ftrack.getShotFromPath([<codeProject>, <codePart> , <codeSequence> , <codeShot>])
 ```
