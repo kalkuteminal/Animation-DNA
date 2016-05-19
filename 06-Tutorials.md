@@ -498,7 +498,7 @@ dataAssetMeta = dataAsset.getMeta() # Get asset metadata
 ##### Get shot data
 ```python
 import ftrack
-dataShot = ftrack.getShotFromPath([<codeProject>, <codePart> , <codeSequence> , <codeShot>])
+dataShot = ftrack.getShotFromPath([<codeProject>,<codePart>,<codeSequence>,<codeShot>])
 listShotLinks = dataShot.getPredecessors() # Get linked assets
 frameEnd = dataShot.getFrameEnd() # Get end frame
 shotMetaData = dataShot.getMeta() # Get shot metadata
