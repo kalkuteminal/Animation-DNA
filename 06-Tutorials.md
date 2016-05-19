@@ -492,3 +492,17 @@ dataAsset = projectFTrack.getAssetBuilds().find('name', <assetName>)
 import ftrack
 dataShot = ftrack.getShotFromPath([<codeProject>, <codePart> , <codeSequence> , <codeShot>])
 ```
+
+##### Add metadata to an asset
+```python
+import ftrack
+assetData = projectFTrack.getAssetBuilds().find('name', <assetName>)
+assetData.setMeta( <key>, <value> )
+```
+
+##### Add metadata to a shot
+```python
+import ftrack
+shotData = ftrack.getShotFromPath([<codeProject>, <codePart>, <codeSequence>, <codeShot>]) 
+shotData.setMeta( <key>, <value> )
+```
