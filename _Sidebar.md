@@ -1,4 +1,4 @@
-* [Intro to Animation DNA](https://github.com/kiryha/AnimationDNA/wiki)
+* [Introduction](https://github.com/kiryha/AnimationDNA/wiki)
 * [Documentation](02-Codex-DNA)
   - [Overview](02-Codex-DNA#general-notes)
     * [DNA.rar](02-Codex-DNA#dna-archive)
