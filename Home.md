@@ -13,4 +13,4 @@ To understand principles of Animation DNA pipeline you need to reed [Codex DNA](
 Documentation is relevant for both types of database, but public version of [Animation DNA](https://github.com/kiryha/AnimationDNA) works with JSON database.
 
 Click on image below to watch video presentation of Animation DNA:
-[![](https://lh3.googleusercontent.com/-hQ8Luwg7JAk/VyxMxMLYnyI/AAAAAAAAFkE/NGAnE0fuBGAS6szMw2ncS1TRjEk9NJeogCCo/s700/DNA_mov_shotProd_01.jpg)](https://www.youtube.com/watch?v=LOm3bAo80KI)
+[![](https://lh3.googleusercontent.com/-JQbm7zDgwDA/Vz2dDBZ0WKI/AAAAAAAAFn8/yn3GHt6UePA3gTifU3loqM27vQAIiDaCACCo/s700/DNA_mov_shotProd_02.jpg)](https://www.youtube.com/watch?v=LOm3bAo80KI)
