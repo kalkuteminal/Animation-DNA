@@ -521,6 +521,6 @@ assetData.setMeta( <key>, <value> )
 ##### Add metadata to a shot
 ```python
 import ftrack
-shotData = ftrack.getShotFromPath([<codeProject>, <codePart>, <codeSequence>, <codeShot>]) 
+shotData = ftrack.getShotFromPath([<codeProject>,<codePart>,<codeSequence>,<codeShot>]) 
 shotData.setMeta( <key>, <value> )
 ```
