@@ -466,7 +466,7 @@ else:
     sys.exit('Canceled!')
 ```
 
-### FTrack 3.3.1 API
+### FTrack 3.3.1 API examples
 See [FTrack setup](02-codex-dna#management-with-ftrack) and [glossary of codes](04-Glossary#codes) sections in documentation.
 
 ##### Setup path to API
