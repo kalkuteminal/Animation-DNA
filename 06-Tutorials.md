@@ -485,6 +485,7 @@ projectFTrack = ftrack.getProject(<codeProject>)
 ```python
 import ftrack
 dataAsset = projectFTrack.getAssetBuilds().find('name', <assetName>)
+dataAssetMeta = dataAsset.getMeta() # Get asset metadata
 ```
 
 ##### Get shot data
@@ -503,17 +504,12 @@ for i in listShotLinks :
     assetCategory = i.getType().getName() # Environments, props, characters 
 ```
 
-##### Add(get) asset metadata
+##### Add metadata to an asset
 ```python
 import ftrack
 assetData = projectFTrack.getAssetBuilds().find('name', <assetName>)
-assetData.setMeta( <key>, <value> ) # Get metadata: assetData.getMeta()
+assetData.setMeta( <key>, <value> ) 
 ```
-##### ddd
-```python
-
-```
-
 
 ##### Add metadata to a shot
 ```python
