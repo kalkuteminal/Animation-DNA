@@ -263,6 +263,7 @@ Compositing department:
 
 ## 3D branch
 3D branch include Maya and other 3D applications.
+[3D overview](#3d-branch-general-notes)  | [3D pipeline](#pipeline-development-and-data-transfer) | [Asset creation](#asset-creation) | [Layout and animation](#layout-and-animation) | [Lookdev](#look-development-and-rendering) | [FX](#fx)
 
 ### 3D branch general notes
 3D branch phases are: 
