@@ -541,9 +541,9 @@ You can reduce amount of shaders in scene and speed up look development with one
 ![](http://3.bp.blogspot.com/-a6Z3LOGF1k8/Uvz7CiVdKFI/AAAAAAAAEZo/o2JYAj8AJ3s/s1600/aiMultitexture.gif)
 Method:
 - Create string attribute on object shape with the name `mtoa_constant_<attrName>` 
-- Enter attribute token  `< attr:<attrName> >` in Image Name field of file node with **full absolute path** to texture. For example: `D:/DNA/3D/sourceimages/<attr:mColor>` It become relative immediatley (`sourceimages/<attr:mColor>`) but if you enter relative path from the beginning it would not work.
+- Enter attribute token `< attr:<attrName> >` in Image Name field of file node with **full absolute path** to texture.  
+For example: `D:/DNA/3D/sourceimages/<attr:mColor>`  
+It become relative immediatley (`sourceimages/<attr:mColor>`) but if you enter relative path from the beginning it would not work.
 - Enter desirable texture name in `mtoa_constant_<attrName>` attribute of each object shape.
 
-Also you can set place2dTexture.repeatUV attribute on every shape individualy with aiUserDataFloat nonde and float attribute  mtoa_constant_(attributeName). Look into example scene see how to setup this.
-
-You can create and set Arnold custom attributes on object shapes with Attribute Manager script.
+You can create and set Arnold custom attributes on object shapes with [Attribute Manager](03-Tools#attribute-manager)
