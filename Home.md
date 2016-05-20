@@ -4,7 +4,7 @@
 **Animation DNA** is an example project for **Maya > Arnold > Nuke pipeline** which could be used as template for any full CG task — from a single shot to a whole 3D animation feature film.  
 In other words, **Animation DNA is out of the box pipeline** for animation studio (or for a single person).  **Animation DNA** is a starting point which defines main and most important pipeline actions and could be easily refined according to requirements of a particular project.
 
-**The database of Animation DNA** is a core of each project: it contains all information you need to create and manage film production. There are two types of database could be used with Animation DNA: simple text file in **JSON** format or complex project Management system **FTrack**. 
+The **core** of Animation DNA is **Animation DNA  database** — it contains all information you need to create and manage film production. There are two types of database could be used with Animation DNA: simple text file in **JSON** format or complex project Management system **FTrack**. 
 
 The structure of both databases is the same, but FTrack is dramatically more usable for bigger projects, can operate more quantity of logical data pieces and store more information about production actions. Public version of Animation DNA works on JSON database. Documentation is relevant for both types of database.
 
