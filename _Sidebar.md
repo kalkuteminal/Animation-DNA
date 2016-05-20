@@ -34,6 +34,7 @@
   - [PyMel](06-Tutorials#programming-with-pymel-for-artists)
     * [Theory](06-Tutorials#programming-theory)
     * [Examples](06-Tutorials#programming-practice)
+  - [Arnold](06-Tutorials#arnold-rendering-techniques)
 * [Glossary](04-Glossary)
   - [Terms](04-Glossary#terms)
   - [Codes](04-Glossary#codes)
