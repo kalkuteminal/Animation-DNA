@@ -4,16 +4,16 @@
 To optimize and speed up shots production process, proper system should be developed and implemented. This system calls **PRODUCTION PIPELINE**. Production pipeline consist from a set of rules and tools for every branch, phase, procedure and action. Rules define relations between branches and phases, tools allow to execute actions automatically. The main goals of pipeline are: distribution of work between team members, automatisation of actions and procedures, make workflow flexible to changes.  
 **Codex DNA** is set of instructions for computer graphic which establish workflow for creation an animation movie.
 
-A) [General notes](#general-notes):  
+1. [General notes](#general-notes):  
   [Structuring](#structuring) | [Naming](#naming) | [Quality control](#quality-control)  
-B) [Pipeline overview](#pipeline-overview):  
+2. [Pipeline overview](#pipeline-overview):  
  [DNA.rar](#dna-archive) | [Wrapper](#running-maya-and-nuke-with-wrappers) | [Pipeline brief](#pipeline-brief) | [FTrack](#management-with-ftrack) | [Outsource](#workflow-with-outsource-studios) | [Shot creation](#shot-creation-workflow)    
-C) [3D branch](#3d-branch):  
+3. [3D branch](#3d-branch):  
  [3D overview](#3d-branch-general-notes)  | [3D pipeline](#pipeline-development-and-data-transfer) | [Asset creation](#asset-creation) | [Layout and animation](#layout-and-animation) | [Lookdev](#look-development-and-rendering) | [FX](#fx)    
-D) [2D branch](#2d-branch):  
+4. [2D branch](#2d-branch):  
  [2D overview](#2d-branch-general-notes) | [Procedure](#compositing-procedure) | [Output](#output-from-2d-branch)    
-E) [Art](#art)  
-F) [Edit and grading](#edit-and-grading)
+5. [Art](#art)  
+6. [Edit and grading](#edit-and-grading)
 
 ## General notes
 [Structuring](#structuring) | [Naming](#naming) | [Quality control](#quality-control)
