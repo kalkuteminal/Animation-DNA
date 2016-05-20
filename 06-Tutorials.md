@@ -535,7 +535,7 @@ shotData.setMeta( <key>, <value> )
 ```
 
 ## Arnold rendering techniques
-### Multitexture material
+#### Multitexture material
 You can reduce amount of shaders in scene and speed up look development with one material and individual textures on each object. With such setup, object shapes share the same material but has their own textures.
 
 ![](http://3.bp.blogspot.com/-a6Z3LOGF1k8/Uvz7CiVdKFI/AAAAAAAAEZo/o2JYAj8AJ3s/s1600/aiMultitexture.gif)
@@ -548,6 +548,7 @@ It become relative immediatley (`sourceimages/<attr:mColor>`) but if you enter r
 
 You can create and set Arnold custom attributes on object shapes with [Attribute Manager](03-Tools#attribute-manager)
 
-### Object and material AOVs
+#### Object and material AOVs
 You can create special path with selection mask of objects or shaders for compositing software.
+
 ![](https://3.bp.blogspot.com/-VEowRHSseXY/UwH9OIKi3mI/AAAAAAAAEag/kIHH-SeIzys/s1600/aiIDs.gif)
