@@ -1,7 +1,7 @@
 ![](https://lh3.googleusercontent.com/-90kNXCym1kQ/VznLmU-hxOI/AAAAAAAAFno/0pT_n7X5Q90a7Fv0BCA-ky-NfB67H20jQCCo/s700/bannerDNA_tut_01.jpg)
 # Animation DNA tutorials.
 Section with software and Animation DNA pipeline techniques, tips and tricks.  
-  [Programming](#programming-with-pymel-for-artists)  |  [Rendering](#rendering-techniques)
+  [Programming](#programming-with-pymel-for-artists)  |  [Arnold](#arnold-rendering-techniques)
 
 ## Programming with PyMel for artists
 If you think that you have artistic brain and developing is beyond your possibilities, believe me, your just lazy. 
@@ -534,4 +534,16 @@ shotData = ftrack.getShotFromPath([<codeProject>,<codePart>,<codeSequence>,<code
 shotData.setMeta( <key>, <value> )
 ```
 
-## Rendering techniques
+## Arnold rendering techniques
+### Multitexture material
+You can reduce amount of shaders in scene and speed up look development with one material and individual textures on each object. With such setup, object shapes share the same material but has their own textures.
+
+![](http://3.bp.blogspot.com/-a6Z3LOGF1k8/Uvz7CiVdKFI/AAAAAAAAEZo/o2JYAj8AJ3s/s1600/aiMultitexture.gif)
+Method:
+- Create string attribute on object shape with the name `mtoa_constant_<attrName>` 
+- Enter attribute token  `< attr:<attrName> >` in Image Name field of file node with **full absolute path** to texture. For example: `D:/DNA/3D/sourceimages/<attr:mColor>` It become relative immediatley (`sourceimages/<attr:mColor>`) but if you enter relative path from the beginning it would not work.
+- Enter desirable texture name in `mtoa_constant_<attrName>` attribute of each object shape.
+
+Also you can set place2dTexture.repeatUV attribute on every shape individualy with aiUserDataFloat nonde and float attribute  mtoa_constant_(attributeName). Look into example scene see how to setup this.
+
+You can create and set Arnold custom attributes on object shapes with Attribute Manager script.
