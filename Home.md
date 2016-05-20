@@ -8,6 +8,9 @@ In other words, **Animation DNA is out of the box pipeline** for animation studi
 
 The structure of both databases is the same, but FTrack is dramatically more usable for bigger projects, can operate more quantity of logical data pieces and store more information about production actions. Public version of Animation DNA works on JSON database. Documentation is relevant for both types of database.
 
+Click on image below to watch video presentation of Animation DNA:
+[![](https://lh3.googleusercontent.com/-JQbm7zDgwDA/Vz2dDBZ0WKI/AAAAAAAAFn8/yn3GHt6UePA3gTifU3loqM27vQAIiDaCACCo/s700/DNA_mov_shotProd_02.jpg)](https://www.youtube.com/watch?v=LOm3bAo80KI)
+
 ## How to use Animation DNA?
 
 **The workflow**: extract [DNA.rar](02-codex-dna#dna-archive) to a projects folder, rename folder to a project name, setup database (FTrack or JSON), make shots.
@@ -19,8 +22,6 @@ As an option, you can use some of Animation DNA tools exclusively, without linki
 [This wiki](https://github.com/kiryha/AnimationDNA/wiki) is Animation DNA documentation. It consists from three main parts:
 * [Quick start tutorial](01-Quick-start) — easy way to get in
 * [Codex DNA](02-Codex-DNA) — full description of pipeline
-* [Animation DNA tools description](03-Tools) — specification of pipeline tools
+* [Animation DNA tools](03-Tools) — specification of pipeline tools
 
-
-Click on image below to watch video presentation of Animation DNA:
-[![](https://lh3.googleusercontent.com/-JQbm7zDgwDA/Vz2dDBZ0WKI/AAAAAAAAFn8/yn3GHt6UePA3gTifU3loqM27vQAIiDaCACCo/s700/DNA_mov_shotProd_02.jpg)](https://www.youtube.com/watch?v=LOm3bAo80KI)
+On the right side of wiki you can find full Animation DNA documentation table of contents.
