@@ -31,7 +31,7 @@
     * [Preproduction](01-Quick-start#preproduction)
     * [Production](01-Quick-start#production)
     * [Advanced](01-Quick-start#advanced-techniques)
-  - [PyMel](06-Tutorials)
+  - [PyMel](06-Tutorials#programming-with-pymel-for-artists)
     * [Theory](06-Tutorials#programming-theory)
     * [Examples](06-Tutorials#programming-practice)
 * [Glossary](04-Glossary)
