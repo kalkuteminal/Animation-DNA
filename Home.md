@@ -6,6 +6,7 @@ In other words, **Animation DNA is out of the box pipeline** for animation studi
 
 As an option, you can use some of Animation DNA tools exclusively, without linking to the whole pipeline system. For example, [Asset Manger](03-tools#asset-manager) and [Render Manager](03-tools#render-manager) has many functions, useful if you rendering with Arnold. In this case just put [Animation DNA](https://github.com/kiryha/AnimationDNA) scripts into Maya scripts folder and [run Maya with wrpapper](02-codex-dna#running-maya-and-nuke-with-wrappers)
 
+## How to use Animation DNA?
 **The workflow**: extract [DNA.rar](02-codex-dna#dna-archive) to a projects folder, rename folder to a project name, setup database (FTrack or JSON), make shots.
 To understand principles of Animation DNA pipeline you need to reed [Codex DNA](https://github.com/kiryha/AnimationDNA/wiki/02-Codex-DNA) which define terms, describe overall pipeline logic and has particular instructions for each stage of production.
 
