@@ -13,8 +13,8 @@ Public version of Animation DNA works on JSON database. FTrack is more usable fo
 ## How to use Animation DNA?
 
 **The workflow**: 
-- Extract [DNA.rar](02-codex-dna#dna-archive) to a projects folder, rename folder to a project name. 
-- Setup database (FTrack or JSON).
+- Extract [DNA.rar](02-codex-dna#dna-archive) to a folder with projects, rename root to a project name. 
+- [Setup database](02-Codex-DNA#management-with-ftrack).
 - [Make shots](https://www.youtube.com/watch?v=LOm3bAo80KI).
 
 To understand principles of Animation DNA pipeline you need to reed [Codex DNA](https://github.com/kiryha/AnimationDNA/wiki/02-Codex-DNA) which define terms, describe overall pipeline logic and has particular instructions for each stage of production.
