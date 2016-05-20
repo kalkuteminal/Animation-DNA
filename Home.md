@@ -13,7 +13,8 @@ To understand principles of Animation DNA pipeline you need to reed [Codex DNA](
 As an option, you can use some of Animation DNA tools exclusively, without linking to the whole pipeline system. For example, [Asset Manger](03-tools#asset-manager) and [Render Manager](03-tools#render-manager) has many functions, useful if you rendering with Arnold. In this case just put [Animation DNA](https://github.com/kiryha/AnimationDNA) scripts into Maya scripts folder and [run Maya with wrpapper](02-codex-dna#running-maya-and-nuke-with-wrappers)
 
 ## Animation DNA documentation
-Documentation is relevant for both types of database, but public version of [Animation DNA](https://github.com/kiryha/AnimationDNA) works with JSON database.
+[This wiki](https://github.com/kiryha/AnimationDNA/wiki) is Animation DNA documentation.
+Documentation is relevant for both types of database, but public version of Animation DNA uses JSON database.
 
 Click on image below to watch video presentation of Animation DNA:
 [![](https://lh3.googleusercontent.com/-JQbm7zDgwDA/Vz2dDBZ0WKI/AAAAAAAAFn8/yn3GHt6UePA3gTifU3loqM27vQAIiDaCACCo/s700/DNA_mov_shotProd_02.jpg)](https://www.youtube.com/watch?v=LOm3bAo80KI)
