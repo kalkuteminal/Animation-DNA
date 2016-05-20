@@ -547,3 +547,7 @@ It become relative immediatley (`sourceimages/<attr:mColor>`) but if you enter r
 - Enter desirable texture name in `mtoa_constant_<attrName>` attribute of each object shape.
 
 You can create and set Arnold custom attributes on object shapes with [Attribute Manager](03-Tools#attribute-manager)
+
+### Object and material AOVs
+You can create special path with selection mask of objects or shaders for compositing software.
+![](https://3.bp.blogspot.com/-VEowRHSseXY/UwH9OIKi3mI/AAAAAAAAEag/kIHH-SeIzys/s1600/aiIDs.gif)
