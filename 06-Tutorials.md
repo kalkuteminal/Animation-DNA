@@ -10,9 +10,9 @@ You dont need any unique knowledge or special brain structure. You just need wil
 
 Coding could be hard only at the beginning, but the more you will practice the easy it will be for you. And finally you will realize that coding is also an art
 
-A) [Theory](#programming-theory)  
+**A)** [Theory](#programming-theory)  
   [Intro](#introduction-to-artistic-developing )  |  [PyMel basics](#developing-foundation)  |  [Developing example](#step-by-step-example)  |  [Art of good code](#art-of-good-code)  
-B) [Practice](#programming-practice)  
+**B)** [Practice](#programming-practice)  
   [Attributes](#attributes)  |  [Objects](#objects)  |  [Files](#files)  |  [Lists](#lists)  |  [Strings](#string-formatting)  |  [Rendering](#rendering)  |  [Interfaces](#interfaces)  |  [FTrack](#ftrack-examples)
 
 ### Programming theory
