@@ -767,8 +767,8 @@ Name of cloth caches:
 Making with Yeti. 
 Location of scenes with fur models:  
 **`<rootScenes>/ASSETS/CHARACTERS/<nameChar>/FUR/`**  
-Name of scenes with fur  models:  
-**`FUR_<nameChar>_###.mb`**
+Name of scenes with fur models:  
+**`FUR_<nameChar>_###.mb`**  
 Location of scenes for fur simulation for shots:  
 **`<rootScenes>/FX/FUR/<codeRSS>/`**
 Name of scenes with fur simulations:  
