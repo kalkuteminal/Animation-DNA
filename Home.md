@@ -17,8 +17,6 @@ Public version of Animation DNA works on JSON database. FTrack is more usable fo
 - [Setup database](02-Codex-DNA#management-with-ftrack).
 - [Make shots](https://www.youtube.com/watch?v=LOm3bAo80KI).
 
-To understand principles of Animation DNA pipeline you need to reed [Codex DNA](https://github.com/kiryha/AnimationDNA/wiki/02-Codex-DNA) which define terms, describe overall pipeline logic and has particular instructions for each stage of production.
-
 As an option, you can use some of Animation DNA tools exclusively, without linking to the whole pipeline system. For example, [Asset Manger](03-tools#asset-manager) and [Render Manager](03-tools#render-manager) has many functions, useful if you rendering with Arnold. In this case just put [Animation DNA](https://github.com/kiryha/AnimationDNA) scripts into Maya scripts folder and [run Maya with wrpapper](02-codex-dna#running-maya-and-nuke-with-wrappers)
 
 ## Animation DNA documentation
@@ -26,5 +24,7 @@ As an option, you can use some of Animation DNA tools exclusively, without linki
 * [Quick start tutorial](01-Quick-start) — easy way to get in
 * [Codex DNA](02-Codex-DNA) — full description of pipeline
 * [Animation DNA tools](03-Tools) — specification of pipeline tools
+
+To understand principles of Animation DNA pipeline you need to reed [Codex DNA](https://github.com/kiryha/AnimationDNA/wiki/02-Codex-DNA) which define terms, describe overall pipeline logic and has particular instructions for each stage of production.
 
 On the right side of wiki you can find full Animation DNA documentation table of contents.
