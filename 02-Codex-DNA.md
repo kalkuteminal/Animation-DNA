@@ -6,14 +6,14 @@ To optimize and speed up shots production process, proper system should be devel
 
 **A)** [General notes](#general-notes):  
   [Structuring](#structuring) | [Naming](#naming) | [Quality control](#quality-control)  
-2. [Pipeline overview](#pipeline-overview):  
+**B)** [Pipeline overview](#pipeline-overview):  
  [DNA.rar](#dna-archive) | [Wrapper](#running-maya-and-nuke-with-wrappers) | [Pipeline brief](#pipeline-brief) | [FTrack](#management-with-ftrack) | [Outsource](#workflow-with-outsource-studios) | [Shot creation](#shot-creation-workflow)    
-3. [3D branch](#3d-branch):  
+**C)** [3D branch](#3d-branch):  
  [3D overview](#3d-branch-general-notes)  | [3D pipeline](#pipeline-development-and-data-transfer) | [Asset creation](#asset-creation) | [Layout and animation](#layout-and-animation) | [Lookdev](#look-development-and-rendering) | [FX](#fx)    
-4. [2D branch](#2d-branch):  
+**D)** [2D branch](#2d-branch):  
  [2D overview](#2d-branch-general-notes) | [Procedure](#compositing-procedure) | [Output](#output-from-2d-branch)    
-5. [Art](#art)  
-6. [Edit and grading](#edit-and-grading)
+**E)** [Art](#art)  
+**F)** [Edit and grading](#edit-and-grading)
 
 ## General notes
 [Structuring](#structuring) | [Naming](#naming) | [Quality control](#quality-control)
