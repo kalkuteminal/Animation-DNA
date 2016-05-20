@@ -1,5 +1,6 @@
 ![](https://lh3.googleusercontent.com/-yzn5MCjzPaw/Vx9l-bmf1UI/AAAAAAAAFbU/3Lo9EKx7_wMVh3221gDBIKtIlndEgOvbACCo/s700/bannerDNA_home_01.jpg)
 
+## What is Animation DNA?
 **Animation DNA** is an example project for **Maya > Arnold > Nuke pipeline** which could be used as template for any full CG task — from a single shot to a whole 3D animation feature film.  
 In other words, **Animation DNA is out of the box pipeline** for animation studio (or for a single person).  **Animation DNA** is a starting point which defines main and most important pipeline actions and could be easily refined according to requirements of a particular project.
 
