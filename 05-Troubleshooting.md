@@ -17,4 +17,4 @@ Reason: You did not [publish material](01-quick-start#look-development) for an a
 ### FX manager
 ##### CREATE FUR SIM SCENE
 **`# Error: ValueError: file <maya console> line 70: invalid literal for int() with base 10: '<anyTextHere>' # `**  
-Reason: There are files with wrong names in [folder with fur for shot](02-Codex-DNA#fur-workflow)
+Reason: There are files with wrong names in [folder with character fur scenes for shot](02-Codex-DNA#fur-workflow)
