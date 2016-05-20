@@ -17,8 +17,8 @@ As an option, you can use some of Animation DNA tools exclusively, without linki
 
 ## Animation DNA documentation
 [This wiki](https://github.com/kiryha/AnimationDNA/wiki) is Animation DNA documentation. It consists from trhee main parts:
+* [Quick start tutorial]() — easy way to get in
 * [Codex DNA](02-Codex-DNA) — full description of pipeline
-* [Quick start tutorial]() — easy way to 
 * [Animation DNA tools description]() — specification of pipeline tools
 
 
