@@ -4,7 +4,7 @@
 To optimize and speed up shots production process, proper system should be developed and implemented. This system calls **PRODUCTION PIPELINE**. Production pipeline consist from a set of rules and tools for every branch, phase, procedure and action. Rules define relations between branches and phases, tools allow to execute actions automatically. The main goals of pipeline are: distribution of work between team members, automatisation of actions and procedures, make workflow flexible to changes.  
 **Codex DNA** is set of instructions for computer graphic which establish workflow for creation an animation movie.
 
-1. [General notes](#general-notes):  
+**A)** [General notes](#general-notes):  
   [Structuring](#structuring) | [Naming](#naming) | [Quality control](#quality-control)  
 2. [Pipeline overview](#pipeline-overview):  
  [DNA.rar](#dna-archive) | [Wrapper](#running-maya-and-nuke-with-wrappers) | [Pipeline brief](#pipeline-brief) | [FTrack](#management-with-ftrack) | [Outsource](#workflow-with-outsource-studios) | [Shot creation](#shot-creation-workflow)    
