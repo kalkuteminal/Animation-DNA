@@ -22,6 +22,8 @@ As an option, you can use some of Animation DNA tools exclusively, without linki
 Click on image below to watch shot creation workflow presentation
 [![](https://lh3.googleusercontent.com/-JQbm7zDgwDA/Vz2dDBZ0WKI/AAAAAAAAFoA/oD8VObnJtk07LKekIYh9JGyf0t4VL2LEwCCo/s700/DNA_mov_shotProd_02.jpg](https://www.youtube.com/watch?v=LOm3bAo80KI)]
 
+[![](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
 ## Animation DNA documentation
 [This wiki](https://github.com/kiryha/AnimationDNA/wiki) is Animation DNA documentation. It consists from three main parts:
 * [Quick start tutorial](01-Quick-start) — easy way to get in
