@@ -10,12 +10,9 @@ The **core** of Animation DNA is a **database** — it contains all information 
 
 Public version of Animation DNA works on JSON database. FTrack is more usable for a bigger projects, can operate more quantity of logical data pieces and store more information about production actions. Documentation is relevant for both types of database.
 
-Click on image below to watch video presentation of Animation DNA:
-[![](https://lh3.googleusercontent.com/-JQbm7zDgwDA/Vz2dDBZ0WKI/AAAAAAAAFn8/yn3GHt6UePA3gTifU3loqM27vQAIiDaCACCo/s700/DNA_mov_shotProd_02.jpg)](https://www.youtube.com/watch?v=LOm3bAo80KI)
-
 ## How to use Animation DNA?
 
-**The workflow**: extract [DNA.rar](02-codex-dna#dna-archive) to a projects folder, rename folder to a project name, setup database (FTrack or JSON), make shots.
+**The workflow**: extract [DNA.rar](02-codex-dna#dna-archive) to a projects folder, rename folder to a project name, setup database (FTrack or JSON), [make shots](https://www.youtube.com/watch?v=LOm3bAo80KI).
 To understand principles of Animation DNA pipeline you need to reed [Codex DNA](https://github.com/kiryha/AnimationDNA/wiki/02-Codex-DNA) which define terms, describe overall pipeline logic and has particular instructions for each stage of production.
 
 As an option, you can use some of Animation DNA tools exclusively, without linking to the whole pipeline system. For example, [Asset Manger](03-tools#asset-manager) and [Render Manager](03-tools#render-manager) has many functions, useful if you rendering with Arnold. In this case just put [Animation DNA](https://github.com/kiryha/AnimationDNA) scripts into Maya scripts folder and [run Maya with wrpapper](02-codex-dna#running-maya-and-nuke-with-wrappers)
