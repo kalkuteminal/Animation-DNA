@@ -190,6 +190,8 @@ First we analyze story reel. During this process we create two lists: list of al
 
 Finally we **link** animated assets end environments to a shots. DO NOT link EDA and static props to a shots.
 
+Refer to [database setup tutorial](01-Quick-start#preproduction) for more information.
+
 ### Workflow with outsource studios
 Major part of the project will be done locally in the studio. All project data (3D scenes, comp files, script, artwork, sound, editing etc etc) stores at the studio server at network drive. To outsource any part of work (for example, animation of some sequences) we create FTP server with project copy on it with the **same folder structure**. Outsource company should create **same folder structure on their own network drive** and copy all necessary data into this folder structure. Such setup will ensure, that everything will work properly.
 
