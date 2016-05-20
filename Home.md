@@ -5,7 +5,7 @@
 In other words, **Animation DNA is out of the box pipeline** for animation studio (or for a single person).  **Animation DNA** is a starting point which defines main and most important pipeline actions and could be easily refined according to requirements of a particular project.
 
 The **core** of Animation DNA is **Animation DNA  database** — it contains all information you need to create and manage film production. There are two types of database could be used with Animation DNA:
-- simple text file in **JSON** format 
+- simple text file in [JSON](http://www.jsoneditoronline.org/) format 
 - complex project management system [FTrack](https://www.ftrack.com/). 
 
 The structure of both databases is the same, but FTrack is dramatically more usable for bigger projects, can operate more quantity of logical data pieces and store more information about production actions. Public version of Animation DNA works on JSON database. Documentation is relevant for both types of database.
