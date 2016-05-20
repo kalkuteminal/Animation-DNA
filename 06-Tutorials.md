@@ -14,7 +14,7 @@ A) [Theory](#programming-theory)
 B) [Practice](#programming-practice)  
   [Attributes](#attributes)  |  [Objects](#objects)  |  [Files](#files)  |  [Lists](#lists)  |  [Strings](#string-formatting)  |  [Rendering](#rendering)  |  [Interfaces](#interfaces)  |  [FTrack](#ftrack-examples)
 
-## Programming theory
+### Programming theory
 [Intro](#introduction-to-artistic-developing )  |  [PyMel basics](#developing-foundation)  |  [Developing example](#step-by-step-example)  |  [Art of good code](#art-of-good-code)
 ### Introduction to artistic developing 
 From the beginner point of view programming in Maya allow us to execute particular action with many objects at once.
@@ -193,12 +193,12 @@ When you will pass first painful steps and get awkward blocks of more or less wo
 ##### Code characteristics
 `code scope = correctness*3 + design*2 + style`
 
-## Programming practice
+### Programming practice
 Here you will find procedures for most common tasks in Maya.
 
 [Attributes](#attributes)  |  [Objects](#objects)  |  [Files](#files)  |  [Lists](#lists)  |  [Strings](#string-formatting)  |  [Rendering](#rendering)  |  [Interfaces](#interfaces)  |  [FTrack](#ftrack-examples)
 
-### Attributes
+#### Attributes
 ##### Get objects by attribute
 ```python
 listAtr = pm.ls('*.nameOfAttribute')
@@ -241,7 +241,7 @@ def attrLock(attribute):
         i.attr(attribute).lock()
 ```
 
-### Objects
+#### Objects
 ##### Get shapes of selected objects
 ```python
 listShapes =  pm.ls(dag=1,o=1,s=1,sl=1)
@@ -291,7 +291,7 @@ def boundingBox():
             i.overrideEnabled.set(0) 
             i.overrideLevelOfDetail.set(0)
 ```
-### Files
+#### Files
 ##### Basic Maya scene file manipulations 
 ```python
 pm.sceneName() # Get name of current scene
@@ -328,7 +328,7 @@ from maya.mel import eval
 eval(' AbcImport -ct  "{0}" "{1}" '.format(groupName, pathABC))
 ```
 
-### Lists
+#### Lists
 ##### Create list by object name 
 ```python
 list = pm.ls('nodeName') # With exact name
@@ -347,7 +347,7 @@ dataShotDic = {'characters' : [ ], 'props' : [] , 'environment' : [] , 'EDA' : [
 dataShotDic['characters'].append( <assetName> )
 ```
 
-### String formatting
+#### String formatting
 ##### Replace string with variables
 ```python
 'variable A = {0}, variable B = {1}'.format(variable_A, variable_B) 
@@ -363,7 +363,7 @@ string = 'D:/projects/DNA/3D/scenes'
 split = string.split('/')
 # Result: ['D:', 'projects', 'DNA', '3D', 'scenes']
 ```
-### Rendering
+#### Rendering
 ##### Set current render to Arnold 
 ```python
 def setArnold(*args):
@@ -439,7 +439,7 @@ rgRes.width.set(1998)
 rgRes.height.set(1080)
 ```
 
-### Interfaces
+#### Interfaces
 ##### Window with text field and button.
 Pressing a button prints value of text field.
 ```python
@@ -474,7 +474,7 @@ else:
     sys.exit('Canceled!')
 ```
 
-### FTrack examples
+#### FTrack examples
 See [FTrack setup](02-codex-dna#management-with-ftrack) and [glossary of codes](04-Glossary#codes) sections in documentation. Used API is 3.3.1
 
 ##### Setup path to API
