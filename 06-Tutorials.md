@@ -1,5 +1,8 @@
 ![](https://lh3.googleusercontent.com/-90kNXCym1kQ/VznLmU-hxOI/AAAAAAAAFno/0pT_n7X5Q90a7Fv0BCA-ky-NfB67H20jQCCo/s700/bannerDNA_tut_01.jpg)
-# Programming with PyMel for artists
+# Animation DNA tutorials.
+Section wit software and Animation DNA pipeline techniques, tips and tricks.
+
+## Programming with PyMel for artists
 If you think that you have artistic brain and developing is beyond your possibilities, believe me, your just lazy. 
 
 You dont need any unique knowledge or special brain structure. You just need willingness to code and necessity of practical application of developing(and you defiantly have it if you work in Maya).
