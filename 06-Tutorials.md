@@ -554,7 +554,7 @@ You can create special path with selection mask of objects or shaders for compos
 ![](https://3.bp.blogspot.com/-VEowRHSseXY/UwH9OIKi3mI/AAAAAAAAEag/kIHH-SeIzys/s1600/aiIDs.gif)
 
 ##### Material AOV
-To create AOV for any shader
+To create AOV for any shader we use **aiWriteColor** node.
 
 ##### Object AOV
-To create AOV for any object
+To create AOV for any object we create custom color attribute on each object and corresponding AOVs in render settings.
