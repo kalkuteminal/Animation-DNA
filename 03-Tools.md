@@ -15,7 +15,7 @@ Create and set custom MtoA attributes. Add and modify render data — textures a
 
 ![](https://lh3.googleusercontent.com/-kholsPnoGxU/Vx-W5hpSfdI/AAAAAAAAFc0/h6rS_KxrioYv7EQY2rpvXDHG-ukTMqCewCCo/s430/DNA_assetManager_06.jpg)
 
-* **ADD ATTR** — create MtoA attributes (mColor, mMat, mDisp) on selected objects shapes to store shading information in every asset for Arnold.
+* **ADD ATTR** — create MtoA custom attributes (mColor, mMat, mDisp) on selected object shapes to store shading information in every asset for Arnold. See [explanation](06-Tutorials#multitexture-material)
 * **COPY ATTR** — copy MtoA attribute values onto selected objects from last selected object.
 * **LINE** — line up selected assets from center of scene in a row.
 * **CRV** — open curve editor window to modify properties of NURBs curves for Yeti.
