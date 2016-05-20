@@ -65,11 +65,10 @@ Each asset, linked to a shot, should be **published** in database with particula
 * RIG and GEO for the **props** and EDA.
 
 ## Production.
+[Asset creation](#asset-creation)  |  [Look development](#look-development)  |  [Animation](#animation)  |  [Rendering](#rendering)  |  [Compositing](#compositing)
+
 Now we can start production procedures which generally would go in a way:  
 **asset creation > animation > render > compose**  
-
-[Asset creation](#asset-creation)  |  [Look development](#look-development)  |  [Animation](#animation)  |  [Rendering](#rendering)  |  [Compositing](#compositing)
- 
 Go to **`<rootProject>/PREP/PIPELINE`** and [run Maya through wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers) 
 
 ## Asset creation
