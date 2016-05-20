@@ -461,6 +461,7 @@ baseUI()
 ```
 
 ##### Confirm dialog
+A good option to catch events and create variations of next steps. File exists > overrdide or save next verion.
 ```python
 confirm = pm.confirmDialog ( title = 'Title', message = 'Message', button=['OK', 'CANCEL'], cancelButton= 'CANCEL' )
 if confirm == 'OK':
