@@ -15,7 +15,7 @@ Create and set custom MtoA attributes. Add and modify render data — textures a
 
 ![](https://lh3.googleusercontent.com/-kholsPnoGxU/Vx-W5hpSfdI/AAAAAAAAFc0/h6rS_KxrioYv7EQY2rpvXDHG-ukTMqCewCCo/s430/DNA_assetManager_06.jpg)
 
-* **ADD ATTR** — create MtoA custom attributes (mColor, mMat, mDisp) on selected object shapes to store shading information in every asset for Arnold. Refer to a [tutorial](06-Tutorials#multitexture-material) for explanation.
+* **ADD ATTR** — create MtoA custom attributes (mColor, mMat, mDisp) on selected object shapes to store shading information in every asset for Arnold. Refer to a [token tutorial](06-Tutorials#multitexture-material) for explanation.
 * **COPY ATTR** — copy MtoA attribute values onto selected objects from last selected object.
 * **LINE** — line up selected assets from center of scene in a row.
 * **CRV** — open curve editor window to modify properties of NURBs curves for Yeti.
@@ -38,7 +38,7 @@ Create and set custom MtoA attributes. Add and modify render data — textures a
 * **CONVERT TO STANDIN** — convert static asset with geometry to static asset with standin.
 
 #### Attribute Manager
-**ATM** button on DNA shelf. Attribute Manager allow to create, set and edit custom MtoA attributes on geometry shapes. Refer to a [tutorial](06-Tutorials#multitexture-material) for explanation.
+**ATM** button on DNA shelf. Attribute Manager allow to create, set and edit custom MtoA attributes on geometry shapes. Refer to a [token tutorial](06-Tutorials#multitexture-material) for explanation.
 
 ![](https://lh3.googleusercontent.com/-_Lm1C3ipF-U/VyNZ01v-GZI/AAAAAAAAFgs/J2eV2PqQaYYo-Eo4V6IHNrmLUiVdmavPQCCo/s300/DNA_attrManager_01.jpg)
 
@@ -139,7 +139,7 @@ If any playblast of this shot already exists — warning window appears, asking 
 * **ASIGN MATERIALS** — assign materials to all polygonal object in scene.
 * **FOR SELECTED** — assign materials to selected polygonal objects.
 * **SELECT SG ALL GEO** — select shading groups of all(or only selected with button SELECT SG SEL) geometry in scene.
-* **ADD SHADER ID** — add AOV IDs for each shading group in scene if nothing selected. If any shading group selected — adds AOV only for selected SG. Using aiWriteColor method for this: create AOV and add aiWriteColor node to shading network.
+* **ADD SHADER ID** — add AOV IDs for each shading group in scene if nothing selected. If any shading group selected — adds AOV only for selected SG. Using aiWriteColor method for this: create AOV and add aiWriteColor node to shading network. Refer to a [AOV tutorial](06-Tutorials#object-and-material-aovs) for explanation.
 * **DEL SHADER ID** — delete AOV and aiWriteColor node from network for each selected aiWriteColor node, or for all shader IDs if nothing selected.
 * **OBJECT ID** — add object AOV for each selected object(or group).
 * **ADD ASSET ID** — add object IDs for each character, asset and environment in scene. Based on naming selection.
