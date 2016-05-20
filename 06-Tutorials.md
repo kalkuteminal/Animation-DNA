@@ -12,6 +12,7 @@ B) [Practice](#programming-practice)
   [Attributes](#attributes)  |  [Objects](#objects)  |  [Files](#files)  |  [Lists](#lists)  |  [Strings](#string-formatting)  |  [Rendering](#rendering)  |  [Interfaces](#interfaces)  |  [FTrack](#ftrack-examples)
 
 ## Programming theory
+[Intro](#introduction-to-artistic-developing )  |  [PyMel basics](#developing-foundation)  |  [Developing example]
 ### Introduction to artistic developing 
 From the beginner point of view programming in Maya allow us to execute particular action with many objects at once.
   
