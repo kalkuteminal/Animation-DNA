@@ -10,11 +10,11 @@ Always keep an eye on script editor, pressing each button should bring success m
 
 ## Errors by tools 
 ### Shot assembler
-#### Create render scene
+##### Create render scene
 **`Error: KeyError: file <rootProject>/PREP/PIPELINE/dnaCore.py line 130: MAT`**  
 Reason: You did not [publish material](01-quick-start#look-development) for an assets, linked to a shot.
 
 ### FX manager
-#### CREATE FUR SIM SCENE
+##### CREATE FUR SIM SCENE
 **`# Error: ValueError: file <maya console> line 70: invalid literal for int() with base 10: '<anyTextHere>' # `**  
 Reason: There are files with wrong names in [folder with fur for shot](02-Codex-DNA#fur-workflow)
