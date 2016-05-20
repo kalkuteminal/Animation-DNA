@@ -552,3 +552,9 @@ You can create and set Arnold custom attributes on object shapes with [Attribute
 You can create special path with selection mask of objects or shaders for compositing software.
 
 ![](https://3.bp.blogspot.com/-VEowRHSseXY/UwH9OIKi3mI/AAAAAAAAEag/kIHH-SeIzys/s1600/aiIDs.gif)
+
+##### Material AOV
+To create AOV for any shader
+
+##### Object AOV
+To create AOV for any object
