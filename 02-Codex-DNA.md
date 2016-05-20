@@ -769,12 +769,14 @@ Location of scenes with fur models:
 **`<rootScenes>/ASSETS/CHARACTERS/<nameChar>/FUR/`**  
 Name of scenes with fur models:  
 **`FUR_<nameChar>_###.mb`**  
+
 Location of scenes for fur simulation for shots:  
-**`<rootScenes>/FX/FUR/<codeRSS>/`**
+**`<rootScenes>/FX/FUR/<codeRSS>/`**  
 Name of scenes with fur simulations:  
 **`<codeChar>_ E<codeSequence>_S<codeShot>_###.mb `**
+
 Location of fur simulation caches:  
-**`<rootProject>/PROD/3D/cache/FUR/<codeRSS>/<codeChar>/`**
+**`<rootProject>/PROD/3D/cache/FUR/<codeRSS>/<codeChar>/`**  
 Name of fur simulation caches:  
 **`<codeChar>_FUR_###_####.fur`**
 
