@@ -182,7 +182,7 @@ Representation of asset classification on HDD and in FTrack:
 **ASSETS**:
 * **CHARACTERS** (contain folders named as characters, RIG and GEO folder inside each character folder)
 * **ENVIROMMENTS** ( in each folder with environment there is folder with EDA )
-* **PROPS** (dynamic props, [structured into a logical set](02-codex-dna#structuring))
+* **PROPS** (dynamic props, [structured](02-codex-dna#structuring)) into a usable set
 * **STATIC** ( static props )
 
 #### Creating FTrack database
