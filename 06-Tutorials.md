@@ -394,7 +394,7 @@ def matAsign(material):
         pm.sets(material, forceElement = i)
 ```
 
-##### Get object with material
+##### Get objects with material
 ```python
 def getObjects(materialName):
     material = pm.ls(materialName)
@@ -403,7 +403,7 @@ def getObjects(materialName):
     return listObjects
 ```
 
-##### Get shading group and shader of object shape**
+##### Get shading group and shader with object shape
 ```python
 def getShading(objectShape):
     shadingGroup = pm.listConnections(objectShape, type='shadingEngine')
