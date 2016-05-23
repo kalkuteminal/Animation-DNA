@@ -560,3 +560,5 @@ To create AOV for any shader we use **aiWriteColor** node.
 
 ##### Object AOV
 To create AOV for any object we create custom color attribute on each object and corresponding AOVs in render settings.
+
+Create AOVs automatically with [Render Manager](03-tools#render-manager)
