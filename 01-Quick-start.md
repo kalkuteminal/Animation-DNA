@@ -49,7 +49,7 @@ In PROPS folder create Asset Build with type prop and name fooApple.
 In **REEL_01** create sequence **010** and inside it create shot **SHOT_010**  
 Now link BENDER, fooApple and NYC assets to a shot.  
 
-If DNA project already exists in FTrack, just learn how it was build.  
+If DNA project already exists in FTrack, just learn how it structured.  
 ![](https://lh3.googleusercontent.com/-cI5QOWjY1H0/VyHxKJ3bB4I/AAAAAAAAFek/YrUVtebFJ9o084FPLGA5FG6JeDUM_SQ_gCCo/s1440/gettingStarted_FTR_04.gif)
 
 For JSON version use template in **`<rootProject>/PREP/PIPELINE/DNA/DIC`**  
