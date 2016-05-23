@@ -91,7 +91,7 @@ At the end of each procedure, phase or branch, before resulting data is transfer
 Materially **on HDD Animation DNA** represented as a winrar archive **DNA.rar** which includes:
 - [Maya and Nuke python tools](03-tools)
 - Folder structure
-- Project database in JSON format (for non FTrack version)
+- [Project database](https://github.com/kiryha/AnimationDNA/blob/master/DNA/DIC/dataProject.json) in JSON format (for non FTrack version)
 - Demo data (Maya scenes with models, rigs, animation, materials and render, textures, Nuke scripts and other data necessary for production of example shot)
 
 Animation DNA documentation located online:
