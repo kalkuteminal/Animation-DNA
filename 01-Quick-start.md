@@ -42,12 +42,14 @@ In FTrack database create DNA project. **Project name in FTrack should match pro
 Create in FTrack root:
 * **ASSETS** folder.  
 In ASSETS folder create a structure the same as in **`<rootProject>/PROD/3D/scenes/ASSETS/`**  
-In CHARACTERS folder create Asset Build with type characters and name BENDER. Use BENDER_TMB_01.jpg as thumbnail image from: **`<rootProject>/PREP/ART/ASSETS/CHARACTERS/BENDER`**
-In ENVIRONMENTS folder create NYC folder and inside create Asset Build with type environment and name NYC. In EDA folder create Asset Build with type eda and name nycLitght.
-In PROPS folder create Asset Build with type prop and name fooApple.
+In CHARACTERS folder create Asset Build with type `characters` and name BENDER.  
+Use BENDER_TMB_01.jpg as thumbnail image from: **`<rootProject>/PREP/ART/ASSETS/CHARACTERS/BENDER`**  
+In ENVIRONMENTS folder create NYC folder and inside create Asset Build with type `environment` and name NYC.  
+In EDA folder create Asset Build with type `eda` and name nycLitght.  
+In PROPS folder create Asset Build with type `props` and name fooApple.
 * **REEL_01** episode.  
 In **REEL_01** create sequence **010** and inside it create shot **SHOT_010**  
-Now link BENDER, fooApple and NYC assets to a shot.  
+Now **link** BENDER, fooApple and NYC assets to a shot.  
 
 If DNA project already exists in FTrack, just learn how it structured.  
 ![](https://lh3.googleusercontent.com/-cI5QOWjY1H0/VyHxKJ3bB4I/AAAAAAAAFek/YrUVtebFJ9o084FPLGA5FG6JeDUM_SQ_gCCo/s1440/gettingStarted_FTR_04.gif)
