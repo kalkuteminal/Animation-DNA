@@ -12,11 +12,11 @@ B. [Glossary of codes](#codes)
 
 **Rendering** — is a conversion of vector data to a raster images.
 
-**shot** — is a part of a film between two cuts.
+**Shot** — is a part of a film between two cuts.
 
-**story reel** — is a rough movie version in form of storyboard pictures with sound. 
+**Story reel** — is a rough movie version in form of storyboard pictures with sound. 
 
-**structuring** — dividing big amount of data into smaller pieces according to a particular model.
+**Structuring** — dividing big amount of data into smaller pieces according to a particular model.
 
 ## Codes
 **`<codePart>`** — name of film overall division (REEL_01, TEASER etc)  
