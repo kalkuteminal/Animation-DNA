@@ -403,7 +403,7 @@ def getObjects(materialName):
     return listObjects
 ```
 
-##### Get shading group and shader with object shape
+##### Get shading group and material with object shape
 ```python
 def getShading(objectShape):
     shadingGroup = pm.listConnections(objectShape, type='shadingEngine')
