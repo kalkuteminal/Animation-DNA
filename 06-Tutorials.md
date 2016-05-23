@@ -536,7 +536,9 @@ shotData.setMeta( <key>, <value> )
 
 ## Arnold rendering techniques
 #### Setup per object attributes
-We can use [tokens](https://support.solidangle.com/display/AFMUG/Tokens) to set individual values for the same attribute on different objects. Tokens in general can be useful if you want to get some information from the shape of objects during rendering process. For example, set individual texture placement attributes with the same place2dTexure node, set unique color for each object etc.
+We can use [tokens](https://support.solidangle.com/display/AFMUG/Tokens) to set individual values for the same attribute on different objects. Tokens in general can be useful if you want to get some information from the shape of objects during rendering process. For example, set individual texture placement attributes with the same place2dTexure node, set unique color for each object etc. 
+
+Grate example of using tokens is  [Multitexture material](#multitexture-material)
 
 ![](http://4.bp.blogspot.com/-8kVvlGXNhvA/UydifSkz2xI/AAAAAAAAEgU/ILczrfAPS1c/s1600/shapeShading.gif)
 
