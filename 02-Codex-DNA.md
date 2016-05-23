@@ -182,10 +182,10 @@ Exactly as written, because this types are used by python tools so no mistakes a
 
 Representation of asset classification on HDD and in FTrack:
 **ASSETS**:
-* **CHARACTERS** (contain folders named as characters, RIG and GEO folder inside each character folder)
-* **ENVIROMMENTS** ( in each folder with environment there is folder with EDA )
+* **CHARACTERS** (contain folders named as characters, on HDD there RIG and GEO folder inside each character folder)
+* **ENVIRONMENTS** ( contain folders with locations, in each folder with environment there is folder with EDA )
 * **PROPS** (dynamic props, [structured](02-codex-dna#structuring) into a collection)
-* **STATIC** ( static props structured into a collection)
+* **STATIC** (static props, [structured](02-codex-dna#structuring) into a collection)
 
 #### Creating FTrack database
 First we analyze story reel. During this process we create two lists: list of all objects(assets) and list of all shots in film. Than this lists should be entered to FTrack. 
