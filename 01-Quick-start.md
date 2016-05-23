@@ -158,6 +158,7 @@ See ASSET CREATION — SETUP in codex DNA for more details.
 
 ## Look development
 ![](https://lh3.googleusercontent.com/-xJHXAP4iVVU/U8j1ZD2vMnI/AAAAAAAAErg/MYPLu5yIyTg5h9C9bGNIzm3p5JfoywBOQCCo/s800/L01_V001_sm.jpg)
+To reduce general amount of shaders used in project we create a common material library for all possible objects and use it in every render scene. Material library contain limited amount of shaders which replicate real world surface properties, like: wood, copper, grass, wax etc. Each character has its own material library.
 
 Open **`<rootScenes>/LOOKDEV/LIBRARY/MATERIALS/SETS/SET_GENERAL_001.mb`**  
 Check GEN_BARK_A shading network. Shader has name GEN_BARK_A, shading group has name GEN_BARK_ASG. Scripts refer to a shading group name, so it should be correct. 
