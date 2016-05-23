@@ -8,6 +8,10 @@ B. [Glossary of codes](#codes)
 
 **Look development** –  is a process which define physical behavior of surfaces and volumetric in conjunction with lighting. The result of look development process is materials and lights.
 
+**Pipeline** — is project organisation and execution system
+
+**Rendering** — is a conversion of vector data to a raster images.
+
 **shot** — is a part of a film between two cuts.
 
 **story reel** — is a rough movie version in form of storyboard pictures with sound. 
