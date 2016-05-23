@@ -6,7 +6,7 @@ B. [Glossary of codes](#codes)
 ## Terms
 **Asset** – a set of digital data (files of different formats), required for the creation, management and visualization of real-world objects in the environment of a computer program Maya. Any visible object in the scene while rendering 3D scenes is asset. 
 
-**Look development** – this is a separate technological process of creating material objects, carried out under the visualization step.
+**Look development** –  is a process which define physical behavior of surfaces and volumetric in conjunction with lighting. The result of look development process is materials and lights.
 
 **shot** — is a part of a film between two cuts.
 
