@@ -195,13 +195,16 @@ Finally we **link** animated assets end environments to a shots. DO NOT link EDA
 Refer to [database setup tutorial](01-Quick-start#preproduction) for more information.
 
 #### Publishing data to FTrack
-One way of entering necessary information to FTrack is publishing.  
-Publishing is a process of entering data to FTrack database with a help of [FTrack Python API](http://ftrack.rtd.ftrack.com/en/3.3.1/developing/index.html)  
-Some of Animation DNA tools has functions of publishing data:  
-[Data Publisher](03-Tools#data-publisher) allow to write working name and versions of assets,
-[Render Manager](03-Tools#render-manager) can write the name and version of `exr` rendering for each shot  
-[FX Manager](03-Tools#fx-manager) writes final scene with FX,  
-[Animation Manager](03-Tools#animation-manager) writes name and version of scene with approved animation.
+One way of entering information to FTrack is publishing.  
+Publishing is a process of recording necessary data to FTrack database with a help of [Animation DNA tools](03-Tools) using [FTrack Python API](http://ftrack.rtd.ftrack.com/en/3.3.1/developing/index.html):
+- [Data Publisher](03-Tools#data-publisher) allow to write:
+  * working name and version of GEO and RIG [asset forms](#asset-forms),
+  * name and version of character fur file
+  * name and version of asset material library
+  * list of [EDA](#asset-creation-general-notes), linked to environment
+- [Animation Manager](03-Tools#animation-manager) writes name and version of approved animation file for each shot
+- [FX Manager](03-Tools#fx-manager) writes name and version of final FX scene
+- [Render Manager](03-Tools#render-manager) writes name and version of exr render for each shot
 
 ### Workflow with outsource studios
 Major part of the project will be done locally in the studio. All project data (3D scenes, comp files, script, artwork, sound, editing etc etc) stores at the studio server at network drive. To outsource any part of work (for example, animation of some sequences) we create FTP server with project copy on it with the **same folder structure**. Outsource company should create **same folder structure on their own network drive** and copy all necessary data into this folder structure. Such setup will ensure, that everything will work properly.
