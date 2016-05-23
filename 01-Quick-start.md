@@ -61,7 +61,7 @@ Edit file in [online JSON editor](http://www.jsoneditoronline.org) to setup data
 ![](https://lh3.googleusercontent.com/-I_Id6RqtBdM/VyHxNL5rYAI/AAAAAAAAFeo/ZXFQiNB69AcU4sipVbScrUDj05gjeDL8ACCo/s1440/gettingStarted_JSN_03.gif)
 
 For correct workflow you need to have **SHOT** with linked assets in the database.  
-Each asset, linked to a shot, should be **published** in database with particular data for each asset type:
+Each asset, linked to a shot, should be [**published**](02-Codex-DNA#publishing-data-to-ftrack) in database with particular data for each asset type:
 * RIG, GEO, MAT, FUR ( if used in project ) – for  the **character** type; 
 * GEO and MAT — for the **environments** (with published EDA list); 
 * RIG and GEO for the **props** and EDA.
