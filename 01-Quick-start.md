@@ -40,14 +40,16 @@ Extract [Animation DNA archive](02-codex-dna#dna-archive) to your projects folde
 ### Setup project in database
 In FTrack database create DNA project. **Project name in FTrack should match project root folder name**.  
 Create in FTrack root:
-* **ASSETS** folder.  
+* **ASSETS** `folder`.  
+* **REEL_01** `episode`. 
+
 In ASSETS folder create a structure the same as in **`<rootProject>/PROD/3D/scenes/ASSETS/`**  
 In CHARACTERS folder create Asset Build with type `characters` and name BENDER.  
 Use BENDER_TMB_01.jpg as thumbnail image from: **`<rootProject>/PREP/ART/ASSETS/CHARACTERS/BENDER`**  
 In ENVIRONMENTS folder create NYC folder and inside create Asset Build with type `environment` and name NYC.  
 In EDA folder create Asset Build with type `eda` and name nycLitght.  
 In PROPS folder create Asset Build with type `props` and name fooApple.
-* **REEL_01** episode.  
+ 
 In **REEL_01** create `sequence` **010** and inside it create `shot` **SHOT_010**  
 Now **link** BENDER, fooApple and NYC assets to a shot.  
 
