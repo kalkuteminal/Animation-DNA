@@ -15,7 +15,7 @@ Create and set custom MtoA attributes. Add and modify render data — textures a
 
 ![](https://lh3.googleusercontent.com/-kholsPnoGxU/Vx-W5hpSfdI/AAAAAAAAFc0/h6rS_KxrioYv7EQY2rpvXDHG-ukTMqCewCCo/s430/DNA_assetManager_06.jpg)
 
-* **ADD ATTR** — create MtoA custom attributes (mColor, mMat, mDisp) on selected object shapes to store shading information in every asset for Arnold. Refer to a [token tutorial](06-Tutorials#multitexture-material) for explanation.
+* **ADD ATTR** — create MtoA custom attributes (mColor, mMat, mDisp) on selected object shapes to store shading information in every asset for Arnold. Refer to a [token tutorial](06-Tutorials#setup-per-object-attributes) for explanation.
 * **COPY ATTR** — copy MtoA attribute values onto selected objects from last selected object.
 * **LINE** — line up selected assets from center of scene in a row.
 * **CRV** — open curve editor window to modify properties of NURBs curves for Yeti.
@@ -38,7 +38,7 @@ Create and set custom MtoA attributes. Add and modify render data — textures a
 * **CONVERT TO STANDIN** — convert static asset with geometry to static asset with standin.
 
 #### Attribute Manager
-**ATM** button on DNA shelf. Attribute Manager allow to create, set and edit custom MtoA attributes on geometry shapes. Refer to a [token tutorial](06-Tutorials#multitexture-material) for explanation.
+**ATM** button on DNA shelf. Attribute Manager allow to create, set and edit custom MtoA attributes on geometry shapes. Refer to a [token tutorial](06-Tutorials#setup-per-object-attributes) for explanation.
 
 ![](https://lh3.googleusercontent.com/-_Lm1C3ipF-U/VyNZ01v-GZI/AAAAAAAAFgs/J2eV2PqQaYYo-Eo4V6IHNrmLUiVdmavPQCCo/s300/DNA_attrManager_01.jpg)
 
