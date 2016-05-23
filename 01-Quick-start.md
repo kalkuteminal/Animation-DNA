@@ -48,7 +48,7 @@ In ENVIRONMENTS folder create NYC folder and inside create Asset Build with type
 In EDA folder create Asset Build with type `eda` and name nycLitght.  
 In PROPS folder create Asset Build with type `props` and name fooApple.
 * **REEL_01** episode.  
-In **REEL_01** create sequence **010** and inside it create shot **SHOT_010**  
+In **REEL_01** create `sequence` **010** and inside it create `shot` **SHOT_010**  
 Now **link** BENDER, fooApple and NYC assets to a shot.  
 
 If DNA project already exists in FTrack, just learn how it structured.  
