@@ -386,17 +386,29 @@ def addAOV(aovName):
 pm.arnoldExportAss( f = "D:/fileName.ass",  startFrame = 0, endFrame = 1 )
 ```
 
-##### Asign material for selected **object shape**
+##### Asign material for selected object shapes
 ```python
 def matAsign(material):
     sel = pm.ls(sl=1)
     for i in sel:
         pm.sets(material, forceElement = i)
 ```
-##### Get shading group and shader of **object shape**
+
+##### Get object with material
 ```python
-shadingGroup = pm.listConnections(objectShape, type='shadingEngine')
-shader = pm.ls(mc.listConnections(shadingGroup), materials = 1)
+def getObjects(materialName):
+    material = pm.ls(materialName)
+    SG = pm.listConnections(materialName, type='shadingEngine')
+    listObjects = pm.listConnections(SG, type='shape')
+    return listObjects
+```
+
+##### Get shading group and shader of object shape**
+```python
+def getShading(objectShape):
+    shadingGroup = pm.listConnections(objectShape, type='shadingEngine')
+    shader = pm.ls(mc.listConnections(shadingGroup), materials = 1)
+    return shader, shadingGroup
 ```
 
 ##### Get image files of material
