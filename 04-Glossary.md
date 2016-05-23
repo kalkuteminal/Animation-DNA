@@ -12,6 +12,8 @@ B. [Glossary of codes](#codes)
 
 **Rendering** — is a conversion of vector data to a raster images.
 
+**Publishing** — is a process of entering particular information to FTrack database with a help of [FTrack Python API](http://ftrack.rtd.ftrack.com/en/3.3.1/developing/index.html). 
+
 **Shot** — is a part of a film between two cuts.
 
 **Story reel** — is a rough movie version in form of storyboard pictures with sound. 
