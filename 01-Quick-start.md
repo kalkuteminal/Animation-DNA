@@ -19,6 +19,7 @@ Like in DNA banner at [home page](https://github.com/kiryha/AnimationDNA/wiki).
 At the base level of project organization we have to deal with two substances:
 - **ASSETS** 
 - **SHOTS**
+
 This core division permeates through a project workflow and reflected in database and folder structure.
 First we need to create necessary assets and shots in database, link assets to shots, setup shots length, then we can start production.
 
