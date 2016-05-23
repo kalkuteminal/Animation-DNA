@@ -86,6 +86,8 @@ Example asset names: **trsMelony,  trsMelony_D, trsMelony_D_trunk**
 At the end of each procedure, phase or branch, before resulting data is transferred to the next procedure, phase or branch, the control stage should go, in which the data is being checked for FLAWS and ERRORS.
 
 ## Pipeline overview
+Animation pipeline is a system of organisation and execution of a project.
+
 [DNA.rar](#dna-archive) | [Wrapper](#running-maya-and-nuke-with-wrappers) | [Pipeline brief](#pipeline-brief) | [FTrack](#management-with-ftrack) | [Outsource](#workflow-with-outsource-studios) | [Shot creation](#shot-creation-workflow) 
 ### DNA archive
 Materially **on HDD Animation DNA** represented as a winrar archive **DNA.rar** which includes:
