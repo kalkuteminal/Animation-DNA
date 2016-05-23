@@ -116,7 +116,7 @@ If any playblast of this shot already exists — warning window appears, asking 
 * **[  ]** — Field with FX data to publish.
 
 #### Data Publisher
-**PUB** button on DNA shelf. Deliver information about asset to FTrack database. Depending on asset type, data publisher add information about asset pathes: geometry or setup file, fur, materials, environment assets linked to environment(EDA). Also publisg to FTrack version of animation or render file.
+**PUB** button on DNA shelf. Deliver information about asset to FTrack database. Depending on asset type, data publisher add([publish](02-Codex-DNA#publishing-data-to-ftrack)) information about asset paths: geometry or setup file, fur, materials, environment assets linked to environment(EDA). 
 
 ![](https://lh3.googleusercontent.com/-B5FxvT5OEyQ/VyNa3u59FII/AAAAAAAAFhM/JX0lOS32dIYyn-83NEqtGpt93B30koJxQCCo/s298/DNA_dataPublisher_03.jpg)
 
