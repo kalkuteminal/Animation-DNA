@@ -12,7 +12,7 @@ B. [Glossary of codes](#codes)
 
 **Rendering** — is a conversion of vector data to a raster images.
 
-**Publishing** — is a process of entering particular information to FTrack database with a help of [FTrack Python API](http://ftrack.rtd.ftrack.com/en/3.3.1/developing/index.html). 
+**Publishing** — is a process of recording necessary data to FTrack database with a help of [Animation DNA tools](03-Tools) using [FTrack Python API](http://ftrack.rtd.ftrack.com/en/3.3.1/developing/index.html)
 
 **Shot** — is a part of a film between two cuts.
 
