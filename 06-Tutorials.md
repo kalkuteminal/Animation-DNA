@@ -1,7 +1,7 @@
 ![](https://lh3.googleusercontent.com/-90kNXCym1kQ/VznLmU-hxOI/AAAAAAAAFno/0pT_n7X5Q90a7Fv0BCA-ky-NfB67H20jQCCo/s700/bannerDNA_tut_01.jpg)
 # Animation DNA tutorials.
 Section with software and Animation DNA pipeline techniques, tips and tricks.  
-[Animation DNA quick start](01-Quick-start)|  [Programming](#programming-with-pymel-for-artists)  |  [Arnold](#arnold-rendering-techniques)
+[Animation DNA quick start](01-Quick-start)  |  [Programming](#programming-with-pymel-for-artists)  |  [Arnold](#arnold-rendering-techniques)
 
 ## Programming with PyMel for artists
 If you think that you have artistic brain and developing is beyond your possibilities, believe me, your just lazy. 
