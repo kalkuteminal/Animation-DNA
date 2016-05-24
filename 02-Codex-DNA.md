@@ -27,7 +27,7 @@ Structure of production process: **SEGMENT > BRANCH > PHASE > PROCEDURE > ACTION
 Structure of employee in VFX segment: **VFX Supervisor > TD > artist**
 
 #### VFX segment structure
-* **2D** branch  
+* **2D (compositing)** branch  
 Phases of 2D:
   * Compositing
   * Mattepainting
