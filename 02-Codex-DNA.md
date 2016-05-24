@@ -61,21 +61,22 @@ This is main directory of project, stored on hard drive in the studio, no projec
 Inside **`<rootProject>`** folder there are 3 folders: **EDIT, PREP** and **PROD**.
 * **EDIT** — Editing and grading area. Contain:
   - **GRAD** — Working files and final result of grading process, contain **DCP** folder for final DCP and **FORMATS** for video files for TV, internet or other carriers.
-  - OUT — Preview renderings from editing software sorted according to a [film structure](#structure-of-film-and-production)
-  - PRO — Editing software project files
-  - SRC — Source files for editing process other than 3D or 2D renders, e.g. sound for film.
+  - **OUT** — Preview renderings from editing software sorted according to a [film structure](#structure-of-film-and-production)
+  - **PRO** — Editing software project files
+  - **SRC** — Source files for editing process other than 3D or 2D renders, e.g. sound for film.
 * **PREP** — Pre-production area: 
-  - ART — artwork
-  - DOCS — project documentation
-  - MANAGE — project management team data
-  - PIPELINE — pipeline development and final scripts
-  - REFERENCES — all types of reference materials, for artist, animators, lighters etc.
-  - SCRIPT — script of the film.
+  - **ART** — artwork
+  - **DOCS** — project documentation
+  - **MANAGE** — project management team data
+  - **PIPELINE** — pipeline development and final scripts
+  - **REFERENCES** — all types of reference materials, for artist, animators, lighters etc.
+  - **SCRIPT** — script of the film.
 * **PROD** — Production area, root for the VFX segment:
-  - 2D
-  - 3D
-  - RENDER_2D
-  - RENDER_3D 
+  - **2D** — Root for compositing branch
+    - COMP
+  - **3D** — Root for 3D branch
+  - **RENDER_2D** — Renderings from compositing department
+  - **RENDER_3D** — Renderings from 3D software
 
 Full folder division can be learned from [DNA.rar](#dna-archive) which contain folder structure.
 
