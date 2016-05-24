@@ -65,18 +65,24 @@ Inside **`<rootProject>`** folder there are 3 folders: **EDIT, PREP** and **PROD
   - **PRO** — Editing software project files
   - **SRC** — Source files for editing process other than 3D or 2D renders, e.g. sound for film.
 * **PREP** — Pre-production area: 
-  - **ART** — artwork
-  - **DOCS** — project documentation
-  - **MANAGE** — project management team data
-  - **PIPELINE** — pipeline development and final scripts
-  - **REFERENCES** — all types of reference materials, for artist, animators, lighters etc.
-  - **SCRIPT** — script of the film.
+  - **ART** — Artwork
+  - **DOCS** — Project documentation
+  - **MANAGE** — Project management team data
+  - **PIPELINE** — Pipeline development and final scripts
+  - **REFERENCES** — All types of reference materials, for artist, animators, lighters etc.
+  - **SCRIPT** — Script of the film.
 * **PROD** — Production area, root for the VFX segment:
   - **2D** — Root for compositing branch
-    - COMP
-  - **3D** — Root for 3D branch
-  - **RENDER_2D** — Renderings from compositing department
-  - **RENDER_3D** — Renderings from 3D software
+    - **COMP** — Compositing software project files with `<codeRSS>` structure 
+  - **3D** — Root for 3D branch, [Maya project root folder](#3d-folder-structure).
+  - **RENDER_2D** — Renderings from compositing department:
+    - **DPX** —
+    - **JPG** —
+    - **MOV** —
+  - **RENDER_3D** — Renderings from 3D software:
+    - **BLAST** —
+    - **LOOKDEV** —
+    - **RENDER** —
 
 Full folder division can be learned from [DNA.rar](#dna-archive) which contain folder structure.
 
@@ -314,6 +320,12 @@ Once pipeline for the project has been developed, the main role of pipeline depa
 * create new tools for production by request of TDs
 
 Main tools of pipeline department are: [Shot Assembler](03-tools#shot-assembler), [Data Publisher](03-tools#data-publisher), [Animation Exporter](03-tools#animation-exporter)
+
+#### 3D folder structure
+Root folder for 3D branch is `<rootProject>/PROD/3D`. This root folder of Maya predefined project system contain:
+* data
+* scenes
+* sourceimages 
 
 ### Asset creation
 #### Asset creation general notes
