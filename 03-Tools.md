@@ -5,10 +5,11 @@ Animation DNA contains set of python tools for 3D and compositing [branches](02-
 Variety of pipeline actions (like save scene, export cache, assign material etc) formulated as python procedures. This procedures groped into sets related to pipeline phases and each set is a DNA tool. Below is a full list of Animation DNA tools with general tool description and explanation of each of procedure.
 
 ### Toolset for 3D branch
-![](https://lh3.googleusercontent.com/-nLLQUcdwfN4/VyNdA4VLMCI/AAAAAAAAFhU/kREzq205CisDnIxyqk7pT_qhrNSdKP6pACCo/s388/DNA_shel_01.jpg)
-[ATM](#attribute-manager) | [ASM](#asset-manager) | [SHA](#shot-assembler)
+In Maya all DNA tools located in DNA shelf, which should appear if you will use [DNA.rar](02-Codex-DNA#dna-archive) and [run Maya through wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers).
 
-In Maya all DNA tools located in DNA shelf, which should appear if you [run Maya through wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers).
+![](https://lh3.googleusercontent.com/-nLLQUcdwfN4/VyNdA4VLMCI/AAAAAAAAFhU/kREzq205CisDnIxyqk7pT_qhrNSdKP6pACCo/s388/DNA_shel_01.jpg)
+
+[ATM](#attribute-manager) | [ASM](#asset-manager) | [SHA](#shot-assembler) | [ANM](#animation-manager) | [EXP](#animation-exporter) | [IMP](#animation-importer) | [FXM](#fx-manager) | [RND](#render-manager) | [SNV]() | [PUB](#data-publisher) | [FTP](#ftp-manager)
 
 #### Attribute Manager
 **ATM** button on DNA shelf. Attribute Manager allow to create, set and edit custom MtoA attributes on geometry shapes. Refer to a [token tutorial](06-Tutorials#setup-per-object-attributes) for explanation.
@@ -115,16 +116,6 @@ If any playblast of this shot already exists — warning window appears, asking 
 * **PUBLISH FX** — Publish FX data from field below to FTrack.
 * **[  ]** — Field with FX data to publish.
 
-#### Data Publisher
-**PUB** button on DNA shelf. Deliver information about asset to FTrack database. Depending on asset type, data publisher add([publish](02-Codex-DNA#publishing-data-to-ftrack)) information about asset paths: geometry or setup file, fur, materials, environment assets linked to environment(EDA). 
-
-![](https://lh3.googleusercontent.com/-B5FxvT5OEyQ/VyNa3u59FII/AAAAAAAAFhM/JX0lOS32dIYyn-83NEqtGpt93B30koJxQCCo/s298/DNA_dataPublisher_03.jpg)
-
-#### FTP Manager
-**FTP** button on DNA shelf. Upload animation scenes and linked references on mirror FTP. Do not load environment assets automatically.
-
-![](https://lh3.googleusercontent.com/-DzyPLHHnB74/VyNa65RCVXI/AAAAAAAAFhM/kYFZpYqkNPcr4ZgsKoZwymgImIK2f1vsACCo/s299/DNA_ftpManager_02.jpg)
-
 #### Render Manager
 **RND** button on DNA shelf. Rendering and look development tool. Setup shots for rendering: assign materials, create passes, object and shader IDs, setup render settings (image size, render path and name etc ) and export ass for renderfarm rendering.
 
@@ -148,6 +139,19 @@ If any playblast of this shot already exists — warning window appears, asking 
 * **HIGH** and **LOW** set high and low Arnold sampling settings for final and preview renders.
 * **RENDER SHOT** — generating of .ass files for each shot starting from frame [101]
 * **PUB** — publish to FTrack path to EXR render of current shot.
+
+#### Save new version
+Pressing **SNV** button will save next vesion of current scene. Scene should has proper [name](02-Codex-dna#naming). 
+
+#### Data Publisher
+**PUB** button on DNA shelf. Deliver information about asset to FTrack database. Depending on asset type, data publisher add([publish](02-Codex-DNA#publishing-data-to-ftrack)) information about asset paths: geometry or setup file, fur, materials, environment assets linked to environment(EDA). 
+
+![](https://lh3.googleusercontent.com/-B5FxvT5OEyQ/VyNa3u59FII/AAAAAAAAFhM/JX0lOS32dIYyn-83NEqtGpt93B30koJxQCCo/s298/DNA_dataPublisher_03.jpg)
+
+#### FTP Manager
+**FTP** button on DNA shelf. Upload animation scenes and linked references on mirror FTP. Do not load environment assets automatically.
+
+![](https://lh3.googleusercontent.com/-DzyPLHHnB74/VyNa65RCVXI/AAAAAAAAFhM/kYFZpYqkNPcr4ZgsKoZwymgImIK2f1vsACCo/s299/DNA_ftpManager_02.jpg)
 
 ### Toolset for 2D branch
 In Nuke all DNA tools located in DNA menu.
