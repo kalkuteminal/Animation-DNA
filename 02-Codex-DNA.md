@@ -899,11 +899,13 @@ ART root folder is: **`<rootProject>/PREP/ART/`**
 Concept art for assets: **`<rootProject>/PREP/ART/ASSETS/`**  
 Color KEY for shots: **`<rootProject>/PREP/ART/SHOTS/<codeRSS>/CLR_E040_S005_001.jpg`**
 
-## Edit and grading
-### Edit and grading general notes
-Editing and grading process combined into one brunch.  
+## Editing and grading
+### Editing and grading general notes
+Editing and grading process combined into one brunch. Editing and grading root folder:  
+**`<rootProject>/EDIT`**
 
-Editing and grading root folder: **`<rootProject>/EDIT`**
+### Editing
+Editing is the art, technique and practice of assembling shots into a coherent sequence.
 
 Folder with Adobe Premiere project files: **`<rootProject>/PRO`**  
 Folder with SRC sound: **`<rootProject>/EDIT/SRC/SOUND`**  
