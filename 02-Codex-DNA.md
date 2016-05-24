@@ -102,7 +102,7 @@ Animation DNA documentation located online:
 - [Tools description](03-tools)
 - [Glossary](#04-glossary)
 
-Download DNA.rar
+[Download DNA.rar](https://drive.google.com/file/d/0B08-uC9HedKCTjI5SFBDanBHQXc/view?usp=sharing). This version contain only folder structure and [tools](03-Tools), no demo materials included. If you need them — drop me a message.
 
 ### Running Maya and Nuke with wrappers
 Go to **`<rootProject>/PREP/PIPELINE/`** and run:
