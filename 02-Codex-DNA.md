@@ -111,6 +111,8 @@ Go to **`<rootProject>/PREP/PIPELINE/`** and run:
 
 Optional you can create shortcuts on runMaya.bat or runNuke.bat on desktop for each project, rename them to a project name and build a representative icons or use [DNA icons](https://github.com/kiryha/AnimationDNA/tree/master/DNA/3D/icons) in `.ico` format.
 
+![](https://lh3.googleusercontent.com/-79aa8Jer7xI/V0Qho_VLZVI/AAAAAAAAFoM/9hZH36ZvEzoyTRGSzJc-ViZ5ZKJmclgxwCCo/s436/DNA_icons_01.jpg)
+
 **runMaya.bat** executes runMaya.py – python script which run Maya with settings you need to setup for particular project (environment variables, project settings etc.) and it called **wrapper**.  
 Once Maya opened you should get following messages in the script editor without any error:  
 `<<  userSetup.mel: RUNNING setupMaya.py  >>`  
