@@ -323,7 +323,8 @@ Main tools of pipeline department are: [Shot Assembler](03-tools#shot-assembler)
 
 #### 3D folder structure
 Root folder for 3D branch is `<rootProject>/PROD/3D`. This root folder of Maya predefined project system contain:
-* data
+* data 
+* cache
 * scenes
 * sourceimages 
 
