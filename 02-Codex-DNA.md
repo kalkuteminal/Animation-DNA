@@ -53,6 +53,8 @@ Folder structure relies on:
 * Pithiness, logic and usability for data exchange.
 Each file should have proper name, version and be in a proper folder. 
 
+Animation DNA folder structure designed for a full CG projects and already has structured directories for all imaginary data, so at the first 4 top levels you don`t need to create new folders.
+
 Project root directory (**`<rootProject>`**):  **drive:/path/projectName**  
 This is main directory of project, stored on hard drive in the studio, no project files can be stored outside this folder.
 Inside **`<rootProject>`** folder there are 3 folders: **EDIT, PREP** and **PROD**.
@@ -92,7 +94,7 @@ Animation pipeline is a system of organisation and execution of a project.
 ### DNA archive
 Materially **on HDD Animation DNA** represented as a winrar archive **DNA.rar** which includes:
 - [Maya and Nuke python tools](03-tools)
-- Folder structure
+- [Folder structure](#folder-structure)
 - [Project database](https://github.com/kiryha/AnimationDNA/blob/master/DNA/DIC/dataProject.json) in JSON format (for non FTrack version)
 - Demo data (Maya scenes with models, rigs, animation, materials and render, textures, Nuke scripts and other data necessary for production of example shot)
 
