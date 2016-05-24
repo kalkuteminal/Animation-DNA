@@ -31,7 +31,7 @@ Also we need to create one **shot** and link animated assets to this shot. Note,
 Extract [Animation DNA archive](02-codex-dna#dna-archive) to your projects folder, rename root folder to a project name.  
 **`<rootProject>`** – is a full path to the renamed folder (P:/DNA/ in this case)
 
-### Setup project in database
+### Setup project database
 In FTrack database create DNA project. **Project name in FTrack should match project root folder name**.  
 Create in FTrack root:
 * **ASSETS** `folder`.  
