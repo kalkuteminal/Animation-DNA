@@ -915,7 +915,7 @@ Editing preview by episode : **`<rootProject>/EDIT/OUT/REEL_01/150/R01_E150_v003
 Editing preview by REEL: <**`rootProject>/EDIT/OUT/REEL_01/REEL_01_v001.mp4`**
 
 ### Grading
-Grading is a process of changing color of a motion picture (film) for enhancing and adopting to be shown on a cinema screen. The source materials for grading process:
+Grading is a process of changing color of a motion picture (film) for enhancing and adopting to a cinema screen. The source materials for grading process:
 - [Compositing branch](#2d-branch) output renderings of each shot as `*.dpx` sequences 
 - Movie editing information as `.edl` or `.xml` files
 
