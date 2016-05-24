@@ -14,7 +14,7 @@ We will create an example shot from the beginning (storyboard) till the end (edi
 Lets [setup FTrack database](02-codex-dna#management-with-ftrack)
 
 Assume we need to deliver an animated shot with a character holding an apple in a street.
-Like in DNA banner at [home page](https://github.com/kiryha/AnimationDNA/wiki).
+Like in DNA banner at [home page](https://github.com/kiryha/AnimationDNA/wiki), consider it as a storyboard of our shot.
 
 At the base level of project organization we have to deal with two substances:
 - **ASSETS** 
