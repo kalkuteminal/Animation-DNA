@@ -109,7 +109,7 @@ Go to **`<rootProject>/PREP/PIPELINE/`** and run:
 * **runMaya.bat** to load Maya, 
 * **runNuke.bat** to load Nuke.  
 
-Optional you can create shortcuts on runMaya.bat or runNuke.bat on desktop for each project, rename them to a project name and build a representative icons.
+Optional you can create shortcuts on runMaya.bat or runNuke.bat on desktop for each project, rename them to a project name and build a representative icons or use [DNA icons](https://github.com/kiryha/AnimationDNA/tree/master/DNA/3D/icons) in `.ico` format.
 
 **runMaya.bat** executes runMaya.py – python script which run Maya with settings you need to setup for particular project (environment variables, project settings etc.) and it called **wrapper**.  
 Once Maya opened you should get following messages in the script editor without any error:  
