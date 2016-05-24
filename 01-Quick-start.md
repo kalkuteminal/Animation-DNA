@@ -63,7 +63,7 @@ Each asset, linked to a shot, should be [**published**](02-Codex-DNA#publishing-
 ## Production.
 [Asset creation](#asset-creation)  |  [Look development](#look-development)  |  [Animation](#animation)  |  [Rendering](#rendering)  |  [Compositing](#compositing)
 
-Now we can start production procedures which generally would go in a way:  
+Now we can start production procedures which generally would go through such stages:  
 **asset creation > animation > render > compose**  
 Go to **`<rootProject>/PREP/PIPELINE`** and [run Maya through wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers) 
 
