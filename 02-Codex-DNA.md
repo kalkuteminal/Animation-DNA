@@ -337,7 +337,7 @@ Ordinarily, the asset consists of the following elements: a polygonal model, set
 * [rigging](#asset-rigging)
 * [look development](#asset-look-development)
 
-**Assets classification**
+#### Assets classification
 In order to optimize the process of creating and managing a quantity of objects, the objects must be classified, which means that the objects must be separated into groups according to the procedures used for assets creation and to the type of usage the assets in the virtual environment.
 
 As a result, it is possible to create a set of unambiguous instructions for each group (category). The strict compliance with these instructions will let the significant part of the process be automated. 
