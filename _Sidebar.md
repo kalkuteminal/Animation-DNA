@@ -15,5 +15,5 @@
 * [Glossary](04-Glossary)
   - [Terms](04-Glossary#terms)
   - [Codes](04-Glossary#codes)
-* [Download](https://github.com/kiryha/AnimationDNA)
+* [Code](https://github.com/kiryha/AnimationDNA)
 * [Blog](http://kiryha.blogspot.com/search/label/3D)
