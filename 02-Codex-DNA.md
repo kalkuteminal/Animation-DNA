@@ -181,7 +181,7 @@ At the base level of project organization we have to deal with two substances:
 * **ASSETS**
 * **SHOTS**
 
-This core division permeates through a project workflow and reflected in FTrack database and folder structure. Shots organization based on [film structure](#structure-of-film-and-production). Asset organization in FTrack based on [asset classification](#asset-creation).
+This core division permeates through a project workflow and reflected in FTrack database and folder structure. Shots organization based on [film structure](#structure-of-film-and-production). Asset organization in FTrack based on [assets classification](#assets-classification).
 
 **SHOTS**. Whole film divided into smallest logical pieces — shots (a part of a film between two cuts). Shots grouped into the sequences — logical part of film actions, usually sequence starts and finishes in one environment, so sequence linked to one particular environment. Sequences grouped into the parts (which are called REELS for feature films) — around 25 min part of the movie. In smallest project there could be only one part and it may have any readable descriptive short name (e.g. TRAILER)
 
@@ -191,7 +191,7 @@ Representation of film structure on HDD and in FTrack:
 **`<codePart>/<codeSequence>/SHOT_<codeShot>`** ( REEL_01/010/SHOT_010 )  
 This peace of folder structure exists in FTrack database and repeated many times in different project folders, which deals with **SHOTS**, for example in **`scenes/ANIMATION/`**, **`PREP/ART/SHOTS/`** etc.
 
-**ASSETS**. All assets divided into 2 main parts: what is animated, and what is not. Animated assets its characters, dynamic props and EDA, not animated assets is static props end environments. Read [asset classification](#asset-creation) for more details.
+**ASSETS**. All assets divided into 2 main parts: what is animated, and what is not. Animated assets its characters, dynamic props and EDA, not animated assets is static props end environments. Read [assets classification](#assets-classification) for more details.
 
 #### Asset types in FTrack
 Respectively you need to create such **asset types** (FTrack system settings > schemas > Asset build > Types  ):
@@ -203,7 +203,7 @@ Respectively you need to create such **asset types** (FTrack system settings > s
 
 Exactly as written, because this types are used by python tools so no mistakes allowed. Case sensitive also.
 
-Representation of asset classification on HDD and in FTrack:
+Representation of [assets classification](#assets-classification) on HDD and in FTrack:
 **ASSETS**:
 * **CHARACTERS** (contain folders named as characters. On HDD there RIG and GEO folder inside each character folder)
 * **ENVIRONMENTS** ( contain folders with locations, in each folder with location there is folder with EDA )
