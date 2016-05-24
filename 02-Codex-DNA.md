@@ -43,6 +43,7 @@ Procedures of asset creation:
    * Layout and Animation
    * FX
    * Rendering and look development
+* **Editing and grading** branch 
 
 
 #### Folder structure
