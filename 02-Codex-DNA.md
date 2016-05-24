@@ -56,9 +56,9 @@ Each file should have proper name, version and be in a proper folder.
 Animation DNA folder structure designed for a full CG projects and already has 	
 directories elaborated for all imaginary data required for a production. At least at the first 3 levels of nesting you don`t need to create new folders.
 
-Project root directory (**`<rootProject>`**):  **drive:/path/projectName**  
+Project root directory — **`<rootProject>`**:  **`<drive>:/<path>/<projectName>`**  
 This is main directory of project, stored on hard drive in the studio, no project files can be stored outside this folder.
-Inside **`<rootProject>`** folder there are 3 folders: **EDIT, PREP** and **PROD**.
+Project root directory contain: 
 * **EDIT** — Editing and grading area. Contain:
   - **GRAD** — Working files and final result of grading process, contain **DCP** folder for final DCP and **FORMATS** for video files for TV, internet or other carriers.
   - **OUT** — Preview renderings from editing software sorted according to a [film structure](#structure-of-film-and-production)
@@ -76,13 +76,13 @@ Inside **`<rootProject>`** folder there are 3 folders: **EDIT, PREP** and **PROD
     - **COMP** — Compositing software project files with `<codeRSS>` structure 
   - **3D** — Root for 3D branch, [Maya project root folder](#3d-folder-structure).
   - **RENDER_2D** — Renderings from compositing department:
-    - **DPX** —
-    - **JPG** —
-    - **MOV** —
+    - **DPX** — Final renderings from compositing department with `<codeRSS>` structure 
+    - **JPG** — Service files for art department with `<codeRSS>` structure 
+    - **MOV** — Previer renderings for editing software with `<codeRSS>` structure 
   - **RENDER_3D** — Renderings from 3D software:
-    - **BLAST** —
-    - **LOOKDEV** —
-    - **RENDER** —
+    - **BLAST** — Playblast from Maya  with `<codeRSS>` structure
+    - **LOOKDEV** — Renderings of assets
+    - **RENDER** — Final renderings from 3D rendering software(Arnold) with `<codeRSS>` structure 
 
 Full folder division can be learned from [DNA.rar](#dna-archive) which contain folder structure.
 
