@@ -16,7 +16,7 @@ Lets [setup FTrack database](02-codex-dna#management-with-ftrack)
 Assume we need to deliver an animated shot with a character holding an apple in a street.
 Like in DNA banner at [home page](https://github.com/kiryha/AnimationDNA/wiki), considering it as a storyboard of our shot.
 
-First we need to understand which objects in terms of [asset clasification]() we need to create for the project and what will happen with them according to a script and storyboard. Than we create necessary assets(objects) and shots(actions) in database, link assets to shots, setup length of the shots. Finally we can start production — animate assets, render and compose shots.
+First we need to understand which objects in terms of [asset classification](02-Codex-DNA#asset-creation) we need to create for the project and what will happen with them according to a script and storyboard. Than we create necessary assets(objects) and shots(actions) in database, link assets to shots, setup length of the shots. Finally we can start production — animate assets, render and compose shots.
 
 According to [asset classification system](02-Codex-DNA#asset-creation) we need to create such assets with a proper [type](02-codex-dna#asset-types-in-ftrack):
 * character asset — Bender 
