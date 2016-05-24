@@ -13,7 +13,7 @@ To optimize and speed up shots production process, proper system should be devel
 **D)** [2D branch](#2d-branch):  
  [2D overview](#2d-branch-general-notes) | [Procedure](#compositing-procedure) | [Output](#output-from-2d-branch)    
 **E)** [Art](#art)  
-**F)** [Edit and grading](#edit-and-grading)
+**F)** [Editing and grading](#edit-and-grading)
 
 ## General notes
 [Structuring](#structuring) | [Naming](#naming) | [Quality control](#quality-control)
