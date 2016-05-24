@@ -24,9 +24,7 @@ According to [asset classification](02-Codex-DNA#assets-classification) we need 
 * environment asset — New-York city street 
 * environment dynamic asset (EDA) — traffic light
 
-Also we need to create one **shot** and link animated assets to this shot. Note, that EDA are linked to the environments, not to a shots. This allow to create shot links faster: you link environment to a shot, and all EDA links automatically. 
-
-According to [film structure system](02-Codex-DNA#structure-of-film) it will be: **REEL_01 > 010 > SHOT_010**
+Also we need to create one **shot** and link animated assets to this shot. Note, that EDA are linked to the environments, not to a shots. This allow to create shot links faster: you link environment to a shot, and all EDA links automatically. According to [film structure](02-codex-dna#structure-of-film-and-production) it will be: **REEL_01 > 010 > SHOT_010**
 
 ### Setup project on HDD
 Extract [Animation DNA archive](02-codex-dna#dna-archive) to your projects folder, rename root folder to a project name.  
