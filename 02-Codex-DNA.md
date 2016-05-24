@@ -902,7 +902,6 @@ Color KEY for shots: **`<rootProject>/PREP/ART/SHOTS/<codeRSS>/CLR_E040_S005_001
 ## Edit and grading
 ### Edit and grading general notes
 Editing and grading process combined into one brunch.  
-**Grading** — is a process of adopting movie from monitor to a cinema screen. 
 
 Editing and grading root folder: **`<rootProject>/EDIT`**
 
@@ -914,7 +913,11 @@ Editing preview by episode : **`<rootProject>/EDIT/OUT/REEL_01/150/R01_E150_v003
 Editing preview by REEL: <**`rootProject>/EDIT/OUT/REEL_01/REEL_01_v001.mp4`**
 
 ### Grading
-#### output for grading 
+Grading is a process of changing color of a motion picture (film). During grading also oqqurs adopting movie from monitor to a cinema screen. The source materials for grading process:
+- [compositing branch](#2d-branch) output — `*.dpx` sequences of each shot
+- Movie editing information as `.edl` or `.xml` files
+
+#### Input data for grading 
 Final rendered shots from COMP department in **10 bit DPX cineon** color space:  
 **`<rootProject>/PROD/RENDER_2D/DPX`**  
 XML of movie edit:  
@@ -925,7 +928,7 @@ Brief for colorist (color key etc.):
 **`<rootProject>/PREP/ART/SHOTS/REEL_01/CLR_REEL_01_01.jpg`**  
 Sound: **`<rootProject>\EDIT\SRC\SOUND`**
 
-#### Input from grading
+#### Output data from grading
 DCP: **`<rootProject>/EDIT/GRAD/DCP`**  
 Video files for TV and Internet : **`<rootProject>/EDIT/GRAD/FORMATS`**
 
