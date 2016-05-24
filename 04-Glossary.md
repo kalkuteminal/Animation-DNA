@@ -6,6 +6,10 @@ B. [Glossary of codes](#codes)
 ## Terms
 **Asset** – a set of digital data (files of different formats), required for the creation, management and visualization of real-world objects in the environment of a computer program Maya. Any visible object in the scene while rendering 3D scenes is asset. 
 
+**Editing** — is the art, technique and practice of assembling shots into a coherent sequence.
+
+**Grading** — is a process of changing color of a motion picture (film) for enhancing and adopting to a cinema scree
+
 **Look development** –  is a process which define physical behavior of surfaces and volumetric in conjunction with lighting. The result of look development process is materials and lights.
 
 **Pipeline** — is project organisation and execution system
