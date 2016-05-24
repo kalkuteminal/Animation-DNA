@@ -53,19 +53,18 @@ Folder structure relies on:
 * Pithiness, logic and usability for data exchange.
 Each file should have proper name, version and be in a proper folder. 
 
-Animation DNA folder structure designed for a full CG projects and already has structured directories for all imaginary data, so at the first 4 top levels you don`t need to create new folders.
+Animation DNA folder structure designed for a full CG projects and already has 	
+directories elaborated for all imaginary data required for a production. At least at the first 3 levels of nesting you don`t need to create new folders.
 
 Project root directory (**`<rootProject>`**):  **drive:/path/projectName**  
 This is main directory of project, stored on hard drive in the studio, no project files can be stored outside this folder.
 Inside **`<rootProject>`** folder there are 3 folders: **EDIT, PREP** and **PROD**.
-* **EDIT** — edit and grading folder. 
+* **EDIT** — Editing and grading area. Contain:
+  - **GRAD** — result of grading proces, DCP and FORMATS for TV and internet
 * **PREP** — Pre-production area: project management, pipeline development, script, art etc.
 * **PROD** — Production area, root for the VFX branch.
 
-Inside each folder there is particular structure which was developed for any data which may be required for a production, so there is no necessity to change this structure by adding more folders.
-
-Further folder division can be learned from [Animation DNA](https://github.com/kiryha/AnimationDNA) which contain empty folder structure for a template project.
-
+Full folder division can be learned from [DNA.rar](#dna-archive) which contain folder structure.
 
 ### Naming
 If structuring is a basement of organisation than naming is a basement of structuring. Naming is an art and it highly important aspect of production.
