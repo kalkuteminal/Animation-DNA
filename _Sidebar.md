@@ -5,7 +5,7 @@
   - [3D branch](02-Codex-DNA#3d-branch)
   - [2D branch](02-Codex-DNA#2d-branch)
   - [Art](02-Codex-DNA#art)
-  - [Edit and Grading](02-Codex-DNA#edit-and-grading)
+  - [Editing and Grading](02-Codex-DNA#edit-and-grading)
   - [Tools](03-Tools)
   - [Troubleshooting](05-Troubleshooting)
 * [Tutorials](06-Tutorials)
