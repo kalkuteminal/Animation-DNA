@@ -66,8 +66,6 @@ Now we can start production procedures which generally would go through such sta
 
 [Asset creation](#asset-creation)  |  [Look development](#look-development)  |  [Animation](#animation)  |  [Rendering](#rendering)  |  [Compositing](#compositing)
 
-Go to **`<rootProject>/PREP/PIPELINE`** and [run Maya through wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers) 
-
 ## Asset creation
 ![](https://lh3.googleusercontent.com/-EOh7UMVvEck/Vma3M-o-LBI/AAAAAAAAFJw/orreZbXZcSAaci4bC0NMcLV_M64q6ZvdACCo/s1152/WIP_BROAK_01.gif)
 
@@ -78,7 +76,7 @@ Go to **`<rootProject>/PREP/PIPELINE`** and [run Maya through wrapper](02-codex-
 [Character assets](#character-assets)   
 
 ### Static assets
- 
+Go to **`<rootProject>/PREP/PIPELINE`** and [run Maya through wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers) 
 Open [static asset](02-codex-dna#asset-creation-general-notes): **`<rootScenes>/ASSETS/STATIC/FLORA/TREES/trsMelony_001.mb`**  
 This is finished [GEOMETRY form](02-codex-dna#asset-forms) of a tree asset. Objects are combined by the materials, have proper names (**`<assetName>_<letterNumber>_<partName>`**) with assigned preview materials using JPG textures. Proxy object modeled also. It is ready to be converted to STANDIN form according to pipeline requirements. 
 
