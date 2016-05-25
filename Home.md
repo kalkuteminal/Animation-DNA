@@ -8,7 +8,8 @@ The **core** of Animation DNA is a **database** — it contains all information 
 - simple text file in [JSON](http://www.jsoneditoronline.org/) format 
 - complex project management system [FTrack](https://www.ftrack.com/). 
 
-Public version of Animation DNA works on JSON database. FTrack is more usable for a bigger projects, can operate more quantity of logical data pieces and store more information about production actions. Documentation is relevant for both types of database.
+This is **free public version** of Animation DNA and it works on **JSON database**!  
+FTrack is more usable for a bigger projects, can operate more quantity of logical data pieces and store more information about production actions. Documentation is relevant for both types of database.
 
 ## How to use Animation DNA?
 
