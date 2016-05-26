@@ -576,9 +576,12 @@ You can create special path with selection mask of objects or shaders for compos
 ![](https://3.bp.blogspot.com/-VEowRHSseXY/UwH9OIKi3mI/AAAAAAAAEag/kIHH-SeIzys/s1600/aiIDs.gif)
 
 ##### Material AOV
-To create AOV for any shader we use **aiWriteColor** node.
+To create AOV for any shader we use [**aiWriteColor**](https://support.solidangle.com/display/AFMUG/Ai+Write+Color+-+Creating+Separate+Render+AOVs) node.
 
 ##### Object AOV
-To create AOV for any object we create custom color attribute on each object and corresponding AOVs in render settings.
+To create AOV for any object:
+- create custom color attribute on desired object 
+- create  AOVs in render settings
+- create aiUserDataColor and plug it in default shader slot of AOV
 
 Create AOVs automatically with [Render Manager](03-tools#render-manager)
