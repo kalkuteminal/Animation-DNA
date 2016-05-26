@@ -34,3 +34,7 @@ To understand principles of Animation DNA pipeline you need to reed [Codex DNA](
 On the right side of wiki you can find full Animation DNA documentation table of contents.
 
 ## Gist and features
+Main principle of Animation DNA is simplicity which could be extended to a more complex systems at any required stage. According to [progressive workflow algorithm](02-Codex-DNA#progressive-workflow) Animation DNA is a basement which drive production to the first final result with a minimum effort.
+
+Core idea of Animation DNA: drive creation of 3D animation and rendering scenes of each shot from the database. This mean that project management team builds shots entering all necessary information in FTrack (or JSON file) and 3D artist can focus only at creative side of work.
+
