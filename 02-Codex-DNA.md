@@ -16,7 +16,7 @@ To optimize and speed up shots production process, proper system should be devel
 **F)** [Editing and grading](#edit-and-grading)
 
 ## General notes
-[Structuring](#structuring) | [Naming](#naming) | [Quality control](#quality-control)
+[Structuring](#structuring) | [Naming](#naming) | [Quality control](#quality-control)  | [Progressive workflow](#progressive-workflow)
 ### Structuring
 To solve complex task (or operate with a big amount of data) it must be splited into smaller pieces. This process of dividing big amount of data into smaller parts according to a particular model is called structuring and structuring is a basement of organisation.
 ![](https://lh3.googleusercontent.com/-6bIw2UeK9hk/VyNSHg04YqI/AAAAAAAAFgI/KLYb-OBJkWw2H4bZc7HsDxg13MzwP-ZLACCo/s640/plantsClassification_01.jpg)
