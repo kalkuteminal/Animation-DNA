@@ -183,7 +183,7 @@ def litDouble(value):
 
 Running a function:
 ```python
-litDouble(value):
+litDouble(value)
 ```
 If your will be able to build [interface](#interfaces) for this function you can consider you are PyMel developer. 
 
