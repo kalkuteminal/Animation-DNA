@@ -32,3 +32,5 @@ Click on image below to watch shot creation workflow presentation
 To understand principles of Animation DNA pipeline you need to reed [Codex DNA](https://github.com/kiryha/AnimationDNA/wiki/02-Codex-DNA) which define terms, describe overall pipeline logic and has particular instructions for each stage of production.
 
 On the right side of wiki you can find full Animation DNA documentation table of contents.
+
+## Gist and features
