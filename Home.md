@@ -39,5 +39,5 @@ Main principle of Animation DNA is simplicity which could be extended to a more 
 Features of Animation DNA: 
 - elaborated basement of information and processes [structuring](02-Codex-DNA#structuring), which allow flexible extension 
 - suitability for small or big projects
-- drive creation of VFX content for each shot from the database. This mean that project management team builds shots entering all necessary information in FTrack (or JSON file) and 3D artist can focus only at creative side of work.
+- drive creation of VFX content for each shot from the database. This mean that project management team builds shots entering all necessary information in FTrack and artists can focus only at creative side of work.
 - recording of key steps of production in database
