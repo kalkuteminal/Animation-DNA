@@ -108,7 +108,19 @@ Example asset names: **trsMelony,  trsMelony_D, trsMelony_D_trunk**
 At the end of each procedure, phase or branch, before resulting data is transferred to the next procedure, phase or branch, the control stage should go, in which the data is being checked for FLAWS and ERRORS.
 
 ### Progressive workflow
-From general to specific. Pareto`s law.
+Progressive workflow is a method of step by step project execution when your get the rough form of the end step as soon as it possible and than refine stages which are most valuable in overall result according to resources your have. Mathematically it expressed as [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle): 20% of efforts gives 80% of result. 
+
+Understanding progressive workflow and using it at all stages, from the basic actions till the overall project management can dramatically rise production efficiency.
+
+This approach allow to:
+- have general overview of final result on the early stages
+- achieve the best outcome within given resources
+- focus on important aspects 
+- avoid spending many resources on not valuable things   
+
+Progressive workflow paradigm is: **from general to specific**.  
+
+
 
 ## Pipeline overview
 Animation pipeline is a system of organisation and execution of a project.
