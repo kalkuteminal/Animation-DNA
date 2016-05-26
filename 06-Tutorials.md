@@ -65,7 +65,7 @@ for eachObject in listOfObjects:
 When you create a list, you need to keep this list somewhere to use it later. Your store objects or data in **variables**. In this code **list** is a variable: **`list = [object_A, object_B, object_C]`** which contain set of 3 objects.
 
 ##### Coding algorithm.
-Performing majority of projects goes from rough form in the beginning to refined result at the end. From general to specific. Writing code usually will flow vice versa: 
+Majority of projects executes with [progressive workflow](02-Codex-DNA#progressive-workflow): from rough form in the beginning to refined result at the end. From general to specific. Writing code usually will flow vice versa: 
 - you find a command that will do your action
 - you find a way to perform a particular command to a concrete object 
 - you find a way to generalize code: obey command to work with input list of necessary objects in all possible cases   
