@@ -875,6 +875,7 @@ Importing camera to scene with FX could be done with **IMPORT CAMERA** button of
 
 
 ## 2D branch 
+![](https://lh3.googleusercontent.com/-Bfzzqvge36Q/Vyt8MdzBkjI/AAAAAAAAFjo/8QX4nfS3Y4QRy1k0znOrLnKUzUFdfuU1gCCo/s1280/DNA_E010_S010_001.jpg)
 [2D overview](#2d-branch-general-notes) | [Procedure](#compositing-procedure) | [Output](#output-from-2d-branch)
 ### 2D branch general notes
 2D (compositing) branch is last stage of VFX segment where all shots gets their final look before being graded.
