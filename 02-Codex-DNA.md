@@ -108,6 +108,7 @@ Example asset names: **trsMelony,  trsMelony_D, trsMelony_D_trunk**
 At the end of each procedure, phase or branch, before resulting data is transferred to the next procedure, phase or branch, the control stage should go, in which the data is being checked for FLAWS and ERRORS.
 
 ### Progressive workflow
+![](https://lh3.googleusercontent.com/-NLfOgprql6A/V0bBAV2cmhI/AAAAAAAAFo8/AgoV0SPmfZkyTZtMzyni-VwYKSsJqtpXQCCo/s800/progressive_02.gif)
 Progressive workflow is a method of step by step project execution when your get the rough form of the end step as soon as it possible and than refine stages which are most valuable in overall result according to resources your have. Mathematically it expressed as [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle): 20% of efforts gives 80% of result. 
 
 Understanding progressive workflow and using it at all stages, from the basic actions till the overall project management can dramatically rise production efficiency.
@@ -120,7 +121,7 @@ This approach allow to:
 
 Progressive workflow paradigm is: **from general to specific**.  
 
-
+Such algorithm called progressive workflow similarly to progressive JPG or progressive rendering, when your see full resolution of image in rough pixelated form and than refine quality instead of getting small portions of final quality one by one.
 
 ## Pipeline overview
 Animation pipeline is a system of organisation and execution of a project.
