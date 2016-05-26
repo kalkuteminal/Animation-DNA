@@ -5,7 +5,7 @@ To optimize and speed up shots production process, proper system should be devel
 **Codex DNA** is set of instructions for computer graphic which establish workflow for creation an animation movie.
 
 **A)** [General notes](#general-notes):  
-  [Structuring](#structuring) | [Naming](#naming) | [Quality control](#quality-control)  
+  [Structuring](#structuring) | [Naming](#naming) | [Quality control](#quality-control)  | [Progressive workflow](#progressive-workflow)  
 **B)** [Pipeline overview](#pipeline-overview):  
  [DNA.rar](#dna-archive) | [Wrapper](#running-maya-and-nuke-with-wrappers) | [Pipeline brief](#pipeline-brief) | [FTrack](#management-with-ftrack) | [Outsource](#workflow-with-outsource-studios) | [Shot creation](#shot-creation-workflow)    
 **C)** [3D branch](#3d-branch):  
@@ -106,6 +106,9 @@ Example asset names: **trsMelony,  trsMelony_D, trsMelony_D_trunk**
 
 ### Quality control
 At the end of each procedure, phase or branch, before resulting data is transferred to the next procedure, phase or branch, the control stage should go, in which the data is being checked for FLAWS and ERRORS.
+
+### Progressive workflow
+From general to specific. Pareto`s law.
 
 ## Pipeline overview
 Animation pipeline is a system of organisation and execution of a project.
