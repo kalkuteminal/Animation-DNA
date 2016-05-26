@@ -331,6 +331,22 @@ from maya.mel import eval
 eval(' AbcImport -ct  "{0}" "{1}" '.format(groupName, pathABC))
 ```
 
+##### Write data to a file with JSON
+```python
+import json
+dataFile = 'D:/DNA/datFile.json'
+dataTransfer = 'Information to write to a file'
+json.dump(dataTransfer, open(dataFile, 'w'), indent = 4) # write
+```
+
+##### Read data from a file with JSON
+```python
+import json
+dataFile = 'D:/DNA/datFile.json'
+dataTransfer = json.load(open(dataFile))
+```
+
+
 #### Lists
 ##### Create list by object name 
 ```python
