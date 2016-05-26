@@ -12,6 +12,8 @@ B. [Glossary of codes](#codes)
 
 **Look development** –  is a process which define physical behavior of surfaces and volumetric in conjunction with lighting. The result of look development process is materials and lights.
 
+**Material** — Surface property which define light reacting characteristics. Common materials are: wood, metal, carpaint, wax, skin etc.
+
 **Pipeline** — is project organisation and execution system
 
 **Progressive workflow** — is a method of step by step project execution when your get the rough form of the end step as soon as it possible and than refine stages which are most valuable in overall result according to resources your have. 
@@ -19,6 +21,8 @@ B. [Glossary of codes](#codes)
 **Rendering** — is a conversion of vector data to a raster images.
 
 **Publishing** — is a process of recording necessary data to FTrack database with a help of [Animation DNA tools](03-Tools) using [FTrack Python API](http://ftrack.rtd.ftrack.com/en/3.3.1/developing/index.html)
+
+**Shader** — Mathematical realization of surface material in particular rendering engine. 
 
 **Shot** — is a part of a film between two cuts.
 
