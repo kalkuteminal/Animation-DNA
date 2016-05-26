@@ -587,6 +587,6 @@ To create AOV for any object:
 Create AOVs automatically with [Render Manager](03-tools#render-manager)
 
 ## Material creation techniques
-In this section we will explore how to make surfaces looks like particular materials — wood, metal, skin etc. To define surface properties with Arnold aiStandard shader will be used. 
+In this section we will explore how to make surfaces looks like particular materials — wood, metal, skin etc with Arnold aiStandard shader. 
 
 Lighting > shading
