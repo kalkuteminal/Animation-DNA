@@ -119,7 +119,7 @@ This approach allow to:
 - focus on important aspects 
 - avoid spending many resources on not valuable things   
 
-Progressive workflow paradigm is: **from general to specific**.  
+Progressive workflow paradigm is: **from general to specific** — from rough form in the beginning to refined result at the end.  
 
 Such algorithm called progressive workflow similarly to progressive JPG or progressive rendering, when your see full resolution of image in rough pixelated form and than refine quality instead of getting small portions of final quality one by one.
 
