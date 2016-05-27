@@ -602,10 +602,12 @@ To create AOV for any object:
 
 Create AOVs automatically with [Render Manager](03-tools#render-manager)
 
+## Kick ass with command line
+![](https://lh3.googleusercontent.com/-OYM00yKceo0/V0f8lHqUiVI/AAAAAAAAFpQ/KE1QbqjycN4LyrhaltBUrQR_wAAbaCg1gCCo/s964/kickAss_01.jpg)
+
 ## Material creation techniques
 ![](http://3.bp.blogspot.com/-wSb0sOWDswg/UCu-aBdDbjI/AAAAAAAADUE/gQ_2IKwDzo4/s1600/256_Shaders_banner.jpg)
 
 In this section we will explore how to make surfaces looks like particular materials — wood, metal, skin etc with Arnold aiStandard shader. 
 
 Lighting > Shading 
-
