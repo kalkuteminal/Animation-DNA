@@ -94,7 +94,8 @@ Artistic way of writing code is [finding MEL commands and object attributes](#sa
 
 #### Step by step example
 Lets try to double intensity of all lights in the scene.  
-[Search for](#developing-with-google): select all lights pymel. Go to the first link, at the bottom of the page in example section you will find a command which contain "light": **pm.ls( geometry=True, lights=True, cameras=True )**   
+[Search for](#developing-with-google): select all lights pymel. Go to the first link, at the bottom of the page in example section you will find a command which contain "light":  
+**pm.ls( geometry=True, lights=True, cameras=True )**   
 
 **`pm.ls`** is a command which allow to create [lists](#developing-foundation). This is **command #1** your will deal with. Best friend for creating lists! 
 
