@@ -14,6 +14,10 @@ Always keep an eye on script editor, pressing each button should bring success m
 **`Error: KeyError: file <rootProject>/PREP/PIPELINE/dnaCore.py line 130: MAT`**  
 Reason: You did not [publish material](01-quick-start#look-development) for an assets, linked to a shot.
 
+**`Error: AttributeError: file P:\TANNER\PROD\3D\scripts\DNA\dnaCore.py line 35: 'NoneType' object has no attribute 'getName'`**  
+Reason:  In FTrack to a shot linked wrong data, e.g. **folder** with asset instead of environment asst
+
+
 ### FX manager
 ##### CREATE FUR SIM SCENE
 **`# Error: ValueError: file <maya console> line 70: invalid literal for int() with base 10: '<anyTextHere>' # `**  
