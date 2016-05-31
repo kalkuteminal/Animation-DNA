@@ -10,7 +10,7 @@ Always keep an eye on script editor, pressing each button should bring success m
 
 ## Errors by tools 
 ### Shot assembler
-##### Create render scene
+##### CREATE RENDER SCENE
 **`Error: KeyError: file <rootProject>/PREP/PIPELINE/dnaCore.py line 130: MAT`**  
 Reason: You did not [publish material](01-quick-start#look-development) for an assets, linked to a shot.
 
