@@ -12,7 +12,7 @@
   - [Quick Start](01-Quick-start)
   - [PyMel](06-Tutorials#programming-with-pymel-for-artists)
   - [Arnold](06-Tutorials#arnold-rendering-techniques)
-  - [Animation](06-Tutorials#animation)
+  - [Cinematography](06-Tutorials#cinematography)
 * [Glossary](04-Glossary)
   - [Terms](04-Glossary#terms)
   - [Codes](04-Glossary#codes)
