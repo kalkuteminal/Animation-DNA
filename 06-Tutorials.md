@@ -616,3 +616,13 @@ Lighting > Shading
 
 ## Cinematography
 #### Types of shots
+
+List of shots by field size:
+- Extreme close-up
+- Close-up
+- Medium close-up
+- Medium
+- Full
+- Medium wide
+- Wide
+- Extreme wide
