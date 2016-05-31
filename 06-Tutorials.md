@@ -1,8 +1,7 @@
 ![](https://lh3.googleusercontent.com/-90kNXCym1kQ/VznLmU-hxOI/AAAAAAAAFno/0pT_n7X5Q90a7Fv0BCA-ky-NfB67H20jQCCo/s700/bannerDNA_tut_01.jpg)
 # Tutorials.
-In this section located techniques, tips and tricks which are not related to Animation DNA directly.
-
-To learn Animation DNA at the beginning use [Quick start](01-Quick-start) tutorial  
+In this section located techniques, tips and tricks which are not related to Animation DNA directly.  
+First step in Animation DNA learning is [Quick start](01-Quick-start) tutorial  
 [Quick start](01-Quick-start)  |  [Programming](#programming-with-pymel-for-artists)  |  [Arnold](#arnold-rendering-techniques)  |  [Animation](#animation)
 
 ## Programming with PyMel for artists
