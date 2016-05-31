@@ -623,6 +623,14 @@ List of shots by field size:
 - Medium close-up
 - Medium
 - Full
-- Medium wide
 - Wide
 - Extreme wide
+
+List of shots by placement:
+- Cut-in
+- Cutaway
+- Point of view
+- Areal
+- Over the shoulder
+- Reverse
+- Two shot
