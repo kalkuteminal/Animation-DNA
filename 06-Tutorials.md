@@ -473,6 +473,18 @@ rgRes.height.set(1080)
 ```
 
 #### Interfaces
+##### Heads up display
+```python
+import pymel.core as pm
+from functools import partial
+def data():
+    shot = 'E010-S010'
+    frame = pm.currentTime( query = True )
+    out = '{0}  << {1}  >> '.format( shot, frame)
+    return out
+hud = pm.headsUpDisplay( 'HUD', section = 6, block = 1, blockSize = 'medium', label = 'INFO:', labelFontSize = 'large', command = partial(data), event='idle')
+# DELETE HUD:  pm.headsUpDisplay( 'HUD', rem=True )
+```
 ##### Window with text field and button.
 Pressing a button prints value of text field.
 ```python
