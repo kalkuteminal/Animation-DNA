@@ -142,7 +142,9 @@ Animation DNA documentation located online:
 
 [Download DNA.rar](https://drive.google.com/file/d/0B08-uC9HedKCRlJGWUFoVUtOZzQ/view?usp=sharing). This version contain only folder structure and [tools](03-Tools), no demo materials included. If you need them — drop me a message.
 
-#### To run FTrack version of Animation DNA you need setup environment variables for each user in windows system properties. Create new variable and set proper value:
+#### Setup system
+![](https://lh3.googleusercontent.com/-ASQbgBssrCQ/V0_zYOdLrgI/AAAAAAAAFp8/gJ9SfjvkKuUDpDXDt7oupDUMfdkcB4GrgCCo/s1221/envVariables_01.gif)
+To run FTrack version of Animation DNA you need setup environment variables for each user in windows system properties. Create new variable and set proper value:
 ```Python
 [FTRACK_SERVER] = https://<userAdress>.ftrackapp.com
 [FTRACK_APIKEY] = <API_key>
