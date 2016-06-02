@@ -28,6 +28,8 @@ Also we need to create one **shot** and link animated assets to this shot. Note,
 **`REEL_01 > 010 > SHOT_010`**
 
 ### Setup project on HDD
+[Setup system](02-codex-dna#setup-system) if you work with [Ftrack version](wiki#database-versions) of Animation DNA
+
 Extract [Animation DNA archive](02-codex-dna#dna-archive) to your projects folder, rename root folder to a project name.  
 **`<rootProject>`** – is a full path to the renamed folder (P:/DNA/ in this case)
 
