@@ -50,7 +50,7 @@ In **REEL_01** create `sequence` **010** and inside it create `shot` **SHOT_010*
 Now **link** BENDER, fooApple and NYC assets to a shot.  
 
 If DNA project already exists in FTrack, just learn assets properties and structure.  
-![](https://lh3.googleusercontent.com/-cI5QOWjY1H0/VyHxKJ3bB4I/AAAAAAAAFek/YrUVtebFJ9o084FPLGA5FG6JeDUM_SQ_gCCo/s1440/gettingStarted_FTR_04.gif)
+![](https://lh3.googleusercontent.com/-3-CMNK67ZEk/V0_9Ei8Z2rI/AAAAAAAAFq0/o6lEK8o7vYcxyErlieMEd88KQ4HfGixhACCo/s2048/gettingStarted_FTR_06.gif)
 
 For JSON version use template in **`<rootProject>/PREP/PIPELINE/DNA/DIC`**  
 Edit file in [online JSON editor](http://www.jsoneditoronline.org) to setup database as it was described for Ftrack above. 
