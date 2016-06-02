@@ -54,7 +54,7 @@ If DNA project already exists in FTrack, just learn assets properties and struct
 
 For JSON version use template in **`<rootProject>/PREP/PIPELINE/DNA/DIC`**  
 Edit file in [online JSON editor](http://www.jsoneditoronline.org) to setup database as it was described for Ftrack above. 
-![](https://lh3.googleusercontent.com/-I_Id6RqtBdM/VyHxNL5rYAI/AAAAAAAAFeo/ZXFQiNB69AcU4sipVbScrUDj05gjeDL8ACCo/s1440/gettingStarted_JSN_03.gif)
+![](https://lh3.googleusercontent.com/-I_Id6RqtBdM/VyHxNL5rYAI/AAAAAAAAFes/6IVzJbRsKaAtUg5WNHTUhosE60hqebgLwCCo/s2048/gettingStarted_JSN_03.gif)
 
 For correct workflow you need to have **SHOT** with linked assets in the database.  
 Each asset, linked to a shot, should be [**published**](02-Codex-DNA#publishing-data-to-ftrack) in database with particular data for each asset type:
