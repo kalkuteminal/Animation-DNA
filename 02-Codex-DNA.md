@@ -636,6 +636,7 @@ Refer to [look development and rendering](#lLook-development-and-rendering) phas
 
 ### Layout and animation
 #### Layout and animation general notes 
+![](https://lh3.googleusercontent.com/-MYWLtXhEiuI/V1GQkAPmHxI/AAAAAAAAFrU/-Y3ivPYGBmQE23crRiRaS5g13gvBJ2wGgCCo/s2048/cine_shotTypes_03.jpg)
 **Layout** — is synergistic cycle between modeling and animation. It is the first step of animation process, where we define and test environment space, cameras, characters basic actions for each shot.
 
 To start layout it`s necessary to have rough models of environments (basic objects in their positions: land, buildings and other objects, which interact with characters) and rigged characters.
