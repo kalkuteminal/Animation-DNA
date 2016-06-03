@@ -703,6 +703,7 @@ Before exporting animation data scene should be checked:
 Refer to [cinematography tutorials](06-Tutorials#cinematography) for tips and techniques.
 
 ### Look development and rendering
+![](https://lh3.googleusercontent.com/-4AKcldsBvXk/V1GUdYQFBbI/AAAAAAAAFrg/gE43z5UHrRYhrhmgIgTMVJ8MW1krtNTIgCCo/s2048/bannerDNA_RND_01.jpg)
 #### Look development and rendering general notes
 **Rendering**, by general definition, is a conversion of vector data to a raster images.  
 In terms of pipeline organization, rendering shots its last phase 3D branch, where data from all 3D departments assembles in one scene for each shot and outputted as a sequence of EXR files to be transferred to the compositing department.
