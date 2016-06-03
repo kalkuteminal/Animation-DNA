@@ -639,6 +639,7 @@ List of shots by field size:
 - Wide
 - Extreme wide
 
+#### Framing rules.
 Do not cut joints!
 
 List of shots by placement:
