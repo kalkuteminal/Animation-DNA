@@ -628,7 +628,7 @@ Lighting > Shading
 
 ## Cinematography
 #### Types of shots
-![](https://lh3.googleusercontent.com/-kK_ixISOnh4/V1F7NEM2xyI/AAAAAAAAFq8/1dQtKzwkmnApS8pMXE_cW8HjA-tz_JaOwCCo/s2048/cine_shotTypes_02.jpg)
+![](https://lh3.googleusercontent.com/-MYWLtXhEiuI/V1GQkAPmHxI/AAAAAAAAFrU/-Y3ivPYGBmQE23crRiRaS5g13gvBJ2wGgCCo/s2048/cine_shotTypes_03.jpg)
 
 List of shots by field size:
 - Extreme close-up
