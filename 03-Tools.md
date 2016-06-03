@@ -128,7 +128,9 @@ If any playblast of this shot already exists — warning window appears, asking 
 * **IMPORT XGEN** — import XGen description in render scene.
 * **IMPORT MATERIALS** — import material library of each asset from text field.
 * **ASIGN MATERIALS** — assign materials to all polygonal object in scene.
-* **FOR SELECTED** — assign materials to selected polygonal objects.
+* **FOR SELECTED** — assign materials to selected polygonal objects. If any material does not exists in scene procedure create:
+  - report with list of missing materials
+  - selection set with name `MISS_<materialName>` and add objects with this material to this set 
 * **SELECT SG ALL GEO** — select shading groups of all(or only selected with button SELECT SG SEL) geometry in scene.
 * **ADD SHADER ID** — add AOV IDs for each shading group in scene if nothing selected. If any shading group selected — adds AOV only for selected SG. Using aiWriteColor method for this: create AOV and add aiWriteColor node to shading network. Refer to a [AOV tutorial](06-Tutorials#object-and-material-aovs) for explanation.
 * **DEL SHADER ID** — delete AOV and aiWriteColor node from network for each selected aiWriteColor node, or for all shader IDs if nothing selected.
