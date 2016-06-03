@@ -30,7 +30,7 @@ B. [Glossary of codes](#codes)
 
 **Structuring** — dividing big amount of data into smaller pieces according to a particular model.
 
-**Variation** — slight modification of the same asset. For example, apple tree can has such variations: young, old, dry, etc. 
+**Variation** — slight modification of the same asset. 
 
 **Version** — digital number of file.
 
