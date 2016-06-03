@@ -700,6 +700,8 @@ Before exporting animation data scene should be checked:
 (**CHECK SCENE** button of [Animation Manager](03-tools#animation-manager))
 - intersections of assets and asset parts
 
+Refer to [cinematography tutorials](06-Tutorials#cinematography) for tips and techniques.
+
 ### Look development and rendering
 #### Look development and rendering general notes
 **Rendering**, by general definition, is a conversion of vector data to a raster images.  
@@ -806,6 +808,7 @@ Lighting and rendering artist:
 #### Look development and rendering quality control
 Render frame with low quality settings half size, submit to comp department.
 
+Refer to [rendering tutorials](06-Tutorials#arnold-rendering-techniques) for tips and techniques.
 
 ### FX
 #### FX general notes
