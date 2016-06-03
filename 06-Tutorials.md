@@ -639,9 +639,6 @@ List of shots by field size:
 - Wide
 - Extreme wide
 
-#### Framing rules
-Do not cut joints!
-
 List of shots by placement:
 - Cut-in
 - Cutaway
@@ -650,3 +647,7 @@ List of shots by placement:
 - Over the shoulder
 - Reverse
 - Two shot
+
+#### Framing rules
+Do not cut joints!
+
