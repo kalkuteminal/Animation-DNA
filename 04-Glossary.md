@@ -30,6 +30,10 @@ B. [Glossary of codes](#codes)
 
 **Structuring** — dividing big amount of data into smaller pieces according to a particular model.
 
+**Variation** — slight modification of the same asset. For example, apple tree can has such variations: young, old, dry, etc. 
+
+**Version** — digital number of file.
+
 ## Codes
 **`<codePart>`** — name of film overall division (REEL_01, TEASER etc)  
 **`<codeSequence>`** — 3 digits number of episode in film (010)  
