@@ -14,7 +14,7 @@ Coding could be hard only at the beginning, but the more you will practice the e
 **A)** [Theory](#programming-theory)  
   [Intro](#introduction-to-artistic-developing )  |  [PyMel basics](#developing-foundation)  |  [Developing example](#step-by-step-example)  |  [Art of good code](#art-of-good-code)  
 **B)** [Practice](#programming-practice)  
-  [Attributes](#attributes)  |  [Objects](#objects)  |  [Files](#files)  |  [Lists](#lists)  |  [Strings](#string-formatting)  |  [Rendering](#rendering)  |  [Interfaces](#interfaces)  |  [FTrack](#ftrack-examples)
+  [General](#general)  |  [Attributes](#attributes)  |  [Objects](#objects)  |  [Files](#files)  |  [Lists](#lists)  |  [Strings](#string-formatting)  |  [Rendering](#rendering)  |  [Interfaces](#interfaces)  |  [FTrack](#ftrack-examples)
 
 ### Programming theory
 [Intro](#introduction-to-artistic-developing )  |  [PyMel basics](#developing-foundation)  |  [Developing example](#step-by-step-example)  |  [Art of good code](#art-of-good-code)
@@ -201,7 +201,17 @@ When you will pass first painful steps and get awkward blocks of more or less wo
 ### Programming practice
 Here you will find procedures for most common tasks in Maya.
 
-[Attributes](#attributes)  |  [Objects](#objects)  |  [Files](#files)  |  [Lists](#lists)  |  [Strings](#string-formatting)  |  [Rendering](#rendering)  |  [Interfaces](#interfaces)  |  [FTrack](#ftrack-examples)
+[General](#general)  |  [Attributes](#attributes)  |  [Objects](#objects)  |  [Files](#files)  |  [Lists](#lists)  |  [Strings](#string-formatting)  |  [Rendering](#rendering)  |  [Interfaces](#interfaces)  |  [FTrack](#ftrack-examples)
+
+#### General
+##### Find methods for a node:
+```python
+import pymel.core as pm
+nodeCheck = pm.PyNode('<nodeName>')
+ 
+for i in dir(nodeCheck):
+    print i
+```
 
 #### Attributes
 ##### Get objects by attribute
@@ -650,4 +660,3 @@ List of shots by placement:
 
 #### Framing rules
 Do not cut joints!
-
