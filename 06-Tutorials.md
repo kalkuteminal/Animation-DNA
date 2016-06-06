@@ -659,4 +659,6 @@ List of shots by placement:
 - Two shot
 
 #### Framing rules
-Do not cut joints!
+* Rule of thirds
+* Empty space
+* Do not cut joints
