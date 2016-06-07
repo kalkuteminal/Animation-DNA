@@ -972,3 +972,5 @@ SRC from shooting: **`<rootProject>/EDIT/SRC/MATERIALS/<codeRSS>`**
 Convert SRC for production needs: **`<rootProject>/EDIT/OUT/PROD/JPG/<codeRSS>`**
 
 ### Stereo conversion
+#### Output data for stereo conversion from compositing department  
+`<rootProject>/PROD/RENDER_2D/JPG/<codeRSS>`
