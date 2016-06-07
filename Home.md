@@ -42,3 +42,4 @@ Features of Animation DNA:
 - suitability for small or big projects
 - drive creation of VFX content for each shot from the database. This mean that project management team builds shots entering all necessary information in FTrack and artists can focus only at creative side of work.
 - recording of key steps of production in database
+- reliable and easy outsourcing of animation   
