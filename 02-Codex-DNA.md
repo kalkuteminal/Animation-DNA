@@ -973,7 +973,7 @@ Convert SRC for production needs: **`<rootProject>/EDIT/OUT/PROD/JPG/<codeRSS>`*
 
 ### Stereo conversion
 #### Output data for stereo conversion from compositing department  
-Location of files:  
-`<rootProject>/PROD/RENDER_2D/JPG/<codeRSS>`  
-Name of files:  
-<property>_E<codeSequence>_S<codeShot>_###.tif
+Location of files for passes (depth, IDs etc):  
+`<rootProject>/PROD/RENDER_2D/JPG/<codeRSS>/<passCode>`  
+Name of files for passes (depth, IDs etc):  
+`<passCode>_E<codeSequence>_S<codeShot>_v###.tif` (version = 3D render `.exr` version)
