@@ -973,4 +973,7 @@ Convert SRC for production needs: **`<rootProject>/EDIT/OUT/PROD/JPG/<codeRSS>`*
 
 ### Stereo conversion
 #### Output data for stereo conversion from compositing department  
-`<rootProject>/PROD/RENDER_2D/JPG/<codeRSS>`
+Location of files:  
+`<rootProject>/PROD/RENDER_2D/JPG/<codeRSS>`  
+Name of files:  
+<property>_E<codeSequence>_S<codeShot>_###.tif
