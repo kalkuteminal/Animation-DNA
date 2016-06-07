@@ -981,3 +981,4 @@ Name of files for passes (`.tif` 32 bit float):
 
 #### Passes code reference:
 - depth = DPT
+- depth aliased = DPS
