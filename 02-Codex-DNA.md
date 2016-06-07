@@ -976,5 +976,8 @@ Convert SRC for production needs: **`<rootProject>/EDIT/OUT/PROD/JPG/<codeRSS>`*
 Location of files for **passes** (depth, IDs etc):  
 `<rootProject>/PROD/RENDER_2D/JPG/<codeRSS>/<codePass>/v<###>/`  
 (**version = `.exr` 3D render version!**)  
-Name of files for passes:  
-`<codePass>_E<codeSequence>_S<codeShot>_v<###>.####.tif` (version = 3D render `.exr` version)
+Name of files for passes (`.tif` 32 bit float):  
+`<codePass>_E<codeSequence>_S<codeShot>_v<###>.####.tif` 
+
+#### Passes code reference:
+- depth = DPT
