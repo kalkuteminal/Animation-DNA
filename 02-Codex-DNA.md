@@ -970,3 +970,5 @@ Video files for TV and Internet : **`<rootProject>/EDIT/GRAD/FORMATS`**
 #### Project with shooting materials
 SRC from shooting: **`<rootProject>/EDIT/SRC/MATERIALS/<codeRSS>`**  
 Convert SRC for production needs: **`<rootProject>/EDIT/OUT/PROD/JPG/<codeRSS>`**
+
+### Stereo conversion
