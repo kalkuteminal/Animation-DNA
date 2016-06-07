@@ -40,7 +40,7 @@ B. [Glossary of codes](#codes)
 **`<codeShot>`** — number of shot in each sequence (010). Used with `SHOT_` or `S` prefixes  
 **`<codeRSS>`** — sub path `/<codePart>/<codeSequence>/SHOT_<codeShot>/`   
 **`<codeFX>`** — 3 capital letter short name of FX (dragon fire - DRF)  
-**`<codePass>`** — 3 capital letter short name of compositing pass (depth = DPT) 
+**`<codePass>`** — 3 capital letter short name of compositing pass (depth = DPT)  
 **`<assetName>`** — name of asset  
 **`<assetCode>`** — short name of asset.  
 **`<partName>`** — name of asset part (trunk, leaves etc)  
