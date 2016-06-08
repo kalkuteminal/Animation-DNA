@@ -980,6 +980,6 @@ Name of files for passes (`.tif` 32 bit float):
 `<codePass>_E<codeSequence>_S<codeShot>_v<###>.####.tif` 
 
 #### Passes code reference:
-- depth = DPT
-- depth aliased = DPS
-- ID AOVs = I<##>
+- depth = `DPT`
+- depth aliased = `DPS`
+- ID AOVs = `I<##>`
