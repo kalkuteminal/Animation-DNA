@@ -6,6 +6,7 @@ VFX Supervisor:
   - Compositing artists
 * 3D lead:
   - Pipeline TD:
+    - pipeline developer
     - pipeline artists
   - Asset TD:
     - modeling artists
