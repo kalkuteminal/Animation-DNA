@@ -13,11 +13,13 @@ VFX Supervisor:
   - Rigging TD:
     - rigging artists
   - FX TD:
-    * fx artists
+    - fx artists
   - Layout TD:
-    * layout artists
+    - layout artists
   - Animation TD:
+    - animation artists
   - Lighting and Rendering TD:
+    - Lighting and Rendering artists
 * Editing lead:
   - editing artists
 
