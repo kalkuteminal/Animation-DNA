@@ -1,5 +1,5 @@
 ## Codex of employee 
-Structure of employee in VFX segment: **VFX Supervisor > head > TD > artist** 
+Structure of employee in VFX segment: **VFX Supervisor > lead > TD > artist** 
 
 ### Codex for TDs
 
