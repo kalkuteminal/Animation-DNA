@@ -785,9 +785,9 @@ Location of rendering output for other layers of shot:
 Name of rendering output for other layers of shot:  
 **`<coleLayer>_E<codeSequence>_S<codeShot>_v###.####.exr`**
 
-##### Codes for layers (`<coleLayer>`):
+Codes for other layers (`<coleLayer>`):
 * Environment = `BGR`
-* Characters = `<charCode>`
+* Characters = `<assetCode>`
 
 #### Look development and rendering process
 ##### Look development of assets
