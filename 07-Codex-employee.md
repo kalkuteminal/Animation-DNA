@@ -20,6 +20,7 @@ VFX Supervisor:
     - animation artists
   - Lighting and Rendering TD:
     - Lighting and Rendering artists
+    - hair and fur artists
 * Editing lead:
   - editing artists
 
