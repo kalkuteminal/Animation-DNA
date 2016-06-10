@@ -42,6 +42,7 @@ B. [Glossary of codes](#codes)
 **`<codeRSS>`** — sub path `/<codePart>/<codeSequence>/SHOT_<codeShot>/`   
 **`<codeFX>`** — 3 capital letter short name of FX (dragon fire - DRF)  
 **`<codePass>`** — 3 capital letter short name of compositing pass (depth = DPT)  
+**`<codeLayer>`** — 3 capital letter short name of rendering layer (background, character etc)  
 **`<assetName>`** — name of asset  
 **`<assetCode>`** — short name of asset.  
 **`<partName>`** — name of asset part (trunk, leaves etc)  
