@@ -1,5 +1,5 @@
 ## Codex of employee 
 
-### Codex TDs
+### Codex for TDs
 
-### Codex artists
+### Codex for artists
