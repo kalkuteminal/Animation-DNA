@@ -24,7 +24,9 @@ To solve complex task (or operate with a big amount of data) it must be splited 
 #### Structure of film and production
 Structure of film: **FILM >PART> SEQUENCE > SHOT**  
 Structure of production process: **SEGMENT > BRANCH > PHASE > PROCEDURE > ACTION**   
-Structure of employee in VFX segment: **VFX Supervisor > TD > artist**
+Structure of employee in VFX segment: **VFX Supervisor > head > TD > artist**
+
+See [Codex employee](07-Codex-employee) for stuff management notes.
 
 #### VFX segment structure
 * **2D (compositing)** branch  
