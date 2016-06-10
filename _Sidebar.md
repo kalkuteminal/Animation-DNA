@@ -16,5 +16,8 @@
 * [Glossary](04-Glossary)
   - [Terms](04-Glossary#terms)
   - [Codes](04-Glossary#codes)
+* [Codex employee](07-Codex-employee)
+  - [TD](07-Codex-employee##codex-for-tds)
+  - [Artist](07-Codex-employee#codex-for-artists)
 * [Code](https://github.com/kiryha/AnimationDNA)
 * [Blog](http://kiryha.blogspot.com/search/label/3D)
