@@ -5,11 +5,21 @@ VFX Supervisor:
 * Compositing lead:
   - Compositing artists
 * 3D lead:
+  - Pipeline TD:
+    - pipeline artists
   - Asset TD:
     - modeling artists
     - texturing artists
   - Rigging TD:
     - rigging artists
+  - FX TD:
+    * fx artists
+  - Layout TD:
+    * layout artists
+  - Animation TD:
+  - Lighting and Rendering TD:
+* Editing lead:
+  - editing artists
 
 ### Codex for leads
 ### Codex for TDs
