@@ -783,7 +783,11 @@ Name for FX rendering output:
 Location of rendering output for other layers of shot:  
 **`<rootProject>/PROD/RENDER_3D/RENDER/<codeRSS>/<coleLayer>/v###/`**  
 Name of rendering output for other layers of shot:  
-**`E<codeSequence>_S<codeShot>_v###.####.exr`**
+**`<coleLayer>_E<codeSequence>_S<codeShot>_v###.####.exr`**
+
+##### Codes for layers (`<coleLayer>`):
+* Environment = `BGR`
+* Characters = `<charCode>`
 
 #### Look development and rendering process
 ##### Look development of assets
