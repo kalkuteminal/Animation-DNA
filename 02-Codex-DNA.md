@@ -569,7 +569,8 @@ Display layers:
 ###### Setup FUR.
 Name of  yeti node: **`FUR_<characterName>`**  
 Geometry with fur node: **`FUR_<characterName>_body`**  
-Groom nodes: **`GRM_<partName>`**
+Groom nodes: **`GRM_<partName>`**  
+Display layer: HAIRS
 
 ![](https://lh3.googleusercontent.com/-m7K1mKgq8QQ/Vys48YiTS-I/AAAAAAAAFjE/ESI5AN_xB9QkT0bSiKzlEga7N2pMJgzFQCCo/s1045/assetCharacter_setup_01.jpg)
 
