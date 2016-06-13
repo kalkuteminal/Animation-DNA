@@ -361,9 +361,9 @@ Catalog **scenes** contain:
 * ANIMATION — Animation scenes for each shot, further divided for reels, sequences and shots(`<codeRSS>`)
 * ASSETS:
   * CHARACTER — Scenes wit RIG and GEO [forms](#asset-forms) of characters
-  * ENVIRONMENTS — Scenes with locations
-  * PROPS — Animated assets
-  * STATIC — Non animated assets for filling environment scenes
+  * ENVIRONMENTS — Scenes with [locations](#environment-assets)
+  * PROPS — [Animated assets](#dynamic-assets)
+  * STATIC — [Non animated assets](#static-assets) for filling environment scenes
 * FX — Root folder for FX phase
 * LOOKDEV — Folder for developing lighting and shading data,also contain material and ligth librarys.
 * RENDER — Rendering scenes for each shot, further divided for reels, sequences and shots
