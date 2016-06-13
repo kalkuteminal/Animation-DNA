@@ -339,6 +339,7 @@ Compositing department:
 * [asset creation](#asset-creation)
 * [layout and animation](#layout-and-animation)
 * [look development and rendering](#look-development-and-rendering)
+* [FX](#fx)
 
 
 ### Pipeline development and data transfer
