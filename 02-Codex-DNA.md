@@ -351,10 +351,21 @@ Main tools of pipeline department are: [Shot Assembler](03-tools#shot-assembler)
 
 #### 3D folder structure
 Root folder for 3D branch is `<rootProject>/PROD/3D`. This root folder of Maya predefined project system contain:
-* data 
-* cache
-* scenes
-* sourceimages 
+* data — shots ass files for rendering in Arnold 
+* cache — animation and FX data 
+* scenes — main folder with Maya files
+* sourceimages — textures
+
+Catalog **scenes** contain:
+* ANIMATION — Animation scenes for each shot, further divided for reels, sequences and shots(`<codeRSS>`)
+* ASSETS:
+  * CHARACTER — Scenes wit RIG and GEO [forms](#asset-forms) of characters
+  * ENVIRONMENTS — Scenes with locations
+  * PROPS — Animated assets
+  * STATIC — Non animated assets for filling environment scenes
+* FX — Root folder for FX phase
+* LOOKDEV — Folder for developing lighting and shading data,also contain material and ligth librarys.
+* RENDER — Rendering scenes for each shot, further divided for reels, sequences and shots
 
 ### Asset creation
 #### Asset creation general notes
