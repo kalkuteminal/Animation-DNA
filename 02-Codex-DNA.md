@@ -889,7 +889,9 @@ Location of ABC output:
 ABC Name:  
 **`<codeFX>_ E<codeSequence>_S<codeShot>_001.abc`**  
 Location of VDB output:  
-**`<rootProject>/PROD/3D/cache/VDB/< codeRSS >/<codeFX>/v###/`**
+**`<rootProject>/PROD/3D/cache/VDB/< codeRSS >/<codeFX>/v###/`**  
+Name of VDB output:  
+**`<codeFX>_ E<codeSequence>_S<codeShot>_v<###>.vdb`**
 
 If for any reasons FX need to be rendered separately from the master layer, place renders:  
 **`<rootProject>/PROD/RENDER_3D/RENDER/<codeRSS>/<codeFX>/v###/`**  
