@@ -262,7 +262,7 @@ Major part of the project will be done locally in the studio. All project data (
 
 Particular information about each project stores in **codex Outsource**. It include: mirror FTP login and password; project drive letter, name, path; instructions for cooperation.
 
-To upload animation scenes and linked references on mirror FTP use [FX Manager](03-tools#fx-manager). Enter shot number and press **UPLOAD SCENE**. Note that script does not copy environment, user have to upload it manually
+To upload animation scenes and linked references on mirror FTP use [FTP Manager](03-tools#ftp-manager). Enter shot number and press **UPLOAD SCENE**. Note that script does not copy environment, user have to upload it manually
 
 ### Shot creation workflow
 To start work on shot it should be created in FTrack, all necessary assets should be published and linked to each shot.
