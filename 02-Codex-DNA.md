@@ -787,17 +787,19 @@ There are 3 main tools for lighting-rendering phase:
 * [Render Manager](03-tools#render-manager) 
 
 #### location and names of look development and rendering files
-Rendering output for main BEAUTY image:  
+**Location** for main **BEAUTY** image:  
 **`<rootProject>/PROD/RENDER_3D/RENDER/<codeRSS>/MASTER/v###/`**  
-Name for main BEAUTY image:  
+**Name** for main **BEAUTY** image:  
 **`E<codeSequence>_S<codeShot>_v###.####.exr`**  
-FX rendering output:  
+
+**Location** for **FX** rendering output:  
 **`<rootProject>/PROD/RENDER_3D/RENDER/<codeRSS>/<codeFX>/v###/`**  
-Name for FX rendering output:  
+**Name** for **FX** rendering output:  
 **`<codeFX>_E<codeSequence>_S<codeShot>_v###.####.exr`**  
-Location of rendering output for other layers of shot:  
+
+**Location** of rendering output for **other layers** of shot:  
 **`<rootProject>/PROD/RENDER_3D/RENDER/<codeRSS>/<coleLayer>/v###/`**  
-Name of rendering output for other layers of shot:  
+**Name** of rendering output for **other layers** of shot:  
 **`<coleLayer>_E<codeSequence>_S<codeShot>_v###.####.exr`**
 
 Codes for other layers (`<coleLayer>`):
