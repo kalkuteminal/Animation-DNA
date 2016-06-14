@@ -331,7 +331,7 @@ Compositing department:
 ## 3D branch
 3D branch include workflow with Maya (and other 3D applications, if used), Arnold and renderings from Maya or Arnold.
 
-[3D overview](#3d-branch-general-notes)  | [3D pipeline](#pipeline-development-and-data-transfer) | [Asset creation](#asset-creation) | [Layout and animation](#layout-and-animation) | [Lookdev](#look-development-and-rendering) | [FX](#fx)
+[3D overview](#3d-branch-general-notes)  | [3D pipeline](#pipeline-development-and-data-transfer) | [Asset creation](#asset-creation) | [Layout and animation](#layout-and-animation) | [Rendering](#look-development-and-rendering) | [FX](#fx)
 
 ### 3D branch general notes
 3D branch phases are: 
