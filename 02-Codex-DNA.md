@@ -762,6 +762,9 @@ Each finalized scene should be export to **ASS sequence** with **RENDER SHOT** b
 
 Output data of 3D rendering process — sequences of exr files which contain beauty image of shot spitted into passes (direct diffuse, indirect diffuse, direct specular etc) and extra data for compose, such as AO, IDs, normal, depth etc. 
 
+##### Rendering files using separate render layers(elements)
+If ...
+
 Rendering pipeline scheme.
 ![](https://lh3.googleusercontent.com/-FYS6r3dyExY/VyNSSf2jFQI/AAAAAAAAFgM/k-xzdumIkWMU85VIW2JntRxihLxWrYvFwCCo/s1192/DNA_RenderingPipeline_02.jpg)
 
