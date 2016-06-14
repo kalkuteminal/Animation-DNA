@@ -769,15 +769,15 @@ If you need to render any element of the shot separately (for example render cha
 **Name** of render scene for each **render layer**  
 **`<codeLayer>_E<codeSequence>_S<codeShot>_<###>.mb`**
 
-#### location and names of rendering output files
-**Location** for main **BEAUTY** image:  
+#### location and names of 3D rendering outputs
+**Location** for single **BEAUTY** layer:  
 **`<rootProject>/PROD/RENDER_3D/RENDER/<codeRSS>/MASTER/v###/`**  
-**Name** for main **BEAUTY** image:  
+**Name** for single **BEAUTY** layer:  
 **`E<codeSequence>_S<codeShot>_v###.####.exr`**  
 
-**Location** for **FX** rendering output:  
+**Location** for **FX** layer:  
 **`<rootProject>/PROD/RENDER_3D/RENDER/<codeRSS>/<codeFX>/v###/`**  
-**Name** for **FX** rendering output:  
+**Name** for **FX** layer:  
 **`<codeFX>_E<codeSequence>_S<codeShot>_v###.####.exr`**  
 
 **Location** of rendering output for **other layers** of shot:  
