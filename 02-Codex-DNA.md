@@ -786,7 +786,7 @@ There are 3 main tools for lighting-rendering phase:
 * [Animation Importer](03-tools#animation-importer) 
 * [Render Manager](03-tools#render-manager) 
 
-#### location and names of **rendering** output files
+#### location and names of rendering output files
 **Location** for main **BEAUTY** image:  
 **`<rootProject>/PROD/RENDER_3D/RENDER/<codeRSS>/MASTER/v###/`**  
 **Name** for main **BEAUTY** image:  
