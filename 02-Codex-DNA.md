@@ -809,10 +809,16 @@ Codes for other layers (`<coleLayer>`):
 #### location and names of look development output files 
 **Location** for **characters** turntables:  
 **`<rootProject>/PROD/RENDER_3D/LOOKDEV/ASSETS/CHARACTERS/<assetName>/v###/`**  
-**Location** for **environments** turntables:  
-**`<rootProject>/PROD/RENDER_3D/LOOKDEV/ASSETS/ENVIRONMENTS/<assetName>/v###/`**  
+**Location** for **dynamic** assets turntables:  
+**`<rootProject>/PROD/RENDER_3D/LOOKDEV/ASSETS/PROPS/<assetName>/v###/`**  
+**Location** for **static** assets turntables:  
+**`<rootProject>/PROD/RENDER_3D/LOOKDEV/ASSETS/STATIC/<assetName>/v###/`**  
 **Name** for **assets** look development file:  
-**`LDV_<assetName>_v###.mov`** 
+**`LDV_<assetName>_v###.mov`**  
+**Location** for **environment** assets files:  
+**`<rootProject>/PROD/RENDER_3D/LOOKDEV/ASSETS/PROPS/<assetName>/v###/`**  
+**Name** for **environment** assets files:  
+**`LDV_<assetName>_v###.jpg`**  
 
 #### Look development and rendering process
 ##### Look development of assets
