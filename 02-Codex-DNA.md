@@ -743,7 +743,7 @@ For each shot of the film should be creating individual render scene with CREATE
 
 Shot Assembler:
 * creates Maya scene located in:  
-**`<rootScenes>/RENDER/REEL_01/010/SHOT_010/RND_E010_S010_001.mb`**
+**`<rootScenes>/RENDER/<codeRSS>/RND_E<codeSequence>_S<codeShot>_<###>.mb`**
 * reference [GEO forms](02-codex-dna#asset-forms) of all assets , linked to a shot in project database
 * import published materials for each character and environment 
 * setup scene playback range
@@ -762,8 +762,46 @@ Each finalized scene should be export to **ASS sequence** with **RENDER SHOT** b
 
 Output data of 3D rendering process — sequences of exr files which contain beauty image of shot spitted into passes (direct diffuse, indirect diffuse, direct specular etc) and extra data for compose, such as AO, IDs, normal, depth etc. 
 
-##### Rendering files using separate render layers(elements)
-If ...
+##### Rendering shot elements separatly
+If you need to render any elements of the shot separately (for example render character apart from background) you need to create and setup render scene for each element. This elements commonly named [**render layers**](04-Glossary).
+**Location** of render scene for each **layer**:  
+**`<rootScenes>/RENDER/<codeRSS>/`**  
+**Name** of render scene for each **layer**
+<codeLayer>_E<codeSequence>_S<codeShot>_<###>.mb
+
+#### location and names of rendering output files
+**Location** for main **BEAUTY** image:  
+**`<rootProject>/PROD/RENDER_3D/RENDER/<codeRSS>/MASTER/v###/`**  
+**Name** for main **BEAUTY** image:  
+**`E<codeSequence>_S<codeShot>_v###.####.exr`**  
+
+**Location** for **FX** rendering output:  
+**`<rootProject>/PROD/RENDER_3D/RENDER/<codeRSS>/<codeFX>/v###/`**  
+**Name** for **FX** rendering output:  
+**`<codeFX>_E<codeSequence>_S<codeShot>_v###.####.exr`**  
+
+**Location** of rendering output for **other layers** of shot:  
+**`<rootProject>/PROD/RENDER_3D/RENDER/<codeRSS>/<coleLayer>/v###/`**  
+**Name** of rendering output for **other layers** of shot:  
+**`<coleLayer>_E<codeSequence>_S<codeShot>_v###.####.exr`**
+
+Codes for layers (`<coleLayer>`):
+* Environment = `BGR`
+* Characters = `<assetCode>`
+
+#### location and names of look development output files 
+**Location** for **characters** turntables:  
+**`<rootProject>/PROD/RENDER_3D/LOOKDEV/ASSETS/CHARACTERS/<assetName>/v###/`**  
+**Location** for **dynamic** assets turntables:  
+**`<rootProject>/PROD/RENDER_3D/LOOKDEV/ASSETS/PROPS/<assetName>/v###/`**  
+**Location** for **static** assets turntables:  
+**`<rootProject>/PROD/RENDER_3D/LOOKDEV/ASSETS/STATIC/<assetName>/v###/`**  
+**Name** for **assets** look development file:  
+**`LDV_<assetName>_v###.mov`**  
+**Location** for **environment** assets files:  
+**`<rootProject>/PROD/RENDER_3D/LOOKDEV/ASSETS/PROPS/<assetName>/v###/`**  
+**Name** for **environment** assets files:  
+**`LDV_<assetName>_v###.jpg`** 
 
 Rendering pipeline scheme.
 ![](https://lh3.googleusercontent.com/-FYS6r3dyExY/VyNSSf2jFQI/AAAAAAAAFgM/k-xzdumIkWMU85VIW2JntRxihLxWrYvFwCCo/s1192/DNA_RenderingPipeline_02.jpg)
@@ -788,40 +826,6 @@ There are 3 main tools for lighting-rendering phase:
 * [Shot Assembler](03-tools#shot-assembler)
 * [Animation Importer](03-tools#animation-importer) 
 * [Render Manager](03-tools#render-manager) 
-
-#### location and names of rendering output files
-**Location** for main **BEAUTY** image:  
-**`<rootProject>/PROD/RENDER_3D/RENDER/<codeRSS>/MASTER/v###/`**  
-**Name** for main **BEAUTY** image:  
-**`E<codeSequence>_S<codeShot>_v###.####.exr`**  
-
-**Location** for **FX** rendering output:  
-**`<rootProject>/PROD/RENDER_3D/RENDER/<codeRSS>/<codeFX>/v###/`**  
-**Name** for **FX** rendering output:  
-**`<codeFX>_E<codeSequence>_S<codeShot>_v###.####.exr`**  
-
-**Location** of rendering output for **other layers** of shot:  
-**`<rootProject>/PROD/RENDER_3D/RENDER/<codeRSS>/<coleLayer>/v###/`**  
-**Name** of rendering output for **other layers** of shot:  
-**`<coleLayer>_E<codeSequence>_S<codeShot>_v###.####.exr`**
-
-Codes for other layers (`<coleLayer>`):
-* Environment = `BGR`
-* Characters = `<assetCode>`
-
-#### location and names of look development output files 
-**Location** for **characters** turntables:  
-**`<rootProject>/PROD/RENDER_3D/LOOKDEV/ASSETS/CHARACTERS/<assetName>/v###/`**  
-**Location** for **dynamic** assets turntables:  
-**`<rootProject>/PROD/RENDER_3D/LOOKDEV/ASSETS/PROPS/<assetName>/v###/`**  
-**Location** for **static** assets turntables:  
-**`<rootProject>/PROD/RENDER_3D/LOOKDEV/ASSETS/STATIC/<assetName>/v###/`**  
-**Name** for **assets** look development file:  
-**`LDV_<assetName>_v###.mov`**  
-**Location** for **environment** assets files:  
-**`<rootProject>/PROD/RENDER_3D/LOOKDEV/ASSETS/PROPS/<assetName>/v###/`**  
-**Name** for **environment** assets files:  
-**`LDV_<assetName>_v###.jpg`**  
 
 #### Look development and rendering process
 ##### Look development of assets
