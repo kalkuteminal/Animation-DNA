@@ -786,7 +786,7 @@ There are 3 main tools for lighting-rendering phase:
 * [Animation Importer](03-tools#animation-importer) 
 * [Render Manager](03-tools#render-manager) 
 
-#### location and names of look development and rendering files
+#### location and names of **rendering** output files
 **Location** for main **BEAUTY** image:  
 **`<rootProject>/PROD/RENDER_3D/RENDER/<codeRSS>/MASTER/v###/`**  
 **Name** for main **BEAUTY** image:  
@@ -805,6 +805,14 @@ There are 3 main tools for lighting-rendering phase:
 Codes for other layers (`<coleLayer>`):
 * Environment = `BGR`
 * Characters = `<assetCode>`
+
+#### location and names of look development output files 
+**Location** for **characters** turntables:  
+**`<rootProject>/PROD/RENDER_3D/LOOKDEV/ASSETS/CHARACTERS/<assetName>/v###/`**  
+**Location** for **environments** turntables:  
+**`<rootProject>/PROD/RENDER_3D/LOOKDEV/ASSETS/ENVIRONMENTS/<assetName>/v###/`**  
+**Name** for **assets** look development file:  
+**`LDV_<assetName>_v###.mov`** 
 
 #### Look development and rendering process
 ##### Look development of assets
