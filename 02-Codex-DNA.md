@@ -763,10 +763,10 @@ Each finalized scene should be export to **ASS sequence** with **RENDER SHOT** b
 Output data of 3D rendering process — sequences of exr files which contain beauty image of shot spitted into passes (direct diffuse, indirect diffuse, direct specular etc) and extra data for compose, such as AO, IDs, normal, depth etc. 
 
 ##### Rendering shot elements separatly
-If you need to render any elements of the shot separately (for example render character apart from background) you need to create and setup render scene for each element. This elements commonly named [**render layers**](04-Glossary).  
-**Location** of render scene for each **layer**:  
+If you need to render any element of the shot separately (for example render character apart from background) you need to create and setup render scene for each element. This elements commonly named [render layers](04-Glossary).  
+**Location** of render scene for each **render layer**:  
 **`<rootScenes>/RENDER/<codeRSS>/`**  
-**Name** of render scene for each **layer**  
+**Name** of render scene for each **render layer**  
 **`<codeLayer>_E<codeSequence>_S<codeShot>_<###>.mb`**
 
 #### location and names of rendering output files
@@ -788,6 +788,7 @@ If you need to render any elements of the shot separately (for example render ch
 Codes for layers (`<coleLayer>`):
 * Environment = `BGR`
 * Characters = `<assetCode>`
+* FX = <fxCode>
 
 #### location and names of look development output files 
 **Location** for **characters** turntables:  
