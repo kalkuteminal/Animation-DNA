@@ -119,7 +119,7 @@ If any playblast of this shot already exists — warning window appears, asking 
 #### Render Manager
 **RND** button on DNA shelf. Rendering and look development tool. Setup shots for rendering: assign materials, create passes, object and shader IDs, setup render settings (image size, render path and name etc ) and export ass for renderfarm rendering.
 
-![](hhttps://lh3.googleusercontent.com/-DHSLm2h6zco/V2qVO56ipLI/AAAAAAAAFvo/E0cjSO6DY643U2HrUOUIn8m1WVNydtpTgCCo/s2048/DNA_renderManager_07.jpg)
+![](https://lh3.googleusercontent.com/-DHSLm2h6zco/V2qVO56ipLI/AAAAAAAAFvo/E0cjSO6DY643U2HrUOUIn8m1WVNydtpTgCCo/s2048/DNA_renderManager_07.jpg)
 * **REF LDV DATA** — reference material general library and sun and sky system to current scene.
 * **DOF** — add DOF setup to drive depth of field to a selected camera.
 * **ADD FUR** — Creates yeti nodes for all character in current scene (based on FTrack info)
