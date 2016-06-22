@@ -119,13 +119,14 @@ If any playblast of this shot already exists — warning window appears, asking 
 #### Render Manager
 **RND** button on DNA shelf. Rendering and look development tool. Setup shots for rendering: assign materials, create passes, object and shader IDs, setup render settings (image size, render path and name etc ) and export ass for renderfarm rendering.
 
-![](https://lh3.googleusercontent.com/-upfRXIYEWZI/VyCwXf8kGlI/AAAAAAAAFds/2wjzCG2mT3EWtMcKPTw0c8fEM5bs4troQCCo/s490/DNA_renderManager_06.jpg)
+![](hhttps://lh3.googleusercontent.com/-DHSLm2h6zco/V2qVO56ipLI/AAAAAAAAFvo/E0cjSO6DY643U2HrUOUIn8m1WVNydtpTgCCo/s2048/DNA_renderManager_07.jpg)
 * **REF LDV DATA** — reference material general library and sun and sky system to current scene.
 * **DOF** — add DOF setup to drive depth of field to a selected camera.
 * **ADD FUR** — Creates yeti nodes for all character in current scene (based on FTrack info)
 * **RENAME MATERIA**L — name all nodes of selected shading group network.
 * **EXPORT XGEN** — export Xgen data for render scenes from lookdev scene (where Xgen developing).
-* **IMPORT XGEN** — import XGen description in render scene.
+* **IMPORT XGEN** — import XGen description in render scene.  
+* **EXPORT LIGHT GROUP** — export group with lights of the shot to light library  
 * **IMPORT MATERIALS** — import material library of each asset from text field.
 * **ASSIGN MATERIALS** — assign materials to all polygonal object in scene.  
 If any material does not exists in scene procedure create:
