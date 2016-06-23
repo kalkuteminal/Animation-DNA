@@ -1008,8 +1008,14 @@ Brief for colorist (color key etc.):
 **`<rootProject>/PREP/ART/SHOTS/REEL_01/CLR_REEL_01_01.jpg`**  
 Sound: **`<rootProject>\EDIT\SRC\SOUND`**
 
+Location of MOV to be converted to DCP:  
+**`<rootProject>/EDIT/GRAD/DCP/SRC/<codePart>/`**  
+Name of file:  
+**`DCP_<codePart>_##.mov`**
+
+
 #### Output data from grading
-DCP: **`<rootProject>/EDIT/GRAD/DCP`**  
+DCP: **`<rootProject>/EDIT/GRAD/DCP/OUT/`**  
 Video files for TV and Internet : **`<rootProject>/EDIT/GRAD/FORMATS`**
 
 #### Project with shooting materials
