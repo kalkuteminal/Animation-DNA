@@ -38,7 +38,7 @@ B. [Glossary of codes](#codes)
 
 ## Codes
 **`<###>`** — 3 digits version  
-**`<codePart>`** — name of film overall division (REEL_01, TEASER etc or MASTER for the whole movie)  
+**`<codePart>`** — name of film overall division (REEL_01, TEASER, MASTER-whole movie, etc)  
 **`<codeSequence>`** — 3 digits number of episode in film (010)  
 **`<codeShot>`** — number of shot in each sequence (010). Used with `SHOT_` or `S` prefixes  
 **`<codeRSS>`** — sub path `/<codePart>/<codeSequence>/SHOT_<codeShot>/`   
