@@ -1013,9 +1013,7 @@ Location of MOV to be converted to DCP:
 Name of file:  
 **`DCP_<codePart>_##.mov`**
 
-
 #### Output data from grading
-DCP: **`<rootProject>/EDIT/GRAD/DCP/OUT/`**  
 Video files for TV and Internet : **`<rootProject>/EDIT/GRAD/FORMATS`**
 
 #### Project with shooting materials
@@ -1034,3 +1032,17 @@ Name of files for passes (`.tif` 32 bit float):
 - depth = `DPT`
 - depth aliased = `DPS`
 - ID AOVs = `I<##>`
+
+### DCP
+#### Input data for DCP 
+Location of MOV to be converted to DCP:  
+**`<rootProject>/EDIT/GRAD/DCP/SRC/<codePart>/`**  
+Name of file:  
+**`DCP_<codePart>_##.mov`**
+
+#### Output data from DCP
+Location of DCP package:  
+**`<rootProject>/EDIT/GRAD/DCP/OUT/<codePart>/`**  
+Name of DCP file:  
+**`DCP_<codePart>_##.*`**
+ 
