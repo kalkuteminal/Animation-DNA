@@ -10,7 +10,9 @@ B. [Glossary of codes](#codes)
 
 **Grading** — is a process of changing color of a motion picture (film) for enhancing and adopting to a cinema scree
 
-**Look development** –  is a process which define physical behavior of surfaces and volumetric in conjunction with lighting. The result of look development process is materials and lights.
+**Look development** –  is a process which define physical behavior of surfaces and volumetric in conjunction with lighting. The result of look development process is materials and lights.  
+
+**Master shot** — common shot for whole sequence.
 
 **Material** — Surface property which define light reacting characteristics. Common materials are: wood, metal, carpaint, wax, skin etc.
 
