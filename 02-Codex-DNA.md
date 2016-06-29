@@ -804,6 +804,23 @@ Codes for layers (`<coleLayer>`):
 **Name** for **environment** assets files:  
 **`LDV_<assetName>_v###.jpg`** 
 
+#### Shot rendering workflow
+After animation has been approved for each shot should be created animation, cloth and hairs caches. 
+
+In each sequence artist need to choose [master shots](04-Glossary#terms)(one or several), setup lighting for this shots and export light group named **`LIT_E<codeSequence>_S<codeShot>`** to lighting library in **`<rootScenes>/LOOKDEV/LIBRARY/LIGHTS/<codeRSS>`**
+
+Then rendering artist could create and setup rendering scene for each shot of the sequence:
+* Create rendering scene with [Shot Assembler](03-Tools#shot-assembler)
+* Import animation and cloth with [Animation Importer](03-Tools#animation-importer)
+* Import all references
+* Prepare lighting:
+  - Import master shot light group from lighting library
+  - Rename group to **`LIT_E<codeSequence>_S<codeShot>`**
+  - Connect volume shader in Environment > Atmospher if volume lighting used in scenes.
+* With [Render Manager](03-Tools#render-manager):
+  - Create depth of field system (DOF button)
+  - Import XGen
+
 Rendering pipeline scheme.
 ![](https://lh3.googleusercontent.com/-FYS6r3dyExY/VyNSSf2jFQI/AAAAAAAAFgM/k-xzdumIkWMU85VIW2JntRxihLxWrYvFwCCo/s1192/DNA_RenderingPipeline_02.jpg)
 
