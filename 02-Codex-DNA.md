@@ -820,6 +820,14 @@ Then rendering artist could create and setup rendering scene for each shot of th
 * With [Render Manager](03-Tools#render-manager):
   - Create depth of field system (DOF button)
   - Import XGen
+  - Assign materials
+  - Create IDs and passes
+  - Setup render settings
+* Turn on Motion blur
+* Tweak lights, setup focus point and aperture to get final look of the shot
+* Publish shot
+* Export scene to `*.ass` sequence(RENDER SHOT button)
+* Create job in deadline monitor
 
 Rendering pipeline scheme.
 ![](https://lh3.googleusercontent.com/-FYS6r3dyExY/VyNSSf2jFQI/AAAAAAAAFgM/k-xzdumIkWMU85VIW2JntRxihLxWrYvFwCCo/s1192/DNA_RenderingPipeline_02.jpg)
