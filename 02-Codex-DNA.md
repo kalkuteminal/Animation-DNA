@@ -804,7 +804,7 @@ Codes for layers (`<coleLayer>`):
 **Name** for **environment** assets files:  
 **`LDV_<assetName>_v###.jpg`** 
 
-#### Shot rendering workflow
+#### Rendering shots workflow
 After animation has been approved for each shot should be created animation, cloth and hairs caches. 
 
 In each sequence artist need to choose [master shots](04-Glossary#terms)(one or several), setup lighting for this shots and export light group named **`LIT_E<codeSequence>_S<codeShot>`** to lighting library in **`<rootScenes>/LOOKDEV/LIBRARY/LIGHTS/<codeRSS>`**
