@@ -24,7 +24,9 @@ B. [Glossary of codes](#codes)
 
 **Rendering layer** — rendered part of the shot (character, background, FX etc)
 
-**Publishing** — is a process of recording necessary data to FTrack database with a help of [Animation DNA tools](03-Tools) using [FTrack Python API](http://ftrack.rtd.ftrack.com/en/3.3.1/developing/index.html)
+**Publishing** — is a process of recording necessary data to FTrack database with a help of [Animation DNA tools](03-Tools) using [FTrack Python API](http://ftrack.rtd.ftrack.com/en/3.3.1/developing/index.html)  
+
+**Sequence** — Part of film between two environments. Sequence = location.
 
 **Shader** — Mathematical realization of surface material in particular rendering engine. 
 
