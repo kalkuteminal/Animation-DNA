@@ -7,7 +7,7 @@ Troubleshooting is a process of solving production problems. Stages of troublesh
 - Develop a ways of fixing issue
 - Choose a most suitable for particular situation way and solve problem
 
-### Troubleshooting 3D branch
+### Troubleshooting [VFX segment](02-Codex-DNA#structure-of-film-and-production)
 Troubleshooting brief:
 - Who find a problem
 - Problem description:
