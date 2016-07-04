@@ -1,7 +1,11 @@
 ![](https://lh3.googleusercontent.com/-xE3m9LwLVoA/VzMoTTUqEOI/AAAAAAAAFlQ/qFlXw_x4ydkAZBW6_yJX_yLiKJXdfVdDACCo/s700/bannerDNA_trouble_01.jpg)
 
 ## Troubleshooting general notes
-Troubleshooting is ...
+Troubleshooting is a process of solving production problems. Stages of troubleshooting:
+- Describe a problem
+- Find a reason of a problem
+- Develop a ways of fixing issue
+- Choose a most suitable for particular situation way and solve problem
 
 ### Troubleshooting 3D branch
 Troubleshooting brief:
