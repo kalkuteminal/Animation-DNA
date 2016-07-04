@@ -10,7 +10,8 @@ Troubleshooting is a process of solving production problems. Stages of troublesh
 ### Troubleshooting 3D branch
 Troubleshooting brief:
 - Who find a problem
-- Problem description
+- Problem description:
+  - Problem [area](02-Codex-DNA#structure-of-film-and-production): Branch > Phase > Procedure
 
 ### Troubleshooting tools
 If [Animation DNA Tools](03-tools) usage cause error message you has to find reason of error and fix it.  
