@@ -1,6 +1,14 @@
 ![](https://lh3.googleusercontent.com/-xE3m9LwLVoA/VzMoTTUqEOI/AAAAAAAAFlQ/qFlXw_x4ydkAZBW6_yJX_yLiKJXdfVdDACCo/s700/bannerDNA_trouble_01.jpg)
 
 ## Troubleshooting general notes
+Troubleshooting is ...
+
+### Troubleshooting 3D branch
+Troubleshooting brief:
+- Who find a problem
+- Problem description
+
+### Troubleshooting tools
 If [Animation DNA Tools](03-tools) usage cause error message you has to find reason of error and fix it.  
 This section contain common error description and ways to solve them.
 
