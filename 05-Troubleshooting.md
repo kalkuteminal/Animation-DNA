@@ -30,8 +30,12 @@ Reason: You did not [publish material](01-quick-start#look-development) for an a
 **`Error: AttributeError: file P:\TANNER\PROD\3D\scripts\DNA\dnaCore.py line 35: 'NoneType' object has no attribute 'getName'`**  
 Reason:  In FTrack to a shot linked wrong data, e.g. **folder** with asset instead of environment asst
 
-
 ##### [FX manager](03-Tools#fx-manager)
 ###### CREATE FUR SIM SCENE
 **`# Error: ValueError: file <maya console> line 70: invalid literal for int() with base 10: '<anyTextHere>' # `**  
 Reason: There are files with wrong names in [folder with character fur scenes for shot](02-Codex-DNA#fur-workflow)
+
+##### [Render Manager](03-Tools#render-manager)
+###### IMPORT XGEN
+**`# Error: MayaNodeError: file C:\Program Files\Autodesk\Maya2015\Python\lib\site-packages\pymel\core\general.py line 2069: Maya Node does not exist (or is not unique):: u' < .... >_Shape'`**  
+Reason: XGen plugin turned off
