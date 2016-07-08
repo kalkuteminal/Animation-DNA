@@ -630,7 +630,7 @@ Create AOVs automatically with [Render Manager](03-tools#render-manager)
 ![](https://lh3.googleusercontent.com/-OYM00yKceo0/V0f8lHqUiVI/AAAAAAAAFpQ/KE1QbqjycN4LyrhaltBUrQR_wAAbaCg1gCCo/s964/kickAss_01.jpg)
 
 Go with explorer to: `C:\Windows\System32\cmd.exe`  
-Replace in address bar 'C:\Windows\System32\cmd.exe` with `cmd` — it will run cmd window with proper path  
+Replace in address bar `C:\Windows\System32\cmd.exe` with `cmd` — it will run cmd window with proper path  
 Enter `kick.exe -i [path to *.ass file] -l C:\solidangle\mtoadeploy\2015\shaders` and run
 
 #### Material creation techniques
