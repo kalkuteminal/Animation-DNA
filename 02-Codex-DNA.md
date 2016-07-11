@@ -788,7 +788,7 @@ If you need to render any element of the shot separately (for example render cha
 Codes for layers (`<coleLayer>`):
 * Environment = `BGR`
 * Characters = `<assetCode>`
-* FX = <fxCode>
+* FX = `<fxCode>`
 
 #### location and names of look development output files 
 **Location** for **characters** turntables:  
