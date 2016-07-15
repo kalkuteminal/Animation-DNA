@@ -813,6 +813,9 @@ Then rendering artist could create and setup rendering scene for each shot of th
 * Create rendering scene with [Shot Assembler](03-Tools#shot-assembler)
 * Import animation and cloth with [Animation Importer](03-Tools#animation-importer)
 * Import all references
+* Clean up scene
+  - Delete objects invisible to camera
+  - Delete unused nodes in hypershade
 * Prepare lighting:
   - Import master shot light group from lighting library
   - Rename group to **`LIT_E<codeSequence>_S<codeShot>`**
@@ -823,10 +826,9 @@ Then rendering artist could create and setup rendering scene for each shot of th
   - Assign materials
   - Create IDs and passes
   - Setup render settings
-* Turn on Motion blur
 * Tweak lights, setup focus point and aperture to get final look of the shot
 * Publish shot
-* Export scene to `*.ass` sequence(RENDER SHOT button)
+* Export scene to `*.ass` sequence(**RENDER SHOT** button)
 * Create job in deadline monitor
 
 Rendering pipeline scheme.
