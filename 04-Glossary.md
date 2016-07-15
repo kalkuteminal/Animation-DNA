@@ -16,7 +16,9 @@ B. [Glossary of codes](#codes)
 
 **Material** — Surface property which define light reacting characteristics. Common materials are: wood, metal, carpaint, wax, skin etc.
 
-**Pipeline** — is project organisation and execution system
+**Pipeline** — is project organisation and execution system  
+
+**Previz** — rendering shot with layout instead of final animation 
 
 **Progressive workflow** — is a method of step by step project execution when your get the rough form of the end step as soon as it possible and than refine stages which are most valuable in overall result according to resources your have. 
 
