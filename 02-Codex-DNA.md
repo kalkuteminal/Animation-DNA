@@ -824,7 +824,7 @@ Then rendering artist could create and setup rendering scene for each shot of th
   - Create depth of field system (DOF button)
   - Import XGen
   - Assign materials
-  - Create IDs and passes
+  - Create IDs and passes (skip for previz stage)
   - Setup render settings
 * Tweak lights, setup focus point and aperture to get final look of the shot
 * Publish shot
