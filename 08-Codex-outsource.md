@@ -13,7 +13,7 @@ Any user:
 - Maya 2015 Extension 1 Service Pack 5
 Animation branch:  
 - Animation Manager script  
-Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\animManagerOut.py` O
+Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\animManagerOut.py` 
 - Studio library plugin for Maya  
 Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\Picker_2015_64\`
 - Picker  
