@@ -669,6 +669,9 @@ Animation and layout scenes has the same name and location, animation scene is n
 **Animation** — is a process of adding motion to characters and props by setting keys on control elements.  
 Animation produces on shot basis, for each shot there is animation file on hard drive. Each animator handle whole shot with all characters and props inside. Each animation file can be handled only by one animator at the same time.
 
+#### Creation of layout and animation scene
+Layout artist creates layout scenes with CREATE ANIMATION SCENE button of [Shot Assembler][(03-Tools#shot-assembler)
+
 #### Location and name of animation files: 
 Animation files located in:  
 **`<rootScenes>/ANIMATION/<codePart>/<codeSequence>/SHOT_<codeShot>/`**  
