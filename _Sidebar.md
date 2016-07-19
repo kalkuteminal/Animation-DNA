@@ -20,5 +20,6 @@
   - [Lead](07-Codex-employee#codex-for-leads)
   - [TD](07-Codex-employee#codex-for-tds)
   - [Artist](07-Codex-employee#codex-for-artists)
+* [Codex outsource](08-Codex-outsource)
 * [Code](https://github.com/kiryha/AnimationDNA)
 * [Blog](http://kiryha.blogspot.com/search/label/3D)
