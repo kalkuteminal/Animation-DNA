@@ -16,8 +16,6 @@ In Maya all DNA tools located in DNA shelf, which should appear if you will use 
 
 ![](https://lh3.googleusercontent.com/-_Lm1C3ipF-U/VyNZ01v-GZI/AAAAAAAAFgs/J2eV2PqQaYYo-Eo4V6IHNrmLUiVdmavPQCCo/s300/DNA_attrManager_01.jpg)
 
-#### Shot Assembler
-**SHA** button on DNA shelf. Creates animation and render scenes for each shot based on information about shots and assets in FTrack, check rendering and animation scenes: if they contains all necessary assets and does this asset has proper versions, update asset versions and add missing assets, add assets, props or environment to opened scene by asset code. Creating animation scene include: save scene to proper place with proper name, setup frame range, reference RIGs of all necessary assets, create and setup camera. Creating render scene include: save scene to proper place with proper name, setup frame range, reference GEO of all necessary assets, create FUR nodes and importing all necessary material library’s(individual library for each character and proper SET for environment and assets.) 
 #### Asset Manager
 **ASM** button on DNA shelf. Modelling tool which allow to setup each asset according to pipeline requirements.  
 Create and set custom MtoA attributes. Add and modify render data — textures and material names. Check if asset is prepared correctly. Organize geometry to proper hierarchy. Convert geometry asset to standin asset.
@@ -45,6 +43,9 @@ Create and set custom MtoA attributes. Add and modify render data — textures a
 * **CHECK SCENE** — Help to control quality of asset — analyze current scene for mistakes for and creates selection sets with problematic objects: ATTR_TRANS — consist objects with MtoA attributes on transform nodes, EMPTY_mColor — objects without data in mColor attribute, EMPTY_mMat — objects without data in mMat attribute, NO_CUSTOM_ATTR — objects without custom attributes, NO_SUBDIV — objects without Arnold subdivision values. If set _SG_ appears — in scene exists extra shading groups, which should be deleted.
 * **DEL** — unlock and delete selected nodes to cleanup scenes from unnecessary data. 
 * **CONVERT TO STANDIN** — convert static asset with geometry to static asset with standin.
+
+#### Shot Assembler
+**SHA** button on DNA shelf. Creates animation and render scenes for each shot based on information about shots and assets in FTrack, check rendering and animation scenes: if they contains all necessary assets and does this asset has proper versions, update asset versions and add missing assets, add assets, props or environment to opened scene by asset code. Creating animation scene include: save scene to proper place with proper name, setup frame range, reference RIGs of all necessary assets, create and setup camera. Creating render scene include: save scene to proper place with proper name, setup frame range, reference GEO of all necessary assets, create FUR nodes and importing all necessary material library’s(individual library for each character and proper SET for environment and assets.) 
 
 ![](https://lh3.googleusercontent.com/-KVVWeDn4PxU/VyDPQUJv64I/AAAAAAAAFeM/WfJ0uB1fnAo-krbXsaYj7PqinC5xpIcEACCo/s380/DNA_shotAssembler_06.jpg)
 * **PART SEQ SHOT** — Fields to enter part, sequence and shot to create render or animation scene.
