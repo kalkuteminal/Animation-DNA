@@ -891,11 +891,24 @@ Formulating FX brief and FTrack setup.
 FX TD with VFX supervisor analyze story reel and create list of FX for each shot. There could be several different FX for each shot. Each FX task receives unique for particular shot name (**`<codeFX>`**). For each FX in particular shot in FTrack project manager using list of FX creates a task (task type = FX) with a name equal to FX code (Note that all names are case sensitive!) In each task should be brief of FX from a director and art of FX.
 
 [FX Manager](03-tools#fx-manager) is a main tool of FX phase.
+##### Creation of FUR FX scenes
 To create scenes for fur simulation: enter reel, sequence and shot number, press **CREATE FUR SCENE**. For each character in noticed shot Maya scene with all data and connections will be created.
 
-Procedure: name and save fur scene for each character for particular shot, Import fur file and ABC cache, connect ABC animation to fur geometry, setup output cache file name. 
+FX Manager procedure: name and save fur scene for each character for particular shot, Import fur file and ABC cache, connect ABC animation to fur geometry, setup output cache file name. 
 
 To export cache: open scene for each character, setup dynamic behavior, press WRITE CACHE FOR CURRENT SCENE. You don’t need to set Reel, sequence and shot values to export caches.
+
+##### Creation of common FX scenes
+To create scenes for common FX (all FX excluding FUR and CLOTH simulation) : enter reel, sequence, shot number and <codeFX>, press **CREATE FX SCENE**.
+
+FX Manager procedure: create Maya scene with proper name and place into proper location. Create empty group `<codeFX>_E<codeSequence>_S<codeShot>` where FX artist should place all data required for rendering.
+
+FX artist place to the scene all data required to produce particular FX:
+- Add characters or props with [Shot Assembler](03-Tools#shot-assembler) ( FOR RENDER)
+- Add animation with [Animation Importer](03-Tools#animation-importer)
+- Import any part of environment
+
+After FX scene is finalized, FX artist should publish FX scene by pressing **ANALYZE CURRENT FX** **and PUBLISH FX**
 
 ART for FX:  
 **`<rootProject>/PREP/ART/SHOTS/<codeRSS>/<codeFX>/ART_<codeFX>_##.jpg`**
