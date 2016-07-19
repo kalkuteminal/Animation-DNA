@@ -29,3 +29,4 @@ Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\studiolibrary\`
 ### Prepare data for outsource
 #### Animation phase
 #### FX phase
+See how to [create FX scene](02-Codex-DNA#creation-of-common-fx-scenes)
