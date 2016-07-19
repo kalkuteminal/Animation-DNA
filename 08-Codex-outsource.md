@@ -1,5 +1,5 @@
 # Outsourcing general notes
-Each project data physically exists on studio network drive.  
+Any data of each project physically exists on studio network drive.  
 Each member of the studio team works with this drive only, no project data could be stored locally.  
 To outsource any part of work we create FTP server with project copy on it with the same folder structure. Outsource company should replicate studio folder structure on their own network drive and copy all necessary data from FTP to a corresponding location.  
 Software also should be matched to studio software list exactly.  
