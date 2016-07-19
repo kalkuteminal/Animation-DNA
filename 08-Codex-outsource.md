@@ -10,6 +10,7 @@ See how to [create animation scene](02-Codex-DNA#creation-of-animation-scenes)
 See how to [create FX scene](02-Codex-DNA#creation-of-common-fx-scenes)
 
 # Project specifications
+In this section located information specific for particular projects.
 ## The dragon spell
 ### Folder structure
 `<rootProject> = P:/TANNER/`  
