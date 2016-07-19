@@ -260,7 +260,7 @@ Publishing is a process of recording necessary data to FTrack database with a he
 ### Workflow with outsource studios
 Major part of the project will be done locally in the studio. All project data (3D scenes, comp files, script, artwork, sound, editing etc etc) stores at the studio server at network drive. To outsource any part of work (for example, animation of some sequences) we create FTP server with project copy on it with the **same folder structure**. Outsource company should replicate **studio folder structure on their own network drive** and copy all necessary data. Such setup will ensure, that everything will work properly.
 
-Particular information about each project stores in **codex Outsource**. It include: mirror FTP login and password; project drive letter, name, path; instructions for cooperation.
+Particular information about each project stores in [codex Outsource](08-Codex-outsource). It include: mirror FTP login and password; project drive letter, name, path; instructions for cooperation.
 
 To upload animation scenes and linked references on mirror FTP use [FTP Manager](03-tools#ftp-manager). Enter shot number and press **UPLOAD SCENE**. Note that script does not copy environment, user have to upload it manually
 
