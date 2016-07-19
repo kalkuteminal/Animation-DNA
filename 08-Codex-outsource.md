@@ -17,6 +17,7 @@ Wrapper for Maya: `P:\TANNER\PREP\MANAGE\TOOLS\WRAPPER\wrapperMaya.rar`
 ### Required software and plugins
 Any user:
 - Maya 2015 Extension 1 Service Pack 5
+
 Animation branch:  
 - Animation Manager script  
 Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\animManagerOut.py` 
