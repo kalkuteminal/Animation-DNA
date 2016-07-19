@@ -11,8 +11,10 @@ Such setup will ensure, that everything will work properly.
 ### Required software and plugins
 Any user:
 - Maya 2015 Extension 1 Service Pack 5
-- Bonus Tools
 Animation branch:  
-- Animation Manager script.Script path P:\TANNER\PREP\MANAGE\TOOLS\ANM\animManagerOut.py Open script in Maya Script Editor ( Python tab ) and drag it to a shelf with Middle Mouse Button. 
-- Studio library plugin for Maya (P:\TANNER\PREP\MANAGE\TOOLS\ANM\Picker_2015_64\)
-- Picker(P:\TANNER\PREP\MANAGE\TOOLS\ANM\studiolibrary\)
+- Animation Manager script  
+Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\animManagerOut.py` O
+- Studio library plugin for Maya  
+Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\Picker_2015_64\`
+- Picker  
+Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\studiolibrary\`
