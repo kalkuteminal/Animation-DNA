@@ -15,13 +15,17 @@ Blank folder structure: `P:\TANNER\PREP\MANAGE\TOOLS\FOLDERS_BLANK\TANNER.rar`
 Wrapper for Maya: `P:\TANNER\PREP\MANAGE\TOOLS\WRAPPER\wrapperMaya.rar`
 
 ### Required software and plugins
-Any user:
+3D [branch](02-Codex-DNA#structure-of-film-and-production):
 - Maya 2015 Extension 1 Service Pack 5
 
-Animation branch:  
+Animation [phase](02-Codex-DNA#structure-of-film-and-production):  
 - Animation Manager script  
 Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\animManagerOut.py` 
 - Studio library plugin for Maya  
 Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\Picker_2015_64\`
 - Picker  
 Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\studiolibrary\`
+
+### Prepare data for outsource
+#### Animation phase
+#### FX phase
