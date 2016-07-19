@@ -11,7 +11,7 @@ Software also should be matched to studio software list exactly.
 
 Recommended to use empty folder structure in conjunction with [wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers) to integrate into our pipeline more deep and speed up production.
 
-Blank folder structure: `P:\TANNER\PREP\MANAGE\TOOLS\FOLDERS_BLANK\TANNER.rar`
+Blank folder structure: `P:\TANNER\PREP\MANAGE\TOOLS\FOLDERS_BLANK\TANNER.rar`  
 Wrapper for Maya: `P:\TANNER\PREP\MANAGE\TOOLS\WRAPPER\wrapperMaya.rar`
 
 ### Required software and plugins
