@@ -7,8 +7,9 @@ Such setup will ensure, that everything will work properly.
 # Project specifications
 ## The dragon spell
 ### Folder structure
-`<rootProject> = P:/TANNER/`
+`<rootProject> = P:/TANNER/`  
 `<root3D> = P:/TANNER/PROD/3D/`
+
 ### Required software and plugins
 Any user:
 - Maya 2015 Extension 1 Service Pack 5
