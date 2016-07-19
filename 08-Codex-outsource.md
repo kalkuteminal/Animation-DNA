@@ -7,7 +7,9 @@ Software also should be matched to studio software list exactly.
 ## The dragon spell
 ### Folder structure
 `<rootProject> = P:/TANNER/`  
-`<root3D> = P:/TANNER/PROD/3D/`
+`<root3D> = P:/TANNER/PROD/3D/`  
+
+Recommended to use [empty folder structure](https://github.com/kiryha/AnimationDNA/blob/master/SRC/OUTSOURCE/TANNER.rar) in conjunction with [wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers) to integrate into our pipeline more tight.
 
 ### Required software and plugins
 Any user:
