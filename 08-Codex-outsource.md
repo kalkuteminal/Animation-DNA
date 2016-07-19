@@ -3,6 +3,12 @@ Each project data physically exists on studio network drive.
 To outsource any part of work we create FTP server with project copy on it with the same folder structure. Outsource company should replicate studio folder structure on their own network drive and copy all necessary data from FTP to a corresponding location.  
 Software also should be matched to studio software list exactly.  
 
+# Prepare data for outsource
+#### Animation phase
+See how to [create animation scene](02-Codex-DNA#creation-of-animation-scenes)
+#### FX phase
+See how to [create FX scene](02-Codex-DNA#creation-of-common-fx-scenes)
+
 # Project specifications
 ## The dragon spell
 ### Folder structure
@@ -26,8 +32,3 @@ Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\Picker_2015_64\`
 - Picker  
 Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\studiolibrary\`
 
-### Prepare data for outsource
-#### Animation phase
-See how to [create animation scene](02-Codex-DNA#creation-of-animation-scenes)
-#### FX phase
-See how to [create FX scene](02-Codex-DNA#creation-of-common-fx-scenes)
