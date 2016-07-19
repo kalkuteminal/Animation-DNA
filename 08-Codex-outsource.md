@@ -1,3 +1,4 @@
+# Outsorcing general notes
 1) Required software and plugins
 You need to install:
 1.1) Maya 2015 Extension 1 Service Pack 5
