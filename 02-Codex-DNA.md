@@ -902,7 +902,7 @@ FX Manager procedure: name and save fur scene for each character for particular 
 To export cache: open scene for each character, setup dynamic behavior, press WRITE CACHE FOR CURRENT SCENE. You don’t need to set Reel, sequence and shot values to export caches.
 
 ##### Creation of common FX scenes
-To create scenes for common FX (all FX excluding FUR and CLOTH simulation) : enter reel, sequence, shot number and <codeFX>, press **CREATE FX SCENE**.
+To create scenes for common FX (all FX excluding FUR and CLOTH simulation) : enter reel, sequence, shot number and <codeFX>, press **CREATE FX SCENE** in [FX Manager](03-tools#fx-manager).
 
 FX Manager procedure: create Maya scene with proper name and place into proper location. Create empty group `<codeFX>_E<codeSequence>_S<codeShot>` where FX artist should place all data required for rendering.
 
