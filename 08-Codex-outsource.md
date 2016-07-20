@@ -9,7 +9,7 @@ Each department produce some data which need to be translated to other departmen
 In studio data transfer between departments occurs automatically with [Animation DNA tools](03-Tools).  
 If for any reason outsource company do not integrated into studio pipeline it should output data manually according to a strict rules, which basically covers location and names of files for different data types. See details in "**Data exchange**" section for each department in [Projects specifications](#projects-specifications) part.
 #### Integration to studio pipeline
-It is recommended for outsource studios to integrate to [Animation DNA](https://github.com/kiryha/AnimationDNA/wiki) pipeline more in depth, than just replicate folder structure. It can dramatically speed up production speed and simplify problem solving.
+It is recommended for outsource studios to integrate to [Animation DNA](https://github.com/kiryha/AnimationDNA/wiki) pipeline more in depth, than just replicate folder structure. It can dramatically speed up production and simplify problem solving.
 
 The minimum requirements for pipeline integration are:
 - Access to [FTrack database](02-Codex-DNA#management-with-ftrack) of the project
