@@ -41,3 +41,6 @@ Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\studiolibrary\`
 ### Data exchange for FX branch
 In addition to main [Maya FX scene](02-Codex-DNA#creation-of-common-fx-scenes) for each FX in each shot there could be more data types to transfer (open VDB and alembic caches, renders etc). You can find instructions for each data type in [Common FX workflow](02-Codex-DNA#common-fx-workflow) section.
 
+The full list of FX in "The Dragon spell" project: `P:\TANNER\PREP\MANAGE\LISTS\ListVFX.xls `
+
+Breaf with artwork for each FX located in **FX task** of corresponding shot in [FTrack](02-Codex-DNA#management-with-ftrack)
