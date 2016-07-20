@@ -1,12 +1,19 @@
 # Outsourcing general notes
 Any data of each project physically exists on studio network drive.  
 Each member of the studio team works with this drive only, no project data could be stored locally.  
-To outsource any part of work we create FTP server with project copy on it with the same folder structure. Outsource company should replicate studio folder structure on their own network drive and copy all necessary data from FTP to a corresponding location.  
+To outsource any part of work we create FTP server with project copy on it with the same folder structure.  
+**Outsource company should replicate studio folder structure on their own network drive exactly** and copy all necessary data from FTP to a corresponding location.  
 Software also should be matched to studio software list exactly.  
 #### Data exchange
 Each department produce some data which need to be translated to other departments.  
 In studio data transfer between departments occurs automatically with [Animation DNA tools](03-Tools).  
 If for any reason outsource company do not integrated into studio pipeline it should output data manually according to a strict rules, which basically covers location and names of files for different data types. See details in "**Data exchange**" section for each department in [Projects specifications](#projects-specifications) part.
+#### Integration to studio pipeline
+It is recommended for outsource studios to integrate to [Animation DNA](https://github.com/kiryha/AnimationDNA/wiki) pipeline more in depth, than just replicate folder structure. It can dramatically speed up production speed and simplify problem solving.
+
+The minimum requirements for pipeline integration are:
+- Access to [FTrack database](02-Codex-DNA#management-with-ftrack) of the project
+- Using [DNA.rar](02-codex-dna#dna-archive) to create project folder with required data 
 
 # Prepare data for outsource
 #### Animation phase
@@ -21,10 +28,9 @@ In this section located information specific for particular projects.
 Create network drive **`P`** and locate **`TANNER`** folder there so `<rootProject> = P:/TANNER/`  
 Set Maya project to `<root3D> = P:/TANNER/PROD/3D/`  
 
-Recommended to use empty folder structure in conjunction with [wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers) to integrate into our pipeline more deep and speed up production.
-
+Integration to studio pipeline on "The Dragon Spell" project
 Blank folder structure: `P:\TANNER\PREP\MANAGE\TOOLS\FOLDERS_BLANK\TANNER.rar`  
-Wrapper for Maya: `P:\TANNER\PREP\MANAGE\TOOLS\WRAPPER\wrapperMaya.rar`
+[Wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers) for Maya: `P:\TANNER\PREP\MANAGE\TOOLS\WRAPPER\wrapperMaya.rar`
 
 ### Required software and plugins
 3D [branch](02-Codex-DNA#structure-of-film-and-production):
