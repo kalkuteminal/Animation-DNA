@@ -28,9 +28,12 @@ In this section located information specific for particular projects.
 Create network drive **`P`** and locate **`TANNER`** folder there so `<rootProject> = P:/TANNER/`  
 Set Maya project to `<root3D> = P:/TANNER/PROD/3D/`  
 
-Integration to studio pipeline on "The Dragon Spell" project
+### Integration to studio pipeline
 Blank folder structure: `P:\TANNER\PREP\MANAGE\TOOLS\FOLDERS_BLANK\TANNER.rar`  
-[Wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers) for Maya: `P:\TANNER\PREP\MANAGE\TOOLS\WRAPPER\wrapperMaya.rar`
+Extract archive content (TANNER folder) to drive P:/
+
+[Wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers) for Maya: `P:\TANNER\PREP\MANAGE\TOOLS\WRAPPER\wrapperMaya.rar`  
+Extract archive content to `P:\TANNER\PROD\3D\scripts` and run **runMaya.bat**
 
 ### Required software and plugins
 3D [branch](02-Codex-DNA#structure-of-film-and-production):
