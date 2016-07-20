@@ -12,7 +12,7 @@ If for any reason outsource company do not integrated into studio pipeline it sh
 It is recommended for outsource studios to integrate to [Animation DNA](https://github.com/kiryha/AnimationDNA/wiki) pipeline more in depth, than just replicate folder structure. It can dramatically speed up production and simplify problem solving.
 
 The minimum requirements for pipeline integration are:
-- Access to [FTrack database](02-Codex-DNA#management-with-ftrack) of the project
+- Access to [FTrack database](02-Codex-DNA#management-with-ftrack) of the project for outsource studio
 - Using [DNA.rar](02-codex-dna#dna-archive) to create project folder with required data 
 
 # Prepare data for outsource
