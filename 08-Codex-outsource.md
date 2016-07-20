@@ -5,7 +5,8 @@ To outsource any part of work we create FTP server with project copy on it with 
 Software also should be matched to studio software list exactly.  
 #### Data exchange
 Each department produce some data which need to be translated to other departments.  
-In studio data transfer between departments occurs automatically with [Animation DNA tools](03-Tools). If for any reason outsource company do not integrated into studio pipeline it should output data manually according to a strict rules, which basically covers location and names of files for different data types. See details in "Data exchange section" for each department below in [Projects specifications](#projects-specifications) section.
+In studio data transfer between departments occurs automatically with [Animation DNA tools](03-Tools).  
+If for any reason outsource company do not integrated into studio pipeline it should output data manually according to a strict rules, which basically covers location and names of files for different data types. See details in "Data exchange section" for each department below in [Projects specifications](#projects-specifications) section.
 
 # Prepare data for outsource
 #### Animation phase
