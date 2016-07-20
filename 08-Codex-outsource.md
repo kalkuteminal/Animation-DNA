@@ -39,5 +39,5 @@ Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\Picker_2015_64\`
 Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\studiolibrary\`
 
 ### Data exchange for FX branch
-In addition (02-Codex-DNA#common-fx-workflow)
+In addition to main [Maya FX scene](02-Codex-DNA#creation-of-common-fx-scenes) for each FX in each shot there could be more data types to transfer (open VDB and alembic caches, renders etc). You can find instructions for each data type in [Common FX workflow](02-Codex-DNA#common-fx-workflow) section.
 
