@@ -18,7 +18,7 @@ See how to [create FX scene](02-Codex-DNA#creation-of-common-fx-scenes)
 In this section located information specific for particular projects.
 ## The dragon spell
 ### Folder structure
-Create network drive **`P`** and locate **`TANNER**` folder there so `<rootProject> = P:/TANNER/`  
+Create network drive **`P`** and locate **`TANNER`** folder there so `<rootProject> = P:/TANNER/`  
 Set Maya project to `<root3D> = P:/TANNER/PROD/3D/`  
 
 Recommended to use empty folder structure in conjunction with [wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers) to integrate into our pipeline more deep and speed up production.
