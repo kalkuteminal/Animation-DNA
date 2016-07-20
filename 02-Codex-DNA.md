@@ -911,7 +911,7 @@ FX artist place to the scene all data required to produce particular FX:
 - Add animation with [Animation Importer](03-Tools#animation-importer)
 - Import any part of environment
 
-After FX scene is finalized, FX artist should publish FX scene by pressing **ANALYZE CURRENT FX** **and PUBLISH FX**
+After FX scene is finalized, FX artist should publish FX scene by pressing **ANALYZE CURRENT FX** and **PUBLISH FX**
 
 ART for FX:  
 **`<rootProject>/PREP/ART/SHOTS/<codeRSS>/<codeFX>/ART_<codeFX>_##.jpg`**
