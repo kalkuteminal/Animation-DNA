@@ -4,7 +4,8 @@ Each member of the studio team works with this drive only, no project data could
 To outsource any part of work we create FTP server with project copy on it with the same folder structure. Outsource company should replicate studio folder structure on their own network drive and copy all necessary data from FTP to a corresponding location.  
 Software also should be matched to studio software list exactly.  
 #### Data exchange
-Each department produce some data which need to be translated to other departments automatically.
+Each department produce some data which need to be translated to other departments.  
+In studio data transfer between departments occurs automatically with [Animation DNA](03-Tools). If for any reason outsource company do not integrated into studio pipeline it should output data manually according to a strict rules, which basically covers location and names of files for different data types. See details in "Data exchange section" for each department below in [Projects specifications](#projects-specifications) section.
 
 # Prepare data for outsource
 #### Animation phase
@@ -36,6 +37,6 @@ Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\Picker_2015_64\`
 - Picker  
 Script location `P:\TANNER\PREP\MANAGE\TOOLS\ANM\studiolibrary\`
 
-### Data storage paths for FX branch
+### Data exchange for FX branch
 In addition (02-Codex-DNA#common-fx-workflow)
 
