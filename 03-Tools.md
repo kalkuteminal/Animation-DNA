@@ -4,6 +4,8 @@ Animation DNA contains set of python tools for 3D and compositing [branches](02-
 
 Variety of pipeline actions (like save scene, export cache, assign material etc) formulated as python procedures. This procedures groped into sets related to pipeline phases and each set is a DNA tool. Below is a full list of Animation DNA tools with general tool description and explanation of each of procedure.
 
+[3D Tools](#toolset-for-3d-branch)  |  [2D Tools](#toolset-for-2d-branch)
+
 ### Toolset for 3D branch
 In Maya all DNA tools located in DNA shelf, which should appear if you will use [DNA.rar](02-Codex-DNA#dna-archive) and [run Maya through wrapper](02-codex-dna#running-maya-and-nuke-with-wrappers).
 
