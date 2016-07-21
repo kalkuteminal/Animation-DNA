@@ -171,12 +171,12 @@ Creates nuke script for the shot, noticed in REEL, ESQ, SHOT fields after pressi
 #### Split EXR
 Select reader with EXR and run in Nuke menu **DNA > SPLIT EXR**  
 Script creates shuffle nodes for each layer in EXR file, groped by:
+- Beauty passes
+- Metadata passes
 - Environment ID
 - Character material IDs
 - Environment material IDs
 - Asset IDs
-- Metadata passes
-- Beauty passes
 
 #### Publish shot
 Run in Nuke menu **DNA > PUBLISH SHOT** to add information about render version of shot to FTrack. 
