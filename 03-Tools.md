@@ -165,3 +165,15 @@ In Nuke all DNA tools located in DNA menu.
 Creates nuke script for the shot, noticed in REEL, ESQ, SHOT fields after pressing ASSEMBLE button. Save nuke script with proper name to a proper folder. Add read node with exr file for this shot.
 
 ![](https://lh3.googleusercontent.com/-B3WAhI2EZ5Q/VyDQY1ayUFI/AAAAAAAAFeU/4iv-EtzC7oIORx9ld3HAbJaRoiY9MIdBACCo/s304/dnaNK_assembler_01.jpg)
+
+#### Split EXR
+Select reader with EXR and run in Nuke menu **DNA > SPLIT EXR**  
+Script creates shuffle nodes for each layer in EXR file, groped by:
+- Environment ID
+- Character material IDs
+- Environment material IDs
+- Asset IDs
+- Metadata (Passes)
+
+#### Publish shot
+Run in Nuke menu **DNA > PUBLISH SHOT** to add information about render version of shot to FTrack. 
