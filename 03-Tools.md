@@ -175,7 +175,8 @@ Script creates shuffle nodes for each layer in EXR file, groped by:
 - Character material IDs
 - Environment material IDs
 - Asset IDs
-- Metadata (Passes)
+- Metadata passes
+- Beauty passes
 
 #### Publish shot
 Run in Nuke menu **DNA > PUBLISH SHOT** to add information about render version of shot to FTrack. 
