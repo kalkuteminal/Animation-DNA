@@ -16,6 +16,8 @@ B. [Glossary of codes](#codes)
 
 **Material** — Surface property which define light reacting characteristics. Common materials are: wood, metal, carpaint, wax, skin etc.
 
+**Passes** — Nominal parts of rendered image (e.g. color, diffuse, secular, shadow etc)
+
 **Pipeline** — is project organisation and execution system  
 
 **Previz** — rendering shot with layout instead of final animation 
