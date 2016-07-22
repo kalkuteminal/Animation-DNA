@@ -2,7 +2,7 @@
 # Tutorials
 In this section located techniques, tips and tricks which are not related to Animation DNA directly.  
 First step in Animation DNA learning is [Quick start](01-Quick-start) tutorial  
-[Quick start](01-Quick-start)  |  [Programming](#programming-with-pymel-for-artists)  |  [Arnold](#arnold-rendering-techniques)  |  [Cinematography](#cinematography)
+[Quick start](01-Quick-start)  |  [Programming](#programming-with-pymel-for-artists)  |  [PyNuke](#python-for-nuke)  |  [Arnold](#arnold-rendering-techniques)  |  [Cinematography](#cinematography)
 
 ## Programming with PyMel for artists
 If you think that you have artistic brain and developing is beyond your possibilities, believe me, your just lazy. 
