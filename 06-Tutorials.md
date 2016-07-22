@@ -587,6 +587,13 @@ import ftrack
 shotData = ftrack.getShotFromPath([<codeProject>,<codePart>,<codeSequence>,<codeShot>]) 
 shotData.setMeta( <key>, <value> )
 ```
+## Python for Nuke
+#### Basic nodes manipulations
+```python
+import nuke
+cam = nuke.toNode('CAM') 
+print cam['xpos'].value()
+```
 
 ## Arnold rendering techniques
 #### Setup per object attributes
