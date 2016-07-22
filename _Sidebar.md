@@ -11,6 +11,7 @@
 * [Tutorials](06-Tutorials)
   - [Quick Start](01-Quick-start)
   - [PyMel](06-Tutorials#programming-with-pymel-for-artists)
+  - [PyNuke](06-Tutorials#python-for-nuke)
   - [Arnold](06-Tutorials#arnold-rendering-techniques)
   - [Cinematography](06-Tutorials#cinematography)
 * [Glossary](04-Glossary)
