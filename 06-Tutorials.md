@@ -588,10 +588,27 @@ shotData = ftrack.getShotFromPath([<codeProject>,<codePart>,<codeSequence>,<code
 shotData.setMeta( <key>, <value> )
 ```
 ## Python for Nuke
-#### Basic nodes manipulations
+Import python nuke module:
 ```python
 import nuke
-cam = nuke.toNode('CAM') 
+```
+#### Create nodes
+```python
+reader = nuke.createNode ('Read', 'name E{0}_S{1} file {2}'.format(codeSequence, codeShot, pathEXR))
+reader = nuke.nodes.Read(name = 'READER', file = 'P:/DNA/E000_S010_001.%04d.exr' )   
+```
+#### Basic nodes manipulations
+```python
+selectedNode = nuke.selectedNode()
+```
+
+```python
+node = nuke.toNode( '<nodeName>' )
+print node.knob('file').value()
+```
+
+```python
+cam = nuke.toNode('<cameraName>') 
 print cam['xpos'].value()
 ```
 
