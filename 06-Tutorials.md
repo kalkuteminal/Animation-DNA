@@ -594,7 +594,7 @@ import nuke
 ```
 #### Create nodes
 ```python
-reader = nuke.createNode ('Read', 'name E{0}_S{1} file {2}'.format(codeSequence, codeShot, pathEXR))
+reader = nuke.createNode ('Read', 'name {0} file {1}'.format(<nodeName>, <pathToFile>))
 reader = nuke.nodes.Read(name = 'READER', file = 'P:/DNA/E000_S010_001.%04d.exr' )   
 ```
 #### Basic nodes manipulations
