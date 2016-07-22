@@ -168,6 +168,9 @@ Creates nuke script for the shot, noticed in REEL, ESQ, SHOT fields after pressi
 
 ![](https://lh3.googleusercontent.com/-B3WAhI2EZ5Q/VyDQY1ayUFI/AAAAAAAAFeU/4iv-EtzC7oIORx9ld3HAbJaRoiY9MIdBACCo/s304/dnaNK_assembler_01.jpg)
 
+#### SNV
+Save next version of current Nuke script
+
 #### Split EXR
 Select reader with EXR and run in Nuke menu **DNA > SPLIT EXR**  
 Script creates shuffle nodes for each layer in EXR file, groped by:
