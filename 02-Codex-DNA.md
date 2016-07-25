@@ -140,7 +140,7 @@ Animation DNA documentation located online:
 - [Quick start tutorial](01-quick-start) 
 - [Pipeline rules](02-codex-dna)
 - [Tools description](03-tools)
-- [Glossary](#04-glossary)
+- [Glossary](04-glossary)
 
 [Download DNA.rar](https://drive.google.com/file/d/0B08-uC9HedKCRlJGWUFoVUtOZzQ/view?usp=sharing). This version contain only folder structure and [tools](03-Tools), no demo materials included. If you need them — drop me a message.
 
