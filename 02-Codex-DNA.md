@@ -998,7 +998,7 @@ Folder with python scripts, gizmoz, plugins and templates:
 #### Compositing tools
 [compositing tools](03-tools#toolset-for-2d-branch)
 
-### Compositing procedure.
+### Compositing procedure
 After 3D preview render of key frames is done (FTrack Lookdev task switched to pending review, Compositing task — to Ready to start ) compositing artist assemble shot: creates Nuke script with loader and write nodes with a help of Shot Assembler. Compositing artist has to check rendered frames for errors (visible defects, masks and passes ), make rough compositing, render JPGs and publish shot. If mistakes in render found — create Error report in Ftrack (note to Compositing task) addressed to Lighting and Rendering TD.
 
 After 3D render of sequence is done (FTrack Rendering task switched to complete) compositing artist finalize shot using artistic review as a reference, render sequence of MOV, JPG, DPX, publish shot in Ftrack, switch compositng task from ready to start to pending review.
@@ -1013,6 +1013,10 @@ Rendered shots from RENDER_2D for editing process:
 Rendered shots from RENDER_2D for ART department:  
 **`<rootProject>/PROD/RENDER_2D/JPG/<codeSequence>/SHOT_<codeShot>/v<###>/`**  
 **`E<codeSequence>_S<codeShot>_v<###>.####.jpg`**
+
+### Compositing specifications
+MOV = Quick Time Pro res 4444
+DPX = 10 bit Cineon colorspace
 
 ## Art 
 ### Art general notes
