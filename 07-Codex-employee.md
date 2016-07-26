@@ -1,4 +1,4 @@
-![](https://lh3.googleusercontent.com/-QsQvikB-axA/V5Xo1-sg-cI/AAAAAAAAFw4/0ul7_pKJCJUEgvNQVLC8bxMWUVrq8WVFQCCo/s2048/bannerDNA_employee_01.jpg)
+![](https://lh3.googleusercontent.com/-f9qZJbIX9Xg/V5drAqalIWI/AAAAAAAAFxg/aoA98GwZk18RGkxTtmMb_k9D0FJUDwnEgCCo/s2048/bannerDNA_employee_02.jpg)
 ## Codex of employee 
 Structure of employee in VFX segment: **VFX Supervisor > lead > TD > artist** 
 
