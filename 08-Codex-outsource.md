@@ -30,7 +30,9 @@ In this section located information specific for particular projects.
 ### Folder structure
 Create network drive **`P`** and locate **`TANNER`** folder there so `<rootProject> = P:/TANNER/`  
 Set Maya project to `<root3D> = P:/TANNER/PROD/3D/`  
+
 ![](https://lh3.googleusercontent.com/-wP8I4iwB3ig/V5d5X6sC0tI/AAAAAAAAFx8/-VPrt-eidc8T14V2pZJ9XoHiwAgd5Ei4QCCo/s2048/projectSetup_02.gif)
+
 ### Integration to studio pipeline
 Blank folder structure: `P:\TANNER\PREP\MANAGE\TOOLS\FOLDERS_BLANK\TANNER.rar`  
 Extract archive content (TANNER folder) to drive P:/
