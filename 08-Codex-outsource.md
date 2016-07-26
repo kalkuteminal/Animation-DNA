@@ -26,6 +26,7 @@ See how to [create FX scene](02-Codex-DNA#creation-of-common-fx-scenes)
 # Projects specifications
 In this section located information specific for particular projects.
 ## The dragon spell
+![](https://lh3.googleusercontent.com/-wuigHU_vv84/V5d10Ai3BXI/AAAAAAAAFxw/pkJLPV7px6oPsBfSt-AQ104a2EMr12tkQCCo/s2048/bannerDNA_KZM_01.jpg)
 ### Folder structure
 Create network drive **`P`** and locate **`TANNER`** folder there so `<rootProject> = P:/TANNER/`  
 Set Maya project to `<root3D> = P:/TANNER/PROD/3D/`  
