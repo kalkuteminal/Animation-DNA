@@ -1,4 +1,4 @@
-![](https://lh3.googleusercontent.com/-69YwIVW_BJk/V5Xl2OoZzEI/AAAAAAAAFwk/UfaXbrPgcogwogabpatUw0XqsFR7bSuAACCo/s2048/bannerDNA_outsource_01.jpg)
+![](https://lh3.googleusercontent.com/-ftAiFMX-a5k/V5dnNjoFaqI/AAAAAAAAFxM/9uSnFpG22xUfbZcgGxX1cjPEE-Nat02WACCo/s2048/bannerDNA_outsource_02.jpg)
 # Outsourcing general notes
 Any data of each project physically exists on studio network drive.  
 Each member of the studio team works with this drive only, no project data could be stored locally.  
