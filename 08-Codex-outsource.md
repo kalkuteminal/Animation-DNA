@@ -4,13 +4,12 @@ Any data of each project physically exists on studio network drive.
 Each member of the studio team works with this drive only, no project data could be stored locally.  
 To outsource any part of work we create FTP server with project copy on it with the same folder structure.  
 **Outsource company should replicate studio folder structure on their own network drive exactly** and copy all necessary data from FTP to a corresponding location.  
+**Do not change name of any file your work with**, the only part you can vary is version!  
 Software also should be matched to studio software list exactly.  
 #### Data exchange
 Each department produce some data which need to be translated to other departments.  
 In studio data transfer between departments occurs automatically with [Animation DNA tools](03-Tools).  
 If for any reason outsource company do not integrated into studio pipeline it should output data manually according to a strict rules, which basically covers location and names of files for different data types. See details in "**Data exchange**" section for each department in [Projects specifications](#projects-specifications) part.
-#### Requirements to data
-**Do not change name of any file your work with**, the only part you can vary is version!
 #### Integration to studio pipeline
 It is recommended for outsource studios to integrate to [Animation DNA](https://github.com/kiryha/AnimationDNA/wiki) pipeline more in depth, than just replicate folder structure. It can dramatically speed up production and simplify problem solving.
 
