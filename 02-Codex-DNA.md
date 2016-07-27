@@ -1038,7 +1038,7 @@ Folder with SRC sound: **`<rootProject>/EDIT/SRC/SOUND`**
 Render sound for 3D department: **`<rootProject>/PROD/3D/sound/REEL_01/050/E050_S010_001.wav`**  
 Folder with editing preview: **`<rootProject>/EDIT/OUT`**  
 Editing preview by episode : **`<rootProject>/EDIT/OUT/REEL_01/150/R01_E150_v003.mp4`**  
-Editing preview by REEL: <**`rootProject>/EDIT/OUT/REEL_01/REEL_01_v001.mp4`**
+Editing preview by REEL: **`<rootProject>/EDIT/OUT/REEL_01/REEL_01_v001.mp4`**
 
 ### Grading
 Grading is a process of changing color of a motion picture (film) for enhancing and adopting to a cinema screen. The source materials for grading process:
