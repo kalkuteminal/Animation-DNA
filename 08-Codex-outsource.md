@@ -19,7 +19,6 @@ General workflow for Maya files exchange:
 - Outsource studio complete a task and save as many new versions as it need
 - Outsource studio upload approved version on FTP `<prefix_name_version + n.mb>`
 - Primary studio download file, save it as next version `<prefix_name_version + n + 1.mb>` and export necessary data from it
-Primary studio creates 
 #### Integration to studio pipeline
 It is recommended for outsource studios to integrate to [Animation DNA](https://github.com/kiryha/AnimationDNA/wiki) pipeline more in depth, than just replicate folder structure. It can dramatically speed up production and simplify problem solving.
 
