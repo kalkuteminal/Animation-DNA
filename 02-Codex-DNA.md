@@ -1019,6 +1019,7 @@ MOV = Quick Time Pro res 4444
 DPX = 10 bit Cineon colorspace
 
 ## Art 
+![](https://lh3.googleusercontent.com/-Eq-AI4bcdGs/V5i9U-TVW_I/AAAAAAAAFyc/J_dn72RuabcNrcdxucXWLAab_DS1EzeswCCo/s2048/bannerDNA_ART_02.jpg)
 ### Art general notes
 ART root folder is: **`<rootProject>/PREP/ART/`**  
 Concept art for assets: **`<rootProject>/PREP/ART/ASSETS/`**  
