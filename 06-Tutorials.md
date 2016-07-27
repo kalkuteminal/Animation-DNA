@@ -611,6 +611,10 @@ print node.knob('file').value()
 cam = nuke.toNode('<cameraName>') 
 print cam['xpos'].value()
 ```
+#### Print to console
+```python
+nuke.tprint('<<  HELLO {}!  >>'.format('WORLD'))
+```
 
 ## Arnold rendering techniques
 #### Setup per object attributes
