@@ -4,7 +4,7 @@ Any data of each project physically exists on studio network drive.
 Each member of the studio team works with this drive only, no project data could be stored locally.  
 To outsource any part of work we create FTP server with project copy on it with the same folder structure.  
 **Outsource company should replicate studio folder structure on their own network drive exactly** and copy all necessary data from FTP to a corresponding location.  
-**DO NOT CHANGE THE NAME of any file your work with**, the only part you can vary is version!  
+**DO NOT CHANGE THE NAME of any file your work with**, the only part you can vary is [version](02-Codex-DNA#naming)!  
 Software also should be matched to studio software list exactly.  
 #### Data exchange
 Each department produce some data which need to be translated to other departments.  
