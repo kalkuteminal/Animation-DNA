@@ -6,10 +6,20 @@ To outsource any part of work we create FTP server with project copy on it with 
 **Outsource company should replicate studio folder structure on their own network drive exactly** and copy all necessary data from FTP to a corresponding location.  
 **DO NOT CHANGE THE NAME of any file your work with**, the only part you can vary is [version](02-Codex-DNA#naming)!  
 Software also should be matched to studio software list exactly.  
-#### Data exchange
+#### Data exchange general notes
 Each department produce some data which need to be translated to other departments.  
 In studio data transfer between departments occurs automatically with [Animation DNA tools](03-Tools).  
 If for any reason outsource company do not integrated into studio pipeline it should output data manually according to a strict rules, which basically covers location and names of files for different data types. See details in "**Data exchange**" section for each department in [Projects specifications](#projects-specifications) part.
+#### Data exchange workflow
+General workflow for Maya files exchange:
+- Primary studio creates Maya file with necessary data `<prefix_name_version.mb>`
+- Primary studio upload file on FTP
+- Outsource studio download file to a corresponding location
+- Outsource studio save file with a new version `<prefix_name_version + 1.mb>`
+- Outsource studio complete a task and save as many new versions as it need
+- Outsource studio upload approved version on FTP `<prefix_name_version + n.mb>`
+- Primary studio download file, save it as next version `<prefix_name_version + n + 1.mb>` and export necessary data from it
+Primary studio creates 
 #### Integration to studio pipeline
 It is recommended for outsource studios to integrate to [Animation DNA](https://github.com/kiryha/AnimationDNA/wiki) pipeline more in depth, than just replicate folder structure. It can dramatically speed up production and simplify problem solving.
 
