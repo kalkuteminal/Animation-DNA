@@ -11,7 +11,7 @@ In Maya all DNA tools located in DNA shelf, which should appear if you will use 
 
 ![](https://lh3.googleusercontent.com/-nLLQUcdwfN4/VyNdA4VLMCI/AAAAAAAAFhU/kREzq205CisDnIxyqk7pT_qhrNSdKP6pACCo/s388/DNA_shel_01.jpg)
 
-[ATM](#attribute-manager) | [ASM](#asset-manager) | [SHA](#shot-assembler) | [ANM](#animation-manager) | [EXP](#animation-exporter) | [IMP](#animation-importer) | [FXM](#fx-manager) | [RND](#render-manager) | [SNV](#save-new-version) | [PUB](#data-publisher) | [FTP](#ftp-manager)
+[ATM](#attribute-manager) | [ASM](#asset-manager) | [SHA](#shot-assembler) | [ANM](#animation-manager) | [EXP](#animation-exporter) | [IMP](#animation-importer) | [FXM](#fx-manager) | [RND](#render-manager) | [SNV](#save-next-version) | [PUB](#data-publisher) | [FTP](#ftp-manager)
 
 #### Attribute Manager
 **ATM** button on DNA shelf. Attribute Manager allow to create, set and edit custom MtoA attributes on geometry shapes. Refer to a [token tutorial](06-Tutorials#setup-per-object-attributes) for explanation.
@@ -147,8 +147,8 @@ If any material does not exists in scene procedure create:
 * **RENDER SHOT** — generating of .ass files for each shot starting from frame [101]
 * **PUB** — publish to FTrack path to EXR render of current shot.
 
-#### Save new version
-Pressing **SNV** button will save next vesion of current scene. Scene should has proper [name](02-Codex-dna#naming). 
+#### Save next version
+Pressing **SNV** button will save next version of current scene. Scene should has proper [name](02-Codex-dna#naming). 
 
 #### Data Publisher
 **PUB** button on DNA shelf. Deliver information about asset to FTrack database. Depending on asset type, data publisher add([publish](02-Codex-DNA#publishing-data-to-ftrack)) information about asset paths: geometry or setup file, fur, materials, environment assets linked to environment(EDA). 
