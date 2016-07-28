@@ -21,7 +21,6 @@ The workflow:
 
 As an option, you can use some of Animation DNA tools exclusively, without linking to the whole pipeline system. For example, [Asset Manger](03-tools#asset-manager) and [Render Manager](03-tools#render-manager) has many functions, useful if you rendering with Arnold. In this case just put [Animation DNA](https://github.com/kiryha/AnimationDNA) scripts into Maya scripts folder and [run Maya with wrpapper](02-codex-dna#running-maya-and-nuke-with-wrappers)
 
-Click on image below to watch Animation DNA presentation
 [![](https://lh3.googleusercontent.com/-jJLLHiCQHUU/V1qRRNaIGfI/AAAAAAAAFuo/qkTM6wNq_YIseyv7tEaQ7ZxyGirPEIacACCo/s700/DNA_mov_shotProd_04.gif)](https://vimeo.com/170141744)
 
 ## Animation DNA documentation
