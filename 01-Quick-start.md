@@ -69,7 +69,7 @@ Now we can start production procedures which generally would go through such sta
 [Asset creation](#asset-creation)  |  [Look development](#look-development)  |  [Animation](#animation)  |  [Rendering](#rendering)  |  [Compositing](#compositing)
 
 ## Asset creation
-![](https://lh3.googleusercontent.com/-EOh7UMVvEck/Vma3M-o-LBI/AAAAAAAAFJw/orreZbXZcSAaci4bC0NMcLV_M64q6ZvdACCo/s1152/WIP_BROAK_01.gif)
+[![](https://lh3.googleusercontent.com/-EOh7UMVvEck/Vma3M-o-LBI/AAAAAAAAFJw/orreZbXZcSAaci4bC0NMcLV_M64q6ZvdACCo/s1152/WIP_BROAK_01.gif)](https://lh3.googleusercontent.com/-EOh7UMVvEck/Vma3M-o-LBI/AAAAAAAAFJw/orreZbXZcSAaci4bC0NMcLV_M64q6ZvdACCo/s1152/WIP_BROAK_01.gif)
 
 [Static assets](#static-assets)  
 [Environment assets](#environment-assets)  
@@ -104,7 +104,7 @@ Use this image in FTrack as asset thumbnail.
 
 Under the hood of  **CONVERT TO STAND IN** button: see **Asset structure** section in codex DNA.  
 See how to [convert to standin complex assets](#complex-static-asset-setup). The technique when you replace heavy polygonal geometry with Arnold standin and proxy object can be used for complex objects in environment assets scenes.
-![](https://lh3.googleusercontent.com/-E6xa0Z5zTpA/VyH0x7WHc_I/AAAAAAAAFe0/0im-hvjxm2YT5bEfTa1J6GB6AlAwgVxpQCCo/s1152/gettingStarted_ASS_02.gif)
+[![](https://lh3.googleusercontent.com/-E6xa0Z5zTpA/VyH0x7WHc_I/AAAAAAAAFe0/0im-hvjxm2YT5bEfTa1J6GB6AlAwgVxpQCCo/s1152/gettingStarted_ASS_02.gif)](https://lh3.googleusercontent.com/-E6xa0Z5zTpA/VyH0x7WHc_I/AAAAAAAAFe0/0im-hvjxm2YT5bEfTa1J6GB6AlAwgVxpQCCo/s1152/gettingStarted_ASS_02.gif)
 
 ### Environment assets
 Open [environment asset](02-codex-dna#asset-creation-general-notes): **`<rootScenes>/ASSETS/ENVIRONMENTS/NYC/ENV_NYC_001.mb`**  
@@ -119,7 +119,7 @@ This mean that publishing was successful.
 
 With FTrack version of database each publishing operation written into asset or shot note in FTrack with the following information: publishing value, user, time.
 
-![](https://lh3.googleusercontent.com/-j1dtRKoDz5M/VyIM1P3_YUI/AAAAAAAAFfI/hQCtwn4ETIgOKku1zjg6gg79uICdA_65ACCo/s1440/gettingStarted_ENV_04.gif)
+[![](https://lh3.googleusercontent.com/-j1dtRKoDz5M/VyIM1P3_YUI/AAAAAAAAFfI/hQCtwn4ETIgOKku1zjg6gg79uICdA_65ACCo/s1440/gettingStarted_ENV_04.gif)](https://lh3.googleusercontent.com/-j1dtRKoDz5M/VyIM1P3_YUI/AAAAAAAAFfI/hQCtwn4ETIgOKku1zjg6gg79uICdA_65ACCo/s1440/gettingStarted_ENV_04.gif)
 
 ### Dynamic assets
 Open [dynamic asset](02-codex-dna#asset-creation-general-notes): **`<rootScenes>/ASSETS/PROPS/FOOD/GEO/GEO_fooApple_001.mb`**
@@ -130,7 +130,7 @@ Run [Data Publisher](03-tools#data-publisher) and press **ANALYSE CURRENT ASSET*
 Re save Maya scene as **`<rootScenes>/ASSETS/PROPS/FOOD/RIG/RIG_fooApple_001.mb`**
 Rig asset and place all controls and rig nodes into **fooApple_RIG** group. Run [Data Publisher](03-tools#data-publisher) and publish rigged asset with **RIG** button.
 
-![](https://lh3.googleusercontent.com/-NNhez_joMvo/VyIQv7rtlYI/AAAAAAAAFfY/Z4S_-T5iHWUlaTQJGkw_Cb5RVseFuxe1ACCo/s1440/gettingStarted_DYN_01.gif)
+[![](https://lh3.googleusercontent.com/-NNhez_joMvo/VyIQv7rtlYI/AAAAAAAAFfY/Z4S_-T5iHWUlaTQJGkw_Cb5RVseFuxe1ACCo/s1440/gettingStarted_DYN_01.gif)](https://lh3.googleusercontent.com/-NNhez_joMvo/VyIQv7rtlYI/AAAAAAAAFfY/Z4S_-T5iHWUlaTQJGkw_Cb5RVseFuxe1ACCo/s1440/gettingStarted_DYN_01.gif)
 
 ### Environment dynamic assets
 Open and publish [environment dynamic asset](02-codex-dna#asset-creation-general-notes):
@@ -143,7 +143,7 @@ Open environment scene: **`<rootScenes>/ASSETS/ENVIRONMENTS/NYC/ENV_NYC_001.mb`*
 Message in script editor (<<  PUBLISHED ASSET [ NYC ]: EDA = nycLight  >>) means successful data publishing. Check if EDA key of NYC environment in database now filled with nycLight value.  
 If you will need more environment dynamic assets later, you need to publish full list each time, because this list replace old one, but not append.
 
-![](https://lh3.googleusercontent.com/-HfRXL-mf5ko/VyIQv5pH42I/AAAAAAAAFfU/Z7nr7oMtpQUrItjvbHDYWU0DCTXofUN0gCCo/s1440/gettingStarted_EDA_01.gif)
+[![](https://lh3.googleusercontent.com/-HfRXL-mf5ko/VyIQv5pH42I/AAAAAAAAFfU/Z7nr7oMtpQUrItjvbHDYWU0DCTXofUN0gCCo/s1440/gettingStarted_EDA_01.gif)](https://lh3.googleusercontent.com/-HfRXL-mf5ko/VyIQv5pH42I/AAAAAAAAFfU/Z7nr7oMtpQUrItjvbHDYWU0DCTXofUN0gCCo/s1440/gettingStarted_EDA_01.gif)
 
 ### Character assets
 The procedure for [character assets](02-codex-dna#asset-creation-general-notes) similar to dynamic assets. Open and publish [**RIG** and **GEO** forms](02-codex-dna#asset-forms) of BENDER asset:  
@@ -156,7 +156,7 @@ Base statement of Animation DNA pipeline in setup procedure is that **animation 
 Long time opening scene with reference and ABC cashes issue can be solved with importing reference to a scene.
 See ASSET CREATION — SETUP in codex DNA for more details.
 
-![](https://lh3.googleusercontent.com/-pDlzGALmv2g/VyIRDLmk_VI/AAAAAAAAFfc/Wv8K5atgQjgNgk-0_nlpajHyNeC3jX3ywCCo/s1440/gettingStarted_CHR_01.gif)
+[![](https://lh3.googleusercontent.com/-pDlzGALmv2g/VyIRDLmk_VI/AAAAAAAAFfc/Wv8K5atgQjgNgk-0_nlpajHyNeC3jX3ywCCo/s1440/gettingStarted_CHR_01.gif)](https://lh3.googleusercontent.com/-pDlzGALmv2g/VyIRDLmk_VI/AAAAAAAAFfc/Wv8K5atgQjgNgk-0_nlpajHyNeC3jX3ywCCo/s1440/gettingStarted_CHR_01.gif)
 
 ## Look development
 ![](https://lh3.googleusercontent.com/-xJHXAP4iVVU/U8j1ZD2vMnI/AAAAAAAAErg/MYPLu5yIyTg5h9C9bGNIzm3p5JfoywBOQCCo/s800/L01_V001_sm.jpg)
@@ -177,7 +177,7 @@ Open and publish **BENDER** material library:
 See [Look development and rendering](02-codex-dna#look-development-and-rendering) for more details.
 
 
-![](https://lh3.googleusercontent.com/-tEYz4_tDe6M/VyIRIAIF5RI/AAAAAAAAFfg/TotcCl9FDigTJqqz0jHfI0DTYdBWATNcgCCo/s1440/gettingStarted_LDV_01.gif)
+[![](https://lh3.googleusercontent.com/-tEYz4_tDe6M/VyIRIAIF5RI/AAAAAAAAFfg/TotcCl9FDigTJqqz0jHfI0DTYdBWATNcgCCo/s1440/gettingStarted_LDV_01.gif)](https://lh3.googleusercontent.com/-tEYz4_tDe6M/VyIRIAIF5RI/AAAAAAAAFfg/TotcCl9FDigTJqqz0jHfI0DTYdBWATNcgCCo/s1440/gettingStarted_LDV_01.gif)
 
 ## Animation
 With an empty scene run [Shot Assembler](03-tools#shot-assembler) (**SHA** button on DNA shelf).  
@@ -193,7 +193,7 @@ Shot Assembler:
 
 If everything went successful script editor should print massage **ASSEMBLING DONE**! 
 
-![](https://lh3.googleusercontent.com/-BMBocZ_qaoc/VyIRiI_Xv4I/AAAAAAAAFf0/dIi9zK7oVy8adR27g4W04VTRkBW9djXWACCo/s1440/gettingStarted_ANM_03.gif)
+[![](https://lh3.googleusercontent.com/-BMBocZ_qaoc/VyIRiI_Xv4I/AAAAAAAAFf0/dIi9zK7oVy8adR27g4W04VTRkBW9djXWACCo/s1440/gettingStarted_ANM_03.gif)](https://lh3.googleusercontent.com/-BMBocZ_qaoc/VyIRiI_Xv4I/AAAAAAAAFf0/dIi9zK7oVy8adR27g4W04VTRkBW9djXWACCo/s1440/gettingStarted_ANM_03.gif)
 
 Make a draft animation, expand camera window, run [Animation Manager](03-tools#animation-manager) and press **PLAYBLAST** button. Movie file:  
 **`ANM/ANM_E010_S010_001_001.mov`**
@@ -244,7 +244,7 @@ Press **PUB** button to publish render in database (**EXR = v001/E010_S010_001.%
 
 Render ass sequence with Deadline or other manager or you can just batch render scene.
 
-![](https://lh3.googleusercontent.com/-5N4mYVrkGZM/VyIRILotGNI/AAAAAAAAFfo/RlSfzFSOLPYMkLG5tUVi35YtSYPNuSZDgCCo/s1440/gettingStarted_RND_03.gif)
+[![](https://lh3.googleusercontent.com/-5N4mYVrkGZM/VyIRILotGNI/AAAAAAAAFfo/RlSfzFSOLPYMkLG5tUVi35YtSYPNuSZDgCCo/s1440/gettingStarted_RND_03.gif)](https://lh3.googleusercontent.com/-5N4mYVrkGZM/VyIRILotGNI/AAAAAAAAFfo/RlSfzFSOLPYMkLG5tUVi35YtSYPNuSZDgCCo/s1440/gettingStarted_RND_03.gif)
 
 
 ## Compositing
@@ -260,7 +260,7 @@ Compose sequence and render MOV and DPX files. Render from compositing departmen
 
 Publish 2D render with **DNA > PUBLISH**
 
-![](https://lh3.googleusercontent.com/-z38m_540cec/VyIRIHXxThI/AAAAAAAAFfk/IarpwItOIwwoRAiKDC95xhDfD6LjeeN7ACCo/s1440/gettingStarted_CMP_01.gif)
+[![](https://lh3.googleusercontent.com/-z38m_540cec/VyIRIHXxThI/AAAAAAAAFfk/IarpwItOIwwoRAiKDC95xhDfD6LjeeN7ACCo/s1440/gettingStarted_CMP_01.gif)](https://lh3.googleusercontent.com/-z38m_540cec/VyIRIHXxThI/AAAAAAAAFfk/IarpwItOIwwoRAiKDC95xhDfD6LjeeN7ACCo/s1440/gettingStarted_CMP_01.gif)
 
 ## Advanced techniques
 ![](https://lh3.googleusercontent.com/-nTN8bwIe_p8/VlWxDOSgNZI/AAAAAAAAFGQ/TcT7NsqQSMAL0fjh-TH45ajtdm_Ann_TgCCo/s800/WIP_SET_TREES_SM_01.gif)
@@ -310,4 +310,4 @@ Rename trsBroak_A_Geo group to trsBroak_A_Ass, delete all parts inside (trsBroak
 
 Switch to the rendering mode (**PROXY** button of **ASM**), run [Render Manager](03-tools#render-manager), press **REF LOOKDEV DATA**, **ASIGN MATERIALS** and render asset to check if everything is working fine.
 
-![](https://lh3.googleusercontent.com/-P2SPA9fex5w/VyIRIQrK-BI/AAAAAAAAFfs/FEEvPWUxH20t2MRYJttM_XvRF-jKvB1HwCCo/s1280/gettingStarted_complexAsset_02.gif)
+[![](https://lh3.googleusercontent.com/-P2SPA9fex5w/VyIRIQrK-BI/AAAAAAAAFfs/FEEvPWUxH20t2MRYJttM_XvRF-jKvB1HwCCo/s1280/gettingStarted_complexAsset_02.gif)](https://lh3.googleusercontent.com/-P2SPA9fex5w/VyIRIQrK-BI/AAAAAAAAFfs/FEEvPWUxH20t2MRYJttM_XvRF-jKvB1HwCCo/s1280/gettingStarted_complexAsset_02.gif)
