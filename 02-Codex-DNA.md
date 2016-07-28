@@ -257,8 +257,6 @@ Publishing is a process of recording necessary data to FTrack database with a he
 - [FX Manager](03-Tools#fx-manager) writes name and version of final FX scene
 - [Render Manager](03-Tools#render-manager) writes name and version of exr render for each shot
 
-Refer to [FTrack setup](01-Quick-start#setup-project-database) section in Quick Start tutorial.
-
 ### Workflow with outsource studios
 Major part of the project will be done locally in the studio. All project data (3D scenes, comp files, script, artwork, sound, editing etc etc) stores at the studio server at network drive. To outsource any part of work (for example, animation of some sequences) we create FTP server with project copy on it with the **same folder structure**. Outsource company should replicate **studio folder structure on their own network drive** and copy all necessary data. Such setup will ensure, that everything will work properly.
 
