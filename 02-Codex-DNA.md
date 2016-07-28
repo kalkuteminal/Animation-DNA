@@ -1019,8 +1019,8 @@ Rendered shots from RENDER_2D for ART department:
 **`E<codeSequence>_S<codeShot>_v<###>.####.jpg`**
 
 ### Compositing specifications
-MOV = Quick Time Pro res 4444
-DPX = 10 bit Cineon colorspace
+**MOV** = Quick Time Pro res 4444  
+**DPX** = 10 bit Cineon colorspace
 
 ## Art 
 ![](https://lh3.googleusercontent.com/-Eq-AI4bcdGs/V5i9U-TVW_I/AAAAAAAAFyc/J_dn72RuabcNrcdxucXWLAab_DS1EzeswCCo/s2048/bannerDNA_ART_02.jpg)
