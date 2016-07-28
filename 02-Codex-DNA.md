@@ -145,7 +145,7 @@ Animation DNA documentation located online:
 [Download DNA.rar](https://drive.google.com/file/d/0B08-uC9HedKCRlJGWUFoVUtOZzQ/view?usp=sharing). This version contain only folder structure and [tools](03-Tools), no demo materials included. If you need them — drop me a message.
 
 #### Setup system
-![](https://lh3.googleusercontent.com/-ASQbgBssrCQ/V0_zYOdLrgI/AAAAAAAAFp8/gJ9SfjvkKuUDpDXDt7oupDUMfdkcB4GrgCCo/s1221/envVariables_01.gif)
+[![](https://lh3.googleusercontent.com/-ASQbgBssrCQ/V0_zYOdLrgI/AAAAAAAAFp8/gJ9SfjvkKuUDpDXDt7oupDUMfdkcB4GrgCCo/s1221/envVariables_01.gif)](https://lh3.googleusercontent.com/-ASQbgBssrCQ/V0_zYOdLrgI/AAAAAAAAFp8/gJ9SfjvkKuUDpDXDt7oupDUMfdkcB4GrgCCo/s1221/envVariables_01.gif)
 To run FTrack version of Animation DNA you need setup environment variables for each user in windows system properties. Create new variable and set proper value:
 ```Python
 [FTRACK_SERVER] = https://<userAdress>.ftrackapp.com
@@ -179,7 +179,7 @@ In a very general overview, VFX department pass from [**story reel**](04-glossar
 **Shot production** stages: animation, lighting- rendering setup, renders 3D process; compose and render 2D process (final VFX images).
 
 Schemes below illustrate shot production in general and VFX pipeline more in details.
-![](https://lh3.googleusercontent.com/-btZQhX5xAD8/VyNTQ-GbN8I/AAAAAAAAFgc/ps9U9BQyCy8XgONyev1ZzIJMJ97eX3DbwCCo/s1024/ProductionPipeline_03.jpg)
+[![](https://lh3.googleusercontent.com/-btZQhX5xAD8/VyNTQ-GbN8I/AAAAAAAAFgc/ps9U9BQyCy8XgONyev1ZzIJMJ97eX3DbwCCo/s1024/ProductionPipeline_03.jpg)](https://lh3.googleusercontent.com/-btZQhX5xAD8/VyNTQ-GbN8I/AAAAAAAAFgc/ps9U9BQyCy8XgONyev1ZzIJMJ97eX3DbwCCo/s1024/ProductionPipeline_03.jpg)
 
 #### Asset forms
 Each animated asset exists in **two forms** — RIG and GEO — polygonal geometry with setup and polygonal geometry only. We use RIG assets in animation scenes and GEO assets in rendering scenes.  
@@ -493,7 +493,7 @@ sunflower setup:
 - Geometry form structure of static asset,
 - Standin form structure of static asset
 
-![](https://lh3.googleusercontent.com/-a9Sm34iqsE4/Vyn4lC3p3TI/AAAAAAAAFiY/RPwOBo1ODvIDLXQ-kOeTK2IVdnYgfAK6gCCo/s859/assetStatic_setup_01.jpg)
+[![](https://lh3.googleusercontent.com/-a9Sm34iqsE4/Vyn4lC3p3TI/AAAAAAAAFiY/RPwOBo1ODvIDLXQ-kOeTK2IVdnYgfAK6gCCo/s859/assetStatic_setup_01.jpg)](https://lh3.googleusercontent.com/-a9Sm34iqsE4/Vyn4lC3p3TI/AAAAAAAAFiY/RPwOBo1ODvIDLXQ-kOeTK2IVdnYgfAK6gCCo/s859/assetStatic_setup_01.jpg)
 
 ##### Dynamic assets
 ###### Name and location of dynamic asset
@@ -523,7 +523,7 @@ Display layers:
 * GEOMT — layer with render geometry
 * CTRLS — layer with controls
 
-![](https://lh3.googleusercontent.com/-NWzPYnqUUFQ/VysdMeVnXiI/AAAAAAAAFi0/ahrvIdHRMcQ8F0cAoHnK9OviIx5IeII0wCCo/s823/assetDynamic_setup_01.jpg)
+[![](https://lh3.googleusercontent.com/-NWzPYnqUUFQ/VysdMeVnXiI/AAAAAAAAFi0/ahrvIdHRMcQ8F0cAoHnK9OviIx5IeII0wCCo/s823/assetDynamic_setup_01.jpg)](https://lh3.googleusercontent.com/-NWzPYnqUUFQ/VysdMeVnXiI/AAAAAAAAFi0/ahrvIdHRMcQ8F0cAoHnK9OviIx5IeII0wCCo/s823/assetDynamic_setup_01.jpg)
 
 Modelling artist:
 * creates render geometry with necessary shading attributes, 
@@ -572,7 +572,7 @@ Geometry with fur node: **`FUR_<characterName>_body`**
 Groom nodes: **`GRM_<partName>`**  
 Display layer: HAIRS
 
-![](https://lh3.googleusercontent.com/-m7K1mKgq8QQ/Vys48YiTS-I/AAAAAAAAFjE/ESI5AN_xB9QkT0bSiKzlEga7N2pMJgzFQCCo/s1045/assetCharacter_setup_01.jpg)
+[![](https://lh3.googleusercontent.com/-m7K1mKgq8QQ/Vys48YiTS-I/AAAAAAAAFjE/ESI5AN_xB9QkT0bSiKzlEga7N2pMJgzFQCCo/s1045/assetCharacter_setup_01.jpg)](https://lh3.googleusercontent.com/-m7K1mKgq8QQ/Vys48YiTS-I/AAAAAAAAFjE/ESI5AN_xB9QkT0bSiKzlEga7N2pMJgzFQCCo/s1045/assetCharacter_setup_01.jpg)
 
 ##### Environment assets
 ###### Name and location of environment asset
@@ -650,7 +650,7 @@ The main requirement to the rigging task: correct behavior with ABC caches (pare
 Refer to [look development and rendering](#lLook-development-and-rendering) phase description. 
 
 ### Layout and animation
-![](https://lh3.googleusercontent.com/-MYWLtXhEiuI/V1GQkAPmHxI/AAAAAAAAFrU/-Y3ivPYGBmQE23crRiRaS5g13gvBJ2wGgCCo/s2048/cine_shotTypes_03.jpg)
+[![](https://lh3.googleusercontent.com/-MYWLtXhEiuI/V1GQkAPmHxI/AAAAAAAAFrU/-Y3ivPYGBmQE23crRiRaS5g13gvBJ2wGgCCo/s2048/cine_shotTypes_03.jpg)](https://lh3.googleusercontent.com/-MYWLtXhEiuI/V1GQkAPmHxI/AAAAAAAAFrU/-Y3ivPYGBmQE23crRiRaS5g13gvBJ2wGgCCo/s2048/cine_shotTypes_03.jpg)
 #### Layout and animation general notes 
 **Layout** — is synergistic cycle between modeling and animation. It is the first step of animation process, where we define and test environment space, cameras, characters basic actions for each shot.
 
@@ -721,7 +721,7 @@ Before exporting animation data scene should be checked:
 Refer to [cinematography tutorials](06-Tutorials#cinematography) for tips and techniques.
 
 ### Look development and rendering
-![](https://lh3.googleusercontent.com/-4AKcldsBvXk/V1GUdYQFBbI/AAAAAAAAFrg/gE43z5UHrRYhrhmgIgTMVJ8MW1krtNTIgCCo/s2048/bannerDNA_RND_01.jpg)
+[![](https://lh3.googleusercontent.com/-4AKcldsBvXk/V1GUdYQFBbI/AAAAAAAAFrg/gE43z5UHrRYhrhmgIgTMVJ8MW1krtNTIgCCo/s2048/bannerDNA_RND_01.jpg)](https://lh3.googleusercontent.com/-4AKcldsBvXk/V1GUdYQFBbI/AAAAAAAAFrg/gE43z5UHrRYhrhmgIgTMVJ8MW1krtNTIgCCo/s2048/bannerDNA_RND_01.jpg)
 #### Look development and rendering general notes
 **Rendering**, by general definition, is a conversion of vector data to a raster images.  
 In terms of pipeline organization, rendering shots its last phase 3D branch, where data from all 3D departments assembles in one scene for each shot and outputted as a sequence of EXR files to be transferred to the compositing department.
@@ -835,7 +835,7 @@ Then rendering artist could create and setup rendering scene for each shot of th
 * Create job in deadline monitor
 
 Rendering pipeline scheme.
-![](https://lh3.googleusercontent.com/-FYS6r3dyExY/VyNSSf2jFQI/AAAAAAAAFgM/k-xzdumIkWMU85VIW2JntRxihLxWrYvFwCCo/s1192/DNA_RenderingPipeline_02.jpg)
+[![](https://lh3.googleusercontent.com/-FYS6r3dyExY/VyNSSf2jFQI/AAAAAAAAFgM/k-xzdumIkWMU85VIW2JntRxihLxWrYvFwCCo/s1192/DNA_RenderingPipeline_02.jpg)](https://lh3.googleusercontent.com/-FYS6r3dyExY/VyNSSf2jFQI/AAAAAAAAFgM/k-xzdumIkWMU85VIW2JntRxihLxWrYvFwCCo/s1192/DNA_RenderingPipeline_02.jpg)
 
 #### Prepare assets for rendering.
 Rendering starts from modeling.  
