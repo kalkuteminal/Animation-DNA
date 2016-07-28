@@ -50,11 +50,11 @@ In **REEL_01** create `sequence` **010** and inside it create `shot` **SHOT_010*
 Now **link** BENDER, fooApple and NYC assets to a shot.  
 
 If DNA project already exists in FTrack, just learn assets properties and structure.  
-![](https://lh3.googleusercontent.com/-3-CMNK67ZEk/V0_9Ei8Z2rI/AAAAAAAAFq0/o6lEK8o7vYcxyErlieMEd88KQ4HfGixhACCo/s2048/gettingStarted_FTR_06.gif)
+[![](https://lh3.googleusercontent.com/-3-CMNK67ZEk/V0_9Ei8Z2rI/AAAAAAAAFq0/o6lEK8o7vYcxyErlieMEd88KQ4HfGixhACCo/s2048/gettingStarted_FTR_06.gif)](https://lh3.googleusercontent.com/-3-CMNK67ZEk/V0_9Ei8Z2rI/AAAAAAAAFq0/o6lEK8o7vYcxyErlieMEd88KQ4HfGixhACCo/s2048/gettingStarted_FTR_06.gif)
 
 For JSON version use template in **`<rootProject>/PREP/PIPELINE/DNA/DIC`**  
 Edit file in [online JSON editor](http://www.jsoneditoronline.org) to setup database as it was described for Ftrack above. 
-![](https://lh3.googleusercontent.com/-I_Id6RqtBdM/VyHxNL5rYAI/AAAAAAAAFes/6IVzJbRsKaAtUg5WNHTUhosE60hqebgLwCCo/s2048/gettingStarted_JSN_03.gif)
+[![](https://lh3.googleusercontent.com/-I_Id6RqtBdM/VyHxNL5rYAI/AAAAAAAAFes/6IVzJbRsKaAtUg5WNHTUhosE60hqebgLwCCo/s2048/gettingStarted_JSN_03.gif)](https://lh3.googleusercontent.com/-I_Id6RqtBdM/VyHxNL5rYAI/AAAAAAAAFes/6IVzJbRsKaAtUg5WNHTUhosE60hqebgLwCCo/s2048/gettingStarted_JSN_03.gif)
 
 For correct workflow you need to have **SHOT** with linked assets in the database.  
 Each asset, linked to a shot, should be [**published**](02-Codex-DNA#publishing-data-to-ftrack) in database with particular data for each asset type:
