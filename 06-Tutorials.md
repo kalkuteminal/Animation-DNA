@@ -622,13 +622,13 @@ We can use [tokens](https://support.solidangle.com/display/AFMUG/Tokens) to set 
 
 Grate example of using tokens is  [Multitexture material](#multitexture-material)
 
-![](http://4.bp.blogspot.com/-8kVvlGXNhvA/UydifSkz2xI/AAAAAAAAEgU/ILczrfAPS1c/s1600/shapeShading.gif)
+[![](http://4.bp.blogspot.com/-8kVvlGXNhvA/UydifSkz2xI/AAAAAAAAEgU/ILczrfAPS1c/s1600/shapeShading.gif)](http://4.bp.blogspot.com/-8kVvlGXNhvA/UydifSkz2xI/AAAAAAAAEgU/ILczrfAPS1c/s1600/shapeShading.gif)
 
 
 #### Multitexture material
 You can reduce amount of shaders in scene and speed up look development with one material and individual textures on each object. With such setup, object shapes share the same material but has their own textures. 
 
-![](http://3.bp.blogspot.com/-a6Z3LOGF1k8/Uvz7CiVdKFI/AAAAAAAAEZo/o2JYAj8AJ3s/s1600/aiMultitexture.gif)
+[![](http://3.bp.blogspot.com/-a6Z3LOGF1k8/Uvz7CiVdKFI/AAAAAAAAEZo/o2JYAj8AJ3s/s1600/aiMultitexture.gif)](http://3.bp.blogspot.com/-a6Z3LOGF1k8/Uvz7CiVdKFI/AAAAAAAAEZo/o2JYAj8AJ3s/s1600/aiMultitexture.gif)
 Method:
 - Create string attribute on object shape with the name `mtoa_constant_<attrName>` 
 - Enter attribute token `< attr:<attrName> >` in Image Name field of file node with **full absolute path** to texture.  
@@ -641,7 +641,7 @@ You can create and set Arnold custom attributes on object shapes with [Attribute
 #### Object and material AOVs
 You can create special path with selection mask of objects or shaders for compositing software.
 
-![](https://3.bp.blogspot.com/-VEowRHSseXY/UwH9OIKi3mI/AAAAAAAAEag/kIHH-SeIzys/s1600/aiIDs.gif)
+[![](https://3.bp.blogspot.com/-VEowRHSseXY/UwH9OIKi3mI/AAAAAAAAEag/kIHH-SeIzys/s1600/aiIDs.gif)](https://3.bp.blogspot.com/-VEowRHSseXY/UwH9OIKi3mI/AAAAAAAAEag/kIHH-SeIzys/s1600/aiIDs.gif)
 
 ##### Material AOV
 To create AOV for any shader we use [**aiWriteColor**](https://support.solidangle.com/display/AFMUG/Ai+Write+Color+-+Creating+Separate+Render+AOVs) node.
@@ -655,7 +655,7 @@ To create AOV for any object:
 Create AOVs automatically with [Render Manager](03-tools#render-manager)
 
 #### Kick ass with command line
-![](https://lh3.googleusercontent.com/-OYM00yKceo0/V0f8lHqUiVI/AAAAAAAAFpQ/KE1QbqjycN4LyrhaltBUrQR_wAAbaCg1gCCo/s964/kickAss_01.jpg)
+[![](https://lh3.googleusercontent.com/-OYM00yKceo0/V0f8lHqUiVI/AAAAAAAAFpQ/KE1QbqjycN4LyrhaltBUrQR_wAAbaCg1gCCo/s964/kickAss_01.jpg)](https://lh3.googleusercontent.com/-OYM00yKceo0/V0f8lHqUiVI/AAAAAAAAFpQ/KE1QbqjycN4LyrhaltBUrQR_wAAbaCg1gCCo/s964/kickAss_01.jpg)
 
 Go with explorer to: `C:\solidangle\mtoadeploy\2015`.  
 Replace in address bar `C:\Windows\System32\cmd.exe` with `cmd` (it will run cmd window with proper path).  
@@ -670,7 +670,7 @@ Lighting > Shading
 
 ## Cinematography
 #### Types of shots
-![](https://lh3.googleusercontent.com/-MYWLtXhEiuI/V1GQkAPmHxI/AAAAAAAAFrU/-Y3ivPYGBmQE23crRiRaS5g13gvBJ2wGgCCo/s2048/cine_shotTypes_03.jpg)
+[![](https://lh3.googleusercontent.com/-MYWLtXhEiuI/V1GQkAPmHxI/AAAAAAAAFrU/-Y3ivPYGBmQE23crRiRaS5g13gvBJ2wGgCCo/s2048/cine_shotTypes_03.jpg)](https://lh3.googleusercontent.com/-MYWLtXhEiuI/V1GQkAPmHxI/AAAAAAAAFrU/-Y3ivPYGBmQE23crRiRaS5g13gvBJ2wGgCCo/s2048/cine_shotTypes_03.jpg)
 
 List of shots by field size:
 - Extreme close-up
