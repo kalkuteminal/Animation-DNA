@@ -830,6 +830,7 @@ Then rendering artist could create and setup rendering scene for each shot of th
   - Create depth of field system (DOF button)
   - Create IDs and passes (skip for previz stage)
   - Setup render settings
+* Switch proxy to rendering mode
 * Tweak lights, setup focus point and aperture to get final look of the shot
 * Publish shot
 * Export scene to `*.ass` sequence(**RENDER SHOT** button)
