@@ -816,7 +816,7 @@ Then rendering artist could create and setup rendering scene for each shot of th
 * Import animation and cloth with [Animation Importer](03-Tools#animation-importer)
 * Import all references
 * Import FUR (**ADD FUR** button of [Render Manager](03-Tools#render-manager))
-* Assign Materials to objects (**ASSIGN MATERIALS** button of[Render Manager](03-Tools#render-manager))
+* Assign Materials to objects (**ASSIGN MATERIALS** button of [Render Manager](03-Tools#render-manager))
 * Clean up scene
   - Delete objects invisible to camera
   - Delete unused nodes in hypershade
