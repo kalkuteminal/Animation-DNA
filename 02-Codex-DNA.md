@@ -815,6 +815,8 @@ Then rendering artist could create and setup rendering scene for each shot of th
 * Create rendering scene with [Shot Assembler](03-Tools#shot-assembler)
 * Import animation and cloth with [Animation Importer](03-Tools#animation-importer)
 * Import all references
+* Import FUR (**ADD FUR** button of [Render Manager](03-Tools#render-manager))
+* Assign Materials to objects (**ASSIGN MATERIALS** button of[Render Manager](03-Tools#render-manager))
 * Clean up scene
   - Delete objects invisible to camera
   - Delete unused nodes in hypershade
@@ -825,7 +827,6 @@ Then rendering artist could create and setup rendering scene for each shot of th
 * With [Render Manager](03-Tools#render-manager):
   - Create depth of field system (DOF button)
   - Import XGen
-  - Assign materials
   - Create IDs and passes (skip for previz stage)
   - Setup render settings
 * Tweak lights, setup focus point and aperture to get final look of the shot
