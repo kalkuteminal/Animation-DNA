@@ -37,8 +37,9 @@ On the right side of wiki you can find full Animation DNA documentation table of
 Main principle of Animation DNA is simplicity which could be extended to a more complex systems at any required stage. According to [progressive workflow algorithm](02-Codex-DNA#progressive-workflow) Animation DNA is a basement which drive production to the first final result with a minimum effort.
 
 Features of Animation DNA: 
-- elaborated basement of information and processes [structuring](02-Codex-DNA#structuring), which allow flexible extension 
-- suitability for small or big projects
-- drive creation of VFX content for each shot from the database. This mean that project management team builds shots entering all necessary information in FTrack and artists can focus only at creative side of work.
-- recording of key steps of production in database
-- reliable and easy [outsourcing](08-Codex-outsource) of animation   
+- Human being oriented workflow
+- Elaborated basement of information and processes [structuring](02-Codex-DNA#structuring), which allow flexible extension 
+- Suitability for small or big projects
+- Drive creation of VFX content for each shot from the database. This mean that project management team builds shots entering all necessary information in FTrack and artists can focus only at creative side of work.
+- Recording of key steps of production in database
+- Reliable and easy [outsourcing](08-Codex-outsource) of animation   
