@@ -84,7 +84,7 @@ Maya has awesome feature which allow to start writing code without any prelimina
 Inspecting MEL messages is also a way to find an **attribute** to deal with. 
 
 ##### Vocabulary of artistic developer
-**OBJECT** — anything you need to deal with in your code (Maya scene, light, shape attribute etc).  
+**OBJECT** — anything you need to deal with in your code (Maya scene, light, attribute etc).  
 **LIST** — set of objects.  
 **COMMAND** — action that you need to apply to object.  
 **PROCEDURE** — is a set of commands.  
