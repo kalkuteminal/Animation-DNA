@@ -1,3 +1,6 @@
-# Houdini to Animation DNA intergration
+# Houdini to Animation DNA integration
 
-Environment definition
+### Houdini environment variables 
+HEV related to paths:
+- Type Locations ()
+- Type Path ()
