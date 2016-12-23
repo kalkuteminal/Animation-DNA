@@ -2,5 +2,5 @@
 
 ### Houdini environment variables 
 HEV related to paths:
-- Type Locations ()
-- Type Path ()
+- Type **Locations** (HIP, JOB)
+- Type **Path** (HOUDINI_SCRIPT_PATH)
