@@ -342,11 +342,11 @@ Compositing department:
 
 
 ### Pipeline development and data transfer
-The root folder for pipeline development phase is `**<rootProject>/PREP/PIPELINE/**`
+The root folder for pipeline development phase is **`<rootProject>/PREP/PIPELINE/`**
 Pipeline development root contains:
 - [Wrappers](#running-maya-and-nuke-with-wrappers)
 - **DEVELOPING** folder with all versions of scripts and database
-- **DNA** folder with pipeline tools and database (for [JSN version](wiki#database-versions))
+- **DNA** folder with pipeline tools and database (for [JSN version](https://github.com/kiryha/AnimationDNA/wiki#database-versions))
 - **FTrack_API** folder (for FTR version)
 
 Once pipeline for the project has been developed, the main role of pipeline department is:
