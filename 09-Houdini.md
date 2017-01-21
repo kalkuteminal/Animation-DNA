@@ -1,5 +1,8 @@
 # Houdini to Animation DNA integration
+Houdini root folder <rootProject/PROD/4D>
 
+# Houdini drafts
+## DOPs
 ### Fluid smoke
 **Add fluid**: Fluid container > Smoke Container  
 **Add emitter**:
