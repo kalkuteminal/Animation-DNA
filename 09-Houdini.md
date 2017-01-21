@@ -16,5 +16,5 @@ Houdini root folder `<rootProject>/PROD/4D`
 - Source Volume > Scale Source Volume (density)
 - set Division Size (resolution of fluid container) in Smoke node
 - Resize Container > Padding > decrease to be faster
-- add Gas Turbulence > connect to smokesolver-[3]
+- add Gas Turbulence + Gas Dissipate + merge > connect to smokesolver-[3]
 
