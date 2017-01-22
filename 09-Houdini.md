@@ -2,6 +2,10 @@
 Houdini root folder `<rootProject>/PROD/4D`
 
 # Houdini drafts
+## Environment
+`$JOB` - root for Houdini project.  
+`$HIP` - root for Houdini scenes.
+
 ## DOPs
 ### Fluid smoke
 **Add fluid**: Fluid container > Smoke Container  
