@@ -2,7 +2,7 @@
 Houdini root folder `<rootProject>/PROD/4D`
 
 # Houdini drafts
-## Environment
+## Environment setup
 `$JOB` - root for Houdini project.  
 `$HIP` - root for Houdini scenes.
 
