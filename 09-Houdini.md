@@ -29,10 +29,11 @@ Create **Pyro Solver**, **Smoke Object** (fluid container), **Resize Container**
 - **Resize Container** >> **Pyro Solver** `[2]`
 - **Source Volume** >> **Pyro Solver** `[5]`
 
-Create micro solver (e.g. **Gas Turbulence**), connect to **Pyro Solver** `[3]`  (combine them with **Merge** if more than one)  
+Create microsolver (e.g. **Gas Turbulence**), connect to **Pyro Solver** `[3]`  (combine them with **Merge** if more than one)  
 Create forces, put them after **Pyro Solver**
 
-Alternative import source: in **Smoke Object** > Initial Data > `*` SOP Path
+Alternative import source: in **Smoke Object** > Initial Data > `*` SOP Path  
+Alternative resize: create **Gas Resize Fluid Dynamic** microsolver, connect to **Pyro Solver** `[2]`. Set Bounds > Tracking Object (create **Bound** in simulatuion source source from geometry).
   
 Modify nodes parameters in **DOP Network** node:
 - **Source volume**:
