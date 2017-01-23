@@ -1,5 +1,6 @@
 # Houdini to Animation DNA integration
 Houdini root folder `<rootProject>/PROD/3D`, same as Maya project root.
+`Add = create`
 
 # Houdini drafts
 ## Environment setup
@@ -7,7 +8,13 @@ Houdini root folder `<rootProject>/PROD/3D`, same as Maya project root.
 `$HIP` - root for Houdini scenes.
 
 ## DOPs
-### Fluid smoke
+### DOPs workflow
+[Add source](#add-source) > [add DOP sim](#add-dop-sim) > [add output](#add-output)
+
+#### Add source 
+#### Add DOP sim
+
+Fluid smoke sim
 **Add fluid**: Fluid container > Smoke Container  
 **Add emitter**:
 - add geo node > in > add Fluid Source
@@ -21,4 +28,6 @@ Houdini root folder `<rootProject>/PROD/3D`, same as Maya project root.
 - set Division Size (resolution of fluid container) in Smoke node
 - Resize Container > Padding > decrease to be faster
 - add Gas Turbulence + Gas Dissipate + Merge > connect to smokesolver-[3]
+
+### Add output
 
