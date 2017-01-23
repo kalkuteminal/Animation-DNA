@@ -7,7 +7,7 @@ Houdini quick tips:
 # Houdini drafts
 ## Environment setup
 `$JOB` - root for Houdini project.  
-`$HIP` - root for Houdini scenes.
+`$HIP` - path where Houdini scene is.
 
 ## Dynamic
 ### DOP Fluids
