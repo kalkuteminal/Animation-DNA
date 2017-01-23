@@ -68,3 +68,4 @@ In Mantra:
 ## VEX
 
 ## Glossary
+Advection — movement of fields (e.g dencity or tempreture) along velocity vectors
