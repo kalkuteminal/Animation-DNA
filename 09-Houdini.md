@@ -20,8 +20,10 @@ In OBJ root create source emitter for the fluid simulation — **Geometry** node
   
 Create fluid container with shelf: Fluid container > Smoke Container  
 Modify nodes parameters in **DOP Network** node:
-- **Source volume** > initialize > switch Source Fluid and back to Source Smoke
-- Settings > lower Division size (fluid resolution) 
+- **Source volume**:
+  - initialize > switch Source Fluid and back to Source Smoke
+  - Volume Path > set path to source (OUT_EMMITER)
+- **Smoke Object**: > set Division size (fluid resolution, less number > more voxels) 
 - SDF From Geometry > lower Out Feather Length  
 
 **DOP network**:
