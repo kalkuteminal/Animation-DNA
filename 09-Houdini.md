@@ -37,7 +37,7 @@ Modify nodes parameters in **DOP Network** node:
 - **Source volume**:
   - initialize > switch Source Fluid and back to Source Smoke
   - Volume Path > set path to source (OUT_EMMITER)
-  - Masks > Velocity Volumes > set `density` to limit vel field from source
+  - Masks > Velocity Volumes > set to `density`, to limit vel field from source
 - **Smoke Object**: Division > decrease for higher resolution  
 - **Resize Container**: Padding > decrease to be faster
 
