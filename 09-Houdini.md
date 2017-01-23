@@ -14,7 +14,8 @@ Houdini root folder `<rootProject>/PROD/3D`, same as Maya project root.
 [Add source](#add-source) > [add DOP sim](#add-fluid-simulation) > [add output](#add-output)
 
 #### Add source 
-In OBJ root create source emitter for the fluid simulation — **Geometry** node with any data (geo or fluid). Add **Fluid Source** and **Null** (OUT_EMMITER) nodes at the end of the flow.
+In OBJ root create source emitter for the fluid simulation — **Geometry** node with any data (geo or fluid). Add **Fluid Source** and **Null** (OUT_EMMITER) nodes at the end of the flow.  
+Modify **Fluid Source**: Scalar Volume > SDF From Geo > Out Feather Length (decrease for less blur)
 
 #### Add fluid simulation
   
@@ -23,8 +24,7 @@ Modify nodes parameters in **DOP Network** node:
 - **Source volume**:
   - initialize > switch Source Fluid and back to Source Smoke
   - Volume Path > set path to source (OUT_EMMITER)
-- **Smoke Object**: > set Division size (fluid resolution, less number > more voxels) 
-- SDF From Geometry > lower Out Feather Length  
+- **Smoke Object**: > set Division size (fluid resolution, decrease for higher resolution)  
 
 **DOP network**:
 - add Source Volume > connect smokesolver-[5] > initialize
