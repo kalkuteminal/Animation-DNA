@@ -14,14 +14,13 @@ Houdini root folder `<rootProject>/PROD/3D`, same as Maya project root.
 [Add source](#add-source) > [add DOP sim](#add-fluid-simulation) > [add output](#add-output)
 
 #### Add source 
-In OBJ root create source emitter for the fluid simulation — **Geometry** node with any data (geo or fluid). Add **Fluid Source** and **Null** (OUT_EMMITER)nodes at the end of flow.
+In OBJ root create source emitter for the fluid simulation — **Geometry** node with any data (geo or fluid). Add **Fluid Source** and **Null** (OUT_EMMITER) nodes at the end of the flow.
 
 #### Add fluid simulation
   
-Create fluid container: Fluid container > Smoke Container  
-Add emitter:
-- Create geo node > in > add Fluid Source
-- Container settings > initialize
+Create fluid container with shelf: Fluid container > Smoke Container  
+Modify nodes parameters in **DOP Network** node:
+- **Source volume** > initialize > switch Source Fluid and back to Source Smoke
 - Settings > lower Division size (fluid resolution) 
 - SDF From Geometry > lower Out Feather Length  
 
