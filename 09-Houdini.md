@@ -37,7 +37,8 @@ Alternative resize: create **Gas Resize Fluid Dynamic** microsolver, connect to 
 
 **Gas Disturbance** — small size noise, combine 3 solvers with `[0.3] [0.1] [0.03]` values.  
 **Gas Turbulence** — big size noise.  
-**Gas Dissipate** — fading of fluid
+**Gas Dissipate** — fading of fluid  
+**Gas Vortex Confinement** — keeps and increase swirling parts of simulation
   
 Modify nodes parameters in **DOP Network** node:
 - **Source volume**:
