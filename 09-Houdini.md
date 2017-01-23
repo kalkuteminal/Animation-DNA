@@ -34,6 +34,10 @@ Create forces, put them after **Pyro Solver**
 
 Alternative import source: in **Smoke Object** > Initial Data > `*` SOP Path  
 Alternative resize: create **Gas Resize Fluid Dynamic** microsolver, connect to **Pyro Solver** `[2]`. Set Bounds > Tracking Object (create **Bound** node after geometry nodes in simulatuion source, set Upper and Lower bounds, e.g.`0.1` ).
+
+**Gas Disturbance** — small size noise, combine 3 solvers with `[0.3] [0.1] [0.03]` values.  
+**Gas Turbulence** — big size noise.  
+**Gas Dissipate** — fading of fluid
   
 Modify nodes parameters in **DOP Network** node:
 - **Source volume**:
