@@ -29,7 +29,7 @@ Create **Pyro Solver**, **Smoke Object** (fluid container), **Resize Container**
 - **Resize Container** >> **Pyro Solver** [2]
 - **Source Volume** >> **Pyro Solver** [5]
 
-Create micro solvers (e.g. **Gas Turbulence**), combine them with **Merge**, connect to **Pyro Solver** [3]  
+Create micro solvers (e.g. **Gas Turbulence**), connect to **Pyro Solver** [3]  (combine them with **Merge** if more than one)
 Create forces, put them after **Pyro Solver**
 
 Alternative import source: in **Smoke Object** > Initial Data > `*` SOP Path
