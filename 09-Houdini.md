@@ -1,6 +1,7 @@
 # Houdini to Animation DNA integration
 Houdini root folder `<rootProject>/PROD/3D`, same as Maya project root.  
 
+Houdini quick tips:  
 [Dynamic](#dynamic) | [Rendering](#rendering)
 
 # Houdini drafts
