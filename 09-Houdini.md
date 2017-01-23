@@ -35,7 +35,8 @@ Fluid smoke sim
 Output – geometry node
 
 - Add Geo node
-- Add DOP Import Field, set:
+- Add DOP I/O node, set:
+  - Set Geometry File
   - DOP Network — DOP sim node
-  - Default Object — Smoke node
-  - Fields to Import – fields, eg. density, vel, etc
+  - DOP Node — Smoke node
+  - Fields – eg. density, vel, etc
