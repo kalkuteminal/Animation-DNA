@@ -2,7 +2,7 @@
 Houdini root folder `<rootProject>/PROD/3D`, same as Maya project root.  
 
 Houdini quick tips:  
-[Environment](#environment-setup)  | [ATTR](#attributes-and-variables) | [Dynamic](#dynamic) | [Rendering](#rendering) | [VEX](#vex)
+[Environment](#environment-setup)  | [ATTR](#attributes-and-variables) | [Dynamic](#dynamic) | [Rendering](#rendering) | [VEX](#vex) | [Glossary](#glossary)
 
 # Houdini drafts
 ## Environment setup
@@ -66,3 +66,5 @@ In Mantra:
 ### SHOP context
 
 ## VEX
+
+## Glossary
