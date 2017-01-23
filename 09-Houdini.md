@@ -12,8 +12,10 @@ Houdini root folder `<rootProject>/PROD/3D`, same as Maya project root.
 [Add source](#add-source) > [add DOP sim](#add-dop-sim) > [add output](#add-output)
 
 #### Add source 
-#### Add DOP sim
+Source — Geometry nodet with any data (geo or fluid)
 
+#### Add DOP sim
+DOP Network node
 Fluid smoke sim
 **Add fluid**: Fluid container > Smoke Container  
 **Add emitter**:
@@ -30,4 +32,6 @@ Fluid smoke sim
 - add Gas Turbulence + Gas Dissipate + Merge > connect to smokesolver-[3]
 
 ### Add output
+Output – geometry node
 
+Add Geo node > add DOP Import Field > set DOP Network > set Fields to import
