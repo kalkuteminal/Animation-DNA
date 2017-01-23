@@ -38,7 +38,7 @@ Modify nodes parameters in **DOP Network** node:
 - **Smoke Object**: Division > decrease for higher resolution  
 - **Resize Container**: Padding > decrease to be faster
 
-### Add output
+#### Add output
 In OBJ root create output – **Geometry** node to write/read cache and use for rendering or export:
 - Create **Geometry** node, dive in.
 - Add DOP I/O node, set:
