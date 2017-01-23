@@ -34,4 +34,4 @@ Fluid smoke sim
 ### Add output
 Output – geometry node
 
-Add Geo node > add DOP Import Field > set DOP Network > set Fields to import
+Add Geo node > add DOP Import Field, set: DOP Network, Default Obj, Fields to Import
