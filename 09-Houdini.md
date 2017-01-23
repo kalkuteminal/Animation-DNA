@@ -25,7 +25,7 @@ Create **Pyro Solver**, **Smoke Object** (fluid container), **Resize Container**
 - **Resize Container** >> **Pyro Solver** [2]
 - **Source Volume** >> **Pyro Solver** [5]
 
-Create fields (**Gas Turbulence**), combine with **Merge**, connect to **Pyro Solver** [3]
+Create fields (e.g. **Gas Turbulence**), combine with **Merge**, connect to **Pyro Solver** [3]
 
 Alternative import source: in **Smoke Object** > Initial Data > `*` SOP Path
   
@@ -33,17 +33,8 @@ Modify nodes parameters in **DOP Network** node:
 - **Source volume**:
   - initialize > switch Source Fluid and back to Source Smoke
   - Volume Path > set path to source (OUT_EMMITER)
-- **Smoke Object**: > set Division size (fluid resolution, decrease for higher resolution)  
-
-**DOP network**:
-- add Source Volume > connect smokesolver-[5] > initialize
-- Source Volume > Scale Source Volume (density)
-- set Division Size (resolution of fluid container) in Smoke node
-- Resize Container > Padding > decrease to be faster
-- add Gas Turbulence + Gas Dissipate + Merge > connect to smokesolver-[3]
-
-fluid container with shelf: Fluid container > Smoke Container
-
+- **Smoke Object**: Division > decrease for higher resolution  
+- **Resize Container**: Padding > decrease to be faster
 
 ### Add output
 Output – geometry node
