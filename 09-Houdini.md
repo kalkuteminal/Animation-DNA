@@ -18,8 +18,8 @@ Source — Geometry node with any data (geo or fluid)
 Add **Fluid Source** at the end of flow
 
 #### Add DOP sim
-DOP Network node
-Fluid smoke sim
+DOP Network node  
+Fluid smoke sim  
 **Add fluid**: Fluid container > Smoke Container  
 **Add emitter**:
 - add geo node > in > add Fluid Source
