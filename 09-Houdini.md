@@ -19,7 +19,16 @@ Modify **Fluid Source**: Scalar Volume > SDF From Geo > Out Feather Length (decr
 
 #### Add fluid simulation
   
-Create fluid container with shelf: Fluid container > Smoke Container  
+In OBJ root create **DOP Network** node, dive in.  
+Create **Pyro Solver**, **Smoke Object** (fluid container), **Resize Container**, **Source Volume** (import SOP volume data). Connect:  
+- **Smoke Object** >> **Pyro Solver** [1]
+- **Resize Container** >> **Pyro Solver** [2]
+- **Source Volume** >> **Pyro Solver** [5]
+
+Create fields (**Gas Turbulence**), combine with **Merge**, connect to **Pyro Solver** [3]
+
+Alternative import source: in **Smoke Object** > Initial Data > `*` SOP Path
+  
 Modify nodes parameters in **DOP Network** node:
 - **Source volume**:
   - initialize > switch Source Fluid and back to Source Smoke
@@ -32,6 +41,9 @@ Modify nodes parameters in **DOP Network** node:
 - set Division Size (resolution of fluid container) in Smoke node
 - Resize Container > Padding > decrease to be faster
 - add Gas Turbulence + Gas Dissipate + Merge > connect to smokesolver-[3]
+
+fluid container with shelf: Fluid container > Smoke Container
+
 
 ### Add output
 Output – geometry node
