@@ -2,7 +2,7 @@
 Houdini root folder `<rootProject>/PROD/3D`, same as Maya project root.  
 `Add = create`
 
-[Dynamic](#ynamic) | [Rendering](#rendering)
+[Dynamic](#dynamic) | [Rendering](#rendering)
 
 # Houdini drafts
 ## Environment setup
