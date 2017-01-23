@@ -25,11 +25,11 @@ In OBJ root create source — **Geometry** node as an emitter for the fluid simu
   
 In OBJ root create **DOP Network** node, dive in.  
 Create **Pyro Solver**, **Smoke Object** (fluid container), **Resize Container**, **Source Volume** (import SOP volume data). Connect:  
-- **Smoke Object** >> **Pyro Solver** [1]
-- **Resize Container** >> **Pyro Solver** [2]
-- **Source Volume** >> **Pyro Solver** [5]
+- **Smoke Object** >> **Pyro Solver** `[1]`
+- **Resize Container** >> **Pyro Solver** `[2]`
+- **Source Volume** >> **Pyro Solver** `[5]`
 
-Create micro solvers (e.g. **Gas Turbulence**), connect to **Pyro Solver** [3]  (combine them with **Merge** if more than one)
+Create micro solver (e.g. **Gas Turbulence**), connect to **Pyro Solver** `[3]`  (combine them with **Merge** if more than one)
 Create forces, put them after **Pyro Solver**
 
 Alternative import source: in **Smoke Object** > Initial Data > `*` SOP Path
