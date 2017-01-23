@@ -14,8 +14,7 @@ Houdini root folder `<rootProject>/PROD/3D`, same as Maya project root.
 [Add source](#add-source) > [add DOP sim](#add-dop-sim) > [add output](#add-output)
 
 #### Add source 
-Source — Geometry node with any data (geo or fluid)
-Add **Fluid Source** at the end of flow
+Create source — **Geometry** node with any data (geo or fluid). Add **Fluid Source** at the end of flow
 
 #### Add DOP sim
 DOP Network node  
