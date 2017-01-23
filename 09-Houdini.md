@@ -2,12 +2,14 @@
 Houdini root folder `<rootProject>/PROD/3D`, same as Maya project root.  
 
 Houdini quick tips:  
-[Dynamic](#dynamic) | [Rendering](#rendering)
+[Environment](#environment-setup)  | [ATTR](#attributes-and-variables) | [Dynamic](#dynamic) | [Rendering](#rendering) | [VEX](#vex)
 
 # Houdini drafts
 ## Environment setup
 `$JOB` - root for Houdini project.  
 `$HIP` - path where Houdini scene is.
+
+## Attributes and variables
 
 ## Dynamic
 ### DOP Fluids
@@ -55,3 +57,5 @@ In Mantra:
 - Objects > Force Objects: set name of Node to render
 
 ### SHOP context
+
+## VEX
