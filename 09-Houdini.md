@@ -11,8 +11,8 @@ Houdini quick tips:
 
 ## Attributes and parameters
 [Attributes](http://www.sidefx.com/docs/houdini/model/attributes)  
-[Global expression variables](http://www.sidefx.com/docs/houdini14.0/expressions/_globals)
-[Standard variables](http://www.sidefx.com/docs/houdini/nodes/sop/standardvariables)
+[Global expression variables](http://www.sidefx.com/docs/houdini14.0/expressions/_globals)  
+[Standard variables](http://www.sidefx.com/docs/houdini/nodes/sop/standardvariables)  
 [Local SOP variables](http://www.sidefx.com/docs/houdini/nodes/sop/point#locals)
 
 ## Dynamic
