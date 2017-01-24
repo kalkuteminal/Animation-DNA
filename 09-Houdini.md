@@ -2,14 +2,18 @@
 Houdini root folder `<rootProject>/PROD/3D`, same as Maya project root.  
 
 Houdini quick tips:  
-[Environment](#environment-setup)  | [ATTR](#attributes-and-variables) | [Dynamic](#dynamic) | [Rendering](#rendering) | [VEX](#vex) | [Glossary](#glossary)
+[Environment](#environment-setup)  | [ATTR](#attributes-and-parameters) | [Dynamic](#dynamic) | [Rendering](#rendering) | [VEX](#vex) | [Glossary](#glossary)
 
 # Houdini drafts
 ## Environment setup
 `$JOB` - root for Houdini project.  
 `$HIP` - path where Houdini scene is.
 
-## Attributes and variables
+## Attributes and parameters
+[Attributes](http://www.sidefx.com/docs/houdini/model/attributes)  
+[Global expression variables](http://www.sidefx.com/docs/houdini14.0/expressions/_globals)
+[Standard variables](http://www.sidefx.com/docs/houdini/nodes/sop/standardvariables)
+[Local SOP variables](http://www.sidefx.com/docs/houdini/nodes/sop/point#locals)
 
 ## Dynamic
 ### DOP Fluids
