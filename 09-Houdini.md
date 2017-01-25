@@ -1,4 +1,4 @@
-# Houdini to Animation DNA integration
+# Integrate Houdini with Animation DNA
 Houdini root folder `<rootProject>/PROD/3D`, same as Maya project root.  
 
 Houdini quick tips:  
