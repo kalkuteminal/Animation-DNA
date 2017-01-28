@@ -6,4 +6,7 @@ Navigation:
 - **Zoom**: Alt + release RMB 
 - **Brush Size**: S
 - **Z Intencity**: U
-# M
+- **Symmetry**: X
+- **Select Brush**: B
+
+# Mari
