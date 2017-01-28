@@ -10,10 +10,11 @@ _Navigation:_
 - **Select Brush**: B
 
 _Brushes (B):_
-- **Standard** (S,T) - Simple line shape for rough edit(move brush).
+- **Standard** (S,T) - Simple line bump for rough sculpting shape (move the brush).
+- **Clay** (C,L) — Sculpting organic details (tap the brush).
 - **Move** (M,V) - Move mesh via straight line.
 - **Shake Hook** (S,H)— Move mesh following cursor.
 - **Inflat** (I,N) — Blow (expand) thin shapes. 
-- **Clay** (C,L) — Sculpting organic details(tap).
+
 
 # Mari
