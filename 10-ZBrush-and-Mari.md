@@ -1,6 +1,6 @@
 # ZBrush
 
-Navigation:
+_Navigation:_
 - **Rotate**: RMB
 - **Pan**: Alt + RMB
 - **Zoom**: Alt + release RMB 
@@ -9,7 +9,7 @@ Navigation:
 - **Symmetry**: X
 - **Select Brush**: B
 
-Brushes:
+_Brushes (B):_
 - **Inflat** (I,N) — Blow (expand) thin shapes. 
 
 # Mari
