@@ -1,5 +1,5 @@
 # ZBrush
-Workspace:  
+_Workspace: _ 
 ZBrush Project (`*.zpr`) = Tool (`*.ztl`) + Document (`*.zbr`)
 
 _Navigation:_
