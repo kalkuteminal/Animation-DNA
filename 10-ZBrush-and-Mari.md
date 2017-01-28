@@ -10,8 +10,10 @@ _Navigation:_
 - **Select Brush**: B
 
 _Brushes (B):_
+- **Standard** (S,T) - Basic bump
 - **Move** (M,V) - Move mesh via straight line.
 - **Shake Hook** (S,H)— Move mesh following cursor.
 - **Inflat** (I,N) — Blow (expand) thin shapes. 
+- **Clay** (C,L) — Sculpting
 
 # Mari
