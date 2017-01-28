@@ -10,6 +10,8 @@ _Navigation:_
 - **Select Brush**: B
 
 _Brushes (B):_
+- **Move** (M,V) - Move mesh via straight line.
+- **Shake Hook** (S,H)— Move mesh following cursor.
 - **Inflat** (I,N) — Blow (expand) thin shapes. 
 
 # Mari
