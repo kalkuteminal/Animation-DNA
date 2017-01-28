@@ -9,4 +9,7 @@ Navigation:
 - **Symmetry**: X
 - **Select Brush**: B
 
+Brushes:
+- **Inflat** (I,N) — Blow (expand) thin shapes. 
+
 # Mari
