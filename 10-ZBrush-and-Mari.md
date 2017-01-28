@@ -1,6 +1,6 @@
 # ZBrush
 _Workspace:_  
-ZBrush Project (`*.zpr`) = Tool (`*.ztl`) + Document (`*.zbr`)
+ZBrush Project `*.zpr` = Tool `*.ztl` + Document `*.zbr`
 
 _Navigation:_
 - **Rotate**: RMB
