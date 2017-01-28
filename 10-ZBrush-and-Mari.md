@@ -1,5 +1,8 @@
 # ZBrush
 
-Navigation: RMB — rotate, Alt+RMB — pan, Alt-release+RMB — zoom. 
+Navigation:
+- **Rotate**: RMB
+- **Pan**: Alt + RMB
+- **Zoom**: Alt + release RMB 
 
 # M
