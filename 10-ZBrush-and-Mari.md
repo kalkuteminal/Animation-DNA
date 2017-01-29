@@ -18,12 +18,12 @@ _Brushes (B):_
 - **Shake Hook** (S,H)— Move mesh following the cursor.
 - **Inflate** (I,N) — Blow (expand) thin shapes. 
 
-_Hide (mask) polygons by **draw a region**:_
+_Hide polygons (draw a region):_
 - Ctrl + Shift (+ Alt for invert) > draw region > **Mask polygons**.
 - Ctrl + Shift + click on free space > Unmask.
 - Geometry > Modify Topology > Del Hidden to **delete hidden mesh**.
 
-_Hide (mask) polygons by **draw on mesh**:_
+_Mask polygons (draw on mesh):_
 - Ctrl > draw on mesh > **Mask polygons**.
 - Ctrl + click and drag on free space > Unmask.
 - Geometry > Modify Topology > Del Hidden to **delete hidden mesh**.
