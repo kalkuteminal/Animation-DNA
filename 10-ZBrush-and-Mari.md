@@ -28,4 +28,6 @@ _Mask polygons (draw on mesh):_
 - Ctrl + click and drag on free space > Unmask.
 - Subtool > Extract to **create a new mesh from mask**.
 
+_Subtool_
+
 # Mari
