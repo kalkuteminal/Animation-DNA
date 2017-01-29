@@ -26,6 +26,6 @@ _Hide (mask) polygons by **draw a region**:_
 _Hide (mask) polygons by **draw on mesh**:_
 - Ctrl > draw on mesh > **Mask polygons**.
 - Ctrl + click and drag on free space > Unmask.
-
+- Geometry > Modify Topology > Del Hidden to **delete hidden mesh**.
 
 # Mari
