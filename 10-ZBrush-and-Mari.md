@@ -26,6 +26,6 @@ _Hide polygons (draw a region):_
 _Mask polygons (draw on mesh):_
 - Ctrl > draw on mesh > **Mask polygons**.
 - Ctrl + click and drag on free space > Unmask.
-- Geometry > Modify Topology > Del Hidden to **delete hidden mesh**.
+- Subtool > Extract to **create a new mesh from mask**.
 
 # Mari
