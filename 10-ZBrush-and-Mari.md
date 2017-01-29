@@ -19,6 +19,6 @@ _Brushes (B):_
 - **Inflat** (I,N) — Blow (expand) thin shapes. 
 
 Ctr + Shift (+ Alt for invert) > draw region > **Mask polygons**. Ctr + Shift + click on free space > Unmask.  
-Geometry > Modify Topology > Del Hidden to   ****.
+Geometry > Modify Topology > Del Hidden to **delete hidden mesh**.
 
 # Mari
