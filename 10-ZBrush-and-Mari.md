@@ -30,4 +30,7 @@ _Mask polygons (draw on mesh):_
 
 _Subtool_
 
+_Polygroup:_
+Ctrl + Shift > isolate selected polygroup
+
 # Mari
