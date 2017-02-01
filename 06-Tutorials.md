@@ -444,8 +444,8 @@ def getShading(objectShape):
 ##### Get material from selected shading group
 ```python
 def getMat():
-    SG = pm.ls( sl = 1, type = 'shadingEngine' ) # get list of selected shading groups
-    materials = pm.ls( pm.listConnections(SG),materials=1 ) # get list of connected materials inclooding 
+    SG = pm.ls( sl = 1, type = 'shadingEngine' ) 
+    materials = pm.ls( pm.listConnections(SG),materials=1 )
     return materials
 ```
 
