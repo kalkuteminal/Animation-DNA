@@ -75,6 +75,7 @@ In Mantra:
 ### SHOP context
 
 ## VEX
+Multiply distribution (make small smaller, big bigger): `value = pow(value, 8.0);`
 
 ## Glossary
 Advection — movement of fields (e.g dencity or tempreture) along velocity vectors
