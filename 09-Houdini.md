@@ -2,7 +2,7 @@
 Houdini root folder `<rootProject>/PROD/3D`, same as Maya project root.  
 
 Houdini quick tips:  
-[Environment](#environment-setup)  | [ATTR](#attributes-and-parameters) | [Dynamic](#dynamic) | [Rendering](#rendering) | [VEX](#vex) | [Glossary](#glossary)
+[Environment](#environment-setup)  | [ATTR](#attributes-and-parameters) | [Dynamic](#dynamic) | [Rendering](#rendering) | [Expressions](#expressions) |  [VEX](#vex) | [Glossary](#glossary)
 
 # Houdini drafts
 ## Environment setup
@@ -73,6 +73,9 @@ In Mantra:
 - Objects > Force Objects: set name of Node to render
 
 ### SHOP context
+
+## Expressions
+fit01(src value, result min, result max): `fit01(rand($PT), 1, 10)`
 
 ## VEX
 Multiply distribution (make small smaller, big bigger): `value = pow(value, 8.0);`
