@@ -75,7 +75,7 @@ In Mantra:
 ### SHOP context
 
 ## Expressions
-fit01(src value, result min, result max): `fit01(rand($PT), 1, 10)`
+Random scale: fit01(src value, result min, result max): `fit01(rand($PT), 1, 10)`
 
 ## VEX
 Multiply distribution (make small smaller, big bigger): `value = pow(value, 8.0);`
