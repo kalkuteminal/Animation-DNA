@@ -641,7 +641,8 @@ Finalized model should fit such requirements:
 Use **CHECK SCENE** button of [Asset Manger](03-tools#asset-manager) to check scene for the quality requirements consistency.
 
 #### Asset texturing 
-Each color texture should be presented in **`*.jpg`** and **`*.tx`** formats.
+Each color texture should be presented in **`*.jpg`** and **`*.tx`** formats.  
+Source files to create textures: `<rootProject>/PREP/MISC/SRC_TX/`
 
 **UDIM** workflow.
 Texture: **`<textureName.1001.jpg>`**  
